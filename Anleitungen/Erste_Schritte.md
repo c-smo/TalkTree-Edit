@@ -1,6 +1,6 @@
 # Vorwort
 
-Vielen Dank, dass du TalkTree ausprobierst! Das Projekt befindet sich noch in der Entwicklung, und es kann und wird sich vermutlich noch einiges ändern. Mein Ziel ist es, möglichst früh Feedback zu ermöglichen, damit die App ihr volles Potenzial entfalten kann. Änderungsvorschläge, Wünsche und Fragen bzw. jede Art von Feedback sind herzlich erwünscht!
+Vielen Dank, dass du **TalkTree** ausprobierst! Das Projekt befindet sich noch in der Entwicklung, und es kann und wird sich vermutlich noch einiges ändern. Mein Ziel ist es, möglichst früh Feedback zu ermöglichen, damit die App ihr volles Potenzial entfalten kann. Änderungsvorschläge, Wünsche und Fragen bzw. jede Art von Feedback sind herzlich erwünscht!
 
 # Erste Schritte
 
@@ -12,8 +12,14 @@ In diesem Ordner findest du Folgendes:
 
 - /[Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Audio/Audio.md)
 - /[Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Bilder/Bilder.md)
-- /[Einstellungen](URL) _to-do_
-- TalkTree.xlsx
+- /[Einstellungen]
+
+  - [Einstellungen](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Einstellungen.md)
+  - [Farben](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md)
+  - [Server](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Server.md)
+  - [Speechgen](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Speechgen.md)
+
+- **_TalkTree.xlsx_**
 
 In dieser Anleitung fokussieren wir uns auf die Datei **TalkTree.xlsx**.
 
@@ -29,6 +35,8 @@ Auf dieser Seite solltest du ein 3 x 6-Raster sehen mit den folgenden Werten in 
 
 Du hast die Möglichkeit, diese wie folgt zu bearbeiten:
 
+---
+
 ## Symbol:
 
 1. **Einfach leer lassen:**  
@@ -39,6 +47,8 @@ Du hast die Möglichkeit, diese wie folgt zu bearbeiten:
 
 3. **Bilddatei:**  
    Genauere Infos findest du hier [Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Bilder/Bilder.md)
+
+---
 
 ## Aussprache:
 
@@ -54,6 +64,8 @@ Du hast die Möglichkeit, diese wie folgt zu bearbeiten:
 4. **Audiodatei:**  
    Genauere Infos findest du hier [Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Audio/Audio.md)
 
+---
+
 ## Untertitel:
 
 1. **Einfach leer lassen:**  
@@ -62,14 +74,18 @@ Du hast die Möglichkeit, diese wie folgt zu bearbeiten:
 2. **Text:**  
    Dieser Text erscheint als Untertitel unter dem Knopf.
 
+---
+
 ## Farbe:
 
 1. **Einfach leer lassen:**  
-   Das Programm verwendet die Standardfarbe "Blau" (die Standardfarbe kann angepasst werden – mehr dazu später).
+   Das Programm verwendet die Standardfarbe "Blau". Die Standardfarbe kann beliebig angepasst werden nähere Informationen findest du hier [Farben](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md).
 
 2. **Siehe Tabelle mit dem Namen "Farben".**
 
-3. **Es ist möglich, eigene Farben zu verwenden** – mehr dazu später.
+3. **Es ist möglich, eigene Farben zu verwenden** [Farben](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md)
+
+---
 
 ## Link:
 
@@ -82,9 +98,11 @@ Du hast die Möglichkeit, diese wie folgt zu bearbeiten:
 3. **Eigener Tabellenname:**  
    Der Knopf verlinkt zurück auf diese Tabelle.
 
+---
+
 # Schlusswort
 
-Mit diesen einfachen Werkzeugen hast du unheimlich viele Möglichkeiten. Bei der entwicklung war ich selber ziemlich erstaunt, was man damit alles machen kann. Ich habe ein paar Beispiele in der Excel-Datei gelassen, um dich ein bisschen zu inspirieren, aber das Potenzial ist bei weitem nicht erschöpft. Ich bin wirklich gespannt, auf welche Ideen die Community kommen wird.
+Mit diesen einfachen Werkzeugen hast du unheimlich viele Möglichkeiten. Bei der Entwicklung war ich selber ziemlich erstaunt, was man damit alles machen kann. Ich habe ein paar Beispiele in der Excel-Datei gelassen, um dich ein bisschen zu inspirieren, aber das Potenzial ist bei weitem nicht erschöpft. Ich bin wirklich gespannt, auf welche Ideen die Community kommen wird.
 
 Viel Spaß!
 Chris
