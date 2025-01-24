@@ -11,7 +11,7 @@ Beim ersten Start sucht/erstellt das Programm die Projektstruktur auf deinem Des
 In diesem Ordner findest du Folgendes:
 
 - /[Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Audio/Audio.md)
-- /[Bilder](URL) _to-do_
+- /[Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Bilder/Bilder.md)
 - /[Einstellungen](URL) _to-do_
 - TalkTree.xlsx
 
