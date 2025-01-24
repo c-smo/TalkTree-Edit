@@ -4,7 +4,7 @@ Diese Datei wird verwendet, um grundlegende Einstellungen der App zu steuern. Be
 
 # Informationen
 
-## Zeilen und Spalten\*\*
+## Zeilen und Spalten
 
 Hier steuert man die Zeilen und Spalten der App. Wenn man ein anderes Layout möchte, muss man die Datei "TalkTree.xlsx" dementsprechend anpassen.
 
@@ -20,7 +20,7 @@ Die Umrandungen, die ich in der Beispiel "TalkTree.xlsx"-Datei hinzugefügt habe
 
 Hier steuert man das Seitenverhältnis der App, dieses sollte auf das Endgerät angepasst sein. Genaue Informationen über das Seitenverhältnis (Aspect Ratio) des Endgeräts lassen sich durch eine kurze Google-Suche meist leicht finden.
 
-### **Gängige Seitenverhältnisse:**
+### Gängige Seitenverhältnisse
 
 **9:16**
 
