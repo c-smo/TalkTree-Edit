@@ -14,9 +14,9 @@ Dieses Programm ist unter der [MIT](https://github.com/c-smo/TalkTree-Edit/blob/
 
 - [TalkTree Editor | MacOS-aarch64](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.1.0/TalkTree.Editor_v0.1.0_aarch64.dmg)
 
-~~[App | Android](URL)~~ _to-do_
+- ~~[App | Android](URL)~~ _to-do_
 
-~~[App | iOS](URL)~~ _to-do_
+- ~~[App | iOS](URL)~~ _to-do_
 
 ## Einleitung:
 
