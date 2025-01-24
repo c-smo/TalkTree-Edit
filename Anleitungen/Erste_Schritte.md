@@ -70,7 +70,7 @@ Auf dieser Seite solltest du ein 3 x 6-Raster sehen mit den folgenden Werten in 
    Jede Art von Text ist möglich. Das Programm versucht, die Länge dynamisch anzupassen, damit dieser in den Knopf passt. Dennoch würde ich abraten, allzu lange Wörter zu verwenden – "Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz" ist vielleicht nicht ideal. :D
 
 3. **Bilddatei:**  
-   Genauere Infos findest du hier [Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Bilder/Bilder.md)
+   Genauere Infos findest du [hier](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Bilder/Bilder.md).
 
 ---
 
@@ -86,7 +86,7 @@ Auf dieser Seite solltest du ein 3 x 6-Raster sehen mit den folgenden Werten in 
    Das Programm wird nichts vorlesen.
 
 4. **Audiodatei:**  
-   Genauere Infos findest du hier [Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Audio/Audio.md)
+   Genauere Infos findest du [hier](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Audio/Audio.md).
 
 ---
 
