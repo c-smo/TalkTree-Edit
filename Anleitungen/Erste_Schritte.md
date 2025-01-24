@@ -33,8 +33,6 @@ Die erste Seite, die man beim Start der App sieht, ist die Tabelle mit dem Namen
 
 Auf dieser Seite solltest du ein 3 x 6-Raster sehen mit den folgenden Werten in der ersten Spalte: **Symbol, Aussprache, Untertitel, Farbe, Link.**
 
-Du hast die Möglichkeit, diese wie folgt zu bearbeiten:
-
 ---
 
 ## Symbol:
@@ -50,7 +48,7 @@ Du hast die Möglichkeit, diese wie folgt zu bearbeiten:
 
 ---
 
-## Aussprache:
+## Aussprach
 
 1. **Einfach leer lassen:**  
    Das Programm wird den Text im Symbol vorlesen.
@@ -81,9 +79,10 @@ Du hast die Möglichkeit, diese wie folgt zu bearbeiten:
 1. **Einfach leer lassen:**  
    Das Programm verwendet die Standardfarbe "Blau". Die Standardfarbe kann beliebig angepasst werden nähere Informationen findest du hier [Farben](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md).
 
-2. **Siehe Tabelle mit dem Namen "Farben".**
+2. **Eine Farbe per Name wählen:**
+   Siehe Tabelle mit dem Namen "Farben".
 
-3. **Es ist möglich, eigene Farben zu verwenden** [Farben](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md)
+3. **Es ist auch möglich, eigene [Farben](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md) zu verwenden.**
 
 ---
 
@@ -93,16 +92,16 @@ Du hast die Möglichkeit, diese wie folgt zu bearbeiten:
    Der Knopf verlinkt automatisch auf die "home"-Tabelle.
 
 2. **Anderer Tabellenname:**  
-   Der Knopf verlinkt zu dieser Tabelle.
+   Der Knopf verlinkt zu der Tabelle mit dem angegebenen Namen.
 
 3. **Eigener Tabellenname:**  
-   Der Knopf verlinkt zurück auf diese Tabelle.
+   Der Knopf verlinkt zurück auf die gleiche Tabelle.
 
 ---
 
 # Schlusswort
 
-Mit diesen einfachen Werkzeugen hast du unheimlich viele Möglichkeiten. Bei der Entwicklung war ich selber ziemlich erstaunt, was man damit alles machen kann. Ich habe ein paar Beispiele in der Excel-Datei gelassen, um dich ein bisschen zu inspirieren, aber das Potenzial ist bei weitem nicht erschöpft. Ich bin wirklich gespannt, auf welche Ideen die Community kommen wird.
+Mit diesen einfachen Werkzeugen hast du unheimlich viele Möglichkeiten. Bei der Entwicklung war ich selber ziemlich erstaunt, was man damit alles machen kann. Ich habe ein paar Beispiele in der Excel-Datei gelassen, um dich ein bisschen zu inspirieren, aber das Potenzial ist bei weitem nicht erschöpft. Ich bin wirklich gespannt, auf welche Ideen die Community so kommen wird.
 
 Viel Spaß!
 Chris
