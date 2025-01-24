@@ -28,4 +28,5 @@ TalkTree soll eine offene und zugängliche Plattform sein, die Menschen mit Komm
 ## Kontakt
 
 Christopher Smolic
-c-smo@users.noreply.github.com
+
+- c-smo@users.noreply.github.com
