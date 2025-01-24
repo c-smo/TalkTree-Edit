@@ -47,4 +47,4 @@ Untertitel:
 Farbe:  
 Link:
 
-Dieser Knopf würde den Text **Ich** darstellen. Die Größe die Schrift wird dynamisch angepasst.
+Dieser Knopf würde den Text **Ich** darstellen. Die Größe der Schrift wird dynamisch angepasst.
