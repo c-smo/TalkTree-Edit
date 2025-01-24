@@ -16,23 +16,30 @@ Diese Datei wird verwendet, um grundlegende Einstellungen der App zu steuern. Be
 2. **Seitenverhältnis:**  
    Hier steuert man das Seitenverhältnis der App, dieses sollte auf das Endgerät angepasst sein. Genaue Informationen über das Seitenverhältnis (Aspect Ratio) des Endgeräts lassen sich durch eine kurze Google-Suche meist leicht finden.
 
-   **Gängige Seitenverhältnisse:**
+   ## **Gängige Seitenverhältnisse:**
 
    **9:16**
 
-   - Weit verbreitet bei älteren Smartphones und einigen modernen Modellen.
+   Weit verbreitet bei älteren Smartphones und einigen modernen Modellen.
 
-     **9:18 (2:1)**
+   ***
 
-   - Häufig bei modernen Smartphones mit größeren und schmaleren Displays.
+   **9:18 (2:1)**
+   Häufig bei modernen Smartphones mit größeren und schmaleren Displays.
 
-     **9:19**
+   ***
 
-   - Zu finden bei vielen Mittelklasse- und High-End-Smartphones mit schmalen Rändern.
+   **9:19**
 
-     **4:3**
+   Zu finden bei vielen Mittelklasse- und High-End-Smartphones mit schmalen Rändern.
 
-   - Standard-Seitenverhältnis für die meisten iPads (z. B. iPad, iPad Air, iPad Pro).
+   ***
+
+   **4:3**
+
+   Standard-Seitenverhältnis für die meisten iPads (z. B. iPad, iPad Air, iPad Pro).
+
+   ***
 
 3. **Radius:**  
    Hier hat man die Möglichkeit, die Eckenrundung der Knöpfe zu steuern.
