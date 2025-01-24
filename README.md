@@ -6,15 +6,15 @@ TalkTree soll eine offene und zugängliche Plattform sein, die Menschen mit Komm
 
 [TalkTree Editor | Windows](URL)
 
-[TalkTree Editor | MacOS-aarch64](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.1.0/TalkTree-Edit_v0.1.0_aarch64.dmg)
+[TalkTree Editor | MacOS-aarch64](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.1.0/TalkTree.Editor_v0.1.0_aarch64.dmg)
 
 ~~[App | Android](URL)~~
 
 ~~[App | iOS](URL)~~
 
-## Tutorials:
+## Anleitungen:
 
-to-do
+[Erste Schritte](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Erste_Schritte.md)
 
 ## Lizenz:
 
