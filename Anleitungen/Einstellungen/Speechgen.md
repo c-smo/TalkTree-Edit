@@ -33,18 +33,6 @@ E-Mail: deine@e.Mail
 Stimme: Ryan DE  <- Beispiel einer validen Stimme
 ```
 
-### Konfiguration in Speechgen.txt
-
-Sobald du alle benötigten Informationen hast, kehre zu der Datei **"Speechgen.txt"** zurück und füge diese ein.
-
-**Beispiel:**
-
-```txt
-API-Token: 123456789
-E-Mail: deine@e.Mail
-Stimme: Ryan DE  <- Beispiel einer validen Stimme
-```
-
 ---
 
 ## Schlussbemerkung
