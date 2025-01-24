@@ -1,6 +1,6 @@
 # Bilder
 
-Das Standardverhalten der App ist, nach einer Datei im Bilder-Ordner zu suchen die den gleichen Namen hat. Wenn die Datei gefunden wird, wird der Text überschrieben und anstelle dessen das Bild angezeigt (Beispiele findest du in der Tabelle mit dem Namen "Hallo 1"). Wenn keine Datei gefunden wird, wird das Symbol als Text angezeigt.
+Das Standardverhalten der App ist, nach einer Datei im Bilder-Ordner zu suchen die den gleichen Namen wie die Spalte "Symbol" hat. Wenn die Datei gefunden wird, wird der Text überschrieben und anstelle dessen das Bild angezeigt (Beispiele findest du in der Tabelle mit dem Namen "Hallo 1"). Wenn keine Datei gefunden wird, wird das Symbol als Text angezeigt.
 
 Aktuell akzeptierte Formate sind **.png**, **.jpg** und **.jpeg**. Ich würde **.png** empfehlen, da hier ein transparenter Hintergrund möglich ist. Zur Bildbearbeitung verwende ich [photopea](https://www.photopea.com/), aber natürlich geht jede alternative Bildbearbeitungs-Software genauso gut. :)
 
@@ -42,7 +42,7 @@ Farbe:
 Link:           Hallo 1
 ```
 
-Dieser Knopf zeigt "👋", da es keine Datei mit dem Namen **👋.png** gibt.
+Dieser Knopf zeigt 👋, da es keine Datei mit dem Namen **👋.png** im Bilder-Ordner gibt.
 
 ---
 
@@ -56,4 +56,4 @@ Farbe:
 Link:
 ```
 
-Dieser Knopf würde den Text **Ich** darstellen. Die Größe der Schrift wird dynamisch angepasst.
+Dieser Knopf würde den Text **"Ich"** darstellen. Die Größe der Schrift wird dynamisch angepasst.
