@@ -103,7 +103,7 @@ Auf dieser Seite solltest du ein 3 x 6-Raster sehen mit den folgenden Werten in 
 ## Farbe:
 
 1. **Einfach leer lassen:**  
-   Das Programm verwendet die [Standardfarbe](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md), diese kann beliebig angepasst.
+   Das Programm verwendet die [Standardfarbe](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md), diese kann beliebig angepasst werden.
 
 2. **Eine Farbe per Name wählen:**
    Siehe Tabelle mit dem Namen "Farben" für Beispiele.
