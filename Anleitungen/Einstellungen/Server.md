@@ -1,12 +1,8 @@
 # Server.txt
 
-**Server:**
+- Als **"Server"** bezeichne ich den Rechner, auf dem du "TalkTree Editor" installiert hast.
 
-- Als "Server" bezeichne ich den Rechner, auf dem du "TalkTree Editor" installiert hast.
-
-**Client:**
-
-- Der "Client" ist das gewählte Endgerät (die App dazu kommt bald).
+- Der **"Client"** ist das gewählte Endgerät (die App dazu kommt bald).
 
 ---
 
