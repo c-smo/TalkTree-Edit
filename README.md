@@ -10,9 +10,19 @@ Dieses Programm ist unter der [MIT](https://github.com/c-smo/TalkTree-Edit/blob/
 
 ## Download:
 
+**Windows:**
+
 - [TalkTree Editor | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.1.0/TalkTree.Editor_v0.1.0_x64-setup.exe)
 
-- [TalkTree Editor | MacOS-aarch64](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.1.0/TalkTree.Editor_v0.1.0_aarch64.dmg)
+---
+
+**MacOS:**
+
+- [TalkTree Editor | arm](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.1.0/TalkTree.Editor_v0.1.0_aarch64.dmg)
+
+- [TalkTree Editor | intel](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.1.0/TalkTree.Editor_v0.1.0_x64.dmg)
+
+---
 
 - ~~[App | Android](URL)~~ _to-do_
 
