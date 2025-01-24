@@ -48,11 +48,3 @@ Weiß #ffffff
 ## Schlussbemerkung
 
 Ich bin noch nicht zufrieden mit dieser Lösung und im laufe der Entwicklung wird sich hier gewiss noch etwas verändern.
-
-```
-
-```
-
-```
-
-```
