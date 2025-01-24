@@ -6,7 +6,7 @@ TalkTree soll eine offene und zugängliche Plattform bieten, die Menschen mit Ko
 
 Ein weiterer wichtiger Aspekt bei der Entwicklung war, die Bearbeitung so einfach wie möglich zu gestalten, um sowohl Angehörigen als auch Betreuer:innen zu ermöglichen, ohne große Hindernisse auf die Bedürfnisse der Nutzer:innen eingehen zu können.
 
-Dieses Programm ist unter der [MIT](https://github.com/c-smo/TalkTree-Edit/blob/main/LICENSE.md) Lizenz veröffentlich und daher kostenfrei erhältlich. Mein Ziel ist es jedem Menschen die Möglichkeit zu schaffen, ein ganz persönliches Bäumchen zu pflanzen 🌱
+Dieses Programm ist unter der [MIT](https://github.com/c-smo/TalkTree-Edit/blob/main/LICENSE.md) Lizenz veröffentlicht und daher kostenfrei erhältlich. Mein Ziel ist es jedem Menschen die Möglichkeit zu schaffen, ein ganz persönliches Bäumchen zu pflanzen 🌱
 
 ## Download:
 
