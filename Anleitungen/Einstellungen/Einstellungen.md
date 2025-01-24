@@ -25,6 +25,7 @@ Diese Datei wird verwendet, um grundlegende Einstellungen der App zu steuern. Be
    ***
 
    **9:18 (2:1)**
+
    Häufig bei modernen Smartphones mit größeren und schmaleren Displays.
 
    ***
