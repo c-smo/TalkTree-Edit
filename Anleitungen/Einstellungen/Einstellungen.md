@@ -21,11 +21,17 @@ Diese Datei wird verwendet, um grundlegende Einstellungen der App zu steuern. Be
    **9:16**
 
    - Weit verbreitet bei älteren Smartphones und einigen modernen Modellen.
+
      **9:18 (2:1)**
+
    - Häufig bei modernen Smartphones mit größeren und schmaleren Displays.
+
      **9:19**
+
    - Zu finden bei vielen Mittelklasse- und High-End-Smartphones mit schmalen Rändern.
+
      **4:3**
+
    - Standard-Seitenverhältnis für die meisten iPads (z. B. iPad, iPad Air, iPad Pro).
 
 3. **Radius:**  
