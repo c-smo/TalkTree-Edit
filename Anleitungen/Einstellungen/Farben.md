@@ -7,13 +7,15 @@ In dieser Datei hast du die Möglichkeit, die Standardfarben anzupassen und neue
 **Beispiel 1:**  
 Am Ende des Reiters "Farben" fügen wir folgende Zeile hinzu:
 
-[Farben]  
-Schwarz #000000  
-...  
-...  
-Blau #3498db  
-Lila #9b59b6  
+```
+[Farben]
+Schwarz #000000
+...
+...
+Blau #3498db
+Lila #9b59b6
 Pink #cc39bd <- Neue Farbe
+```
 
 Sie setzt sich folgendermaßen zusammen:
 
@@ -26,21 +28,31 @@ Um einen Hex-Code zu finden, verwende ich [Google Farbwähler](https://g.co/kgs/
 
 ---
 
-**Beispiel 2:**  
+**Beispiel 2:**
 Wir verändern die Standardfarbe der Knöpfe zu Pink (nichts für schwache Nerven):
 
-[Standardfarben]  
-Hintergrund #2c3e50  
-Knopf #cc39bd <- Neue Standardfarbe  
+```
+[Standardfarben]
+Hintergrund #2c3e50
+Knopf #cc39bd <- Neue Standardfarbe
 Text #FFFFFF
 
-[Farben]  
-Schwarz #000000  
-Weiß #ffffff  
-...  
-...  
+[Farben]
+Schwarz #000000
+Weiß #ffffff
 ...
+...
+...
+```
 
 ## Schlussbemerkung
 
 Ich bin noch nicht zufrieden mit dieser Lösung und im laufe der Entwicklung wird sich hier gewiss noch etwas verändern.
+
+```
+
+```
+
+```
+
+```
