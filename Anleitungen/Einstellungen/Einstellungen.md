@@ -14,7 +14,7 @@ Diese Datei wird verwendet, um grundlegende Einstellungen der App zu steuern. Be
    Die Umrandungen, die ich in der Beispiel "TalkTree.xlsx"-Datei hinzugefügt habe, sind nur Deko und dienen der visuellen Erleichterung, sind aber nicht zwingend nötig.
 
 2. **Seitenverhältnis:**  
-   Hier steuert man das Seitenverhältnis der App, dieses sollte auf das Endgerät angepasst sein sollte. Nähere Informationen über das Seitenverhältnis (Aspect Ratio) des Endgeräts lassen sich durch eine kurze Google-Suche meist leicht klären.
+   Hier steuert man das Seitenverhältnis der App, dieses sollte auf das Endgerät angepasst sein. Nähere Informationen über das Seitenverhältnis (Aspect Ratio) des Endgeräts lassen sich durch eine kurze Google-Suche meist leicht klären.
 
    **Gängige Seitenverhältnisse sind:**
 
