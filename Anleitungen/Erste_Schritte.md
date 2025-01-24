@@ -10,7 +10,7 @@ Beim ersten Start sucht/erstellt das Programm die Projektstruktur auf deinem Des
 
 In diesem Ordner findest du Folgendes:
 
-- /[Audio](URL) _to-do_
+- /[Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Audio/Audio.md)
 - /[Bilder](URL) _to-do_
 - /[Einstellungen](URL) _to-do_
 - TalkTree.xlsx
