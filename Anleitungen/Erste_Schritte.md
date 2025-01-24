@@ -38,7 +38,7 @@ Du hast die Möglichkeit, diese wie folgt zu bearbeiten:
    Jede Art von Text ist möglich. Das Programm versucht, die Länge dynamisch anzupassen, damit dieser in den Knopf passt. Dennoch würde ich abraten, allzu lange Wörter zu verwenden – "Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz" ist vielleicht nicht ideal. :D
 
 3. **Bilddatei:**  
-   Mehr dazu später.
+   Genauere Infos findest du hier [Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Bilder/Bilder.md)
 
 ## Aussprache:
 
@@ -52,7 +52,7 @@ Du hast die Möglichkeit, diese wie folgt zu bearbeiten:
    Das Programm wird nichts vorlesen.
 
 4. **Audiodatei:**  
-   Mehr dazu später.
+   Genauere Infos findest du hier [Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Audio/Audio.md)
 
 ## Untertitel:
 
