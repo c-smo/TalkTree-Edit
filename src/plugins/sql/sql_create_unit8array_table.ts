@@ -11,7 +11,7 @@ export const sql_create_uint8array_table = async (
     );
 
     if (table_exists_result.length === 0 || refresh) {
-      if (refresh) {
+      if (table_exists_result.length !== 0 && refresh) {
         log("🔥 Burning old Table 🔥");
         await DB.execute(`DROP TABLE ${table_name}`);
       }
