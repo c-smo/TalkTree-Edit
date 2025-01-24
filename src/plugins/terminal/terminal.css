@@ -1,0 +1,72 @@
+.terminal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(30, 30, 30);
+  color: #d3d3d3;
+  font-family: "Courier New", monospace;
+  font-size: 16px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+  display: flex;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+/* 
+.logs-container {}
+*/
+
+.error-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.error-tag {
+  color: rgb(255, 0, 0);
+  white-space: nowrap;
+}
+
+.error-message {
+  color: #b0b0b0;
+  white-space: pre-wrap;
+}
+
+.log-message {
+  margin: 5px 0;
+  color: #b0b0b0;
+  white-space: pre-wrap;
+}
+
+.cursor {
+  color: #b0b0b0;
+}
+
+.input-field {
+  width: 100%;
+  color: #d3d3d3;
+  font-family: "Courier New", monospace;
+  font-size: 16px;
+  background-color: rgb(30, 30, 30);
+  outline: none;
+  border: none;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+  visibility: hidden;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease,
+    visibility 0s 0.3s;
+}
+
+.hidden.display-none {
+  display: none;
+}
