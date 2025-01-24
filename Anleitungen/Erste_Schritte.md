@@ -48,7 +48,7 @@ Du hast die Möglichkeit, diese wie folgt zu bearbeiten:
 2. **Ein anderer Text:**  
    Das Programm wird diesen Text vorlesen, anstatt das Symbol.
 
-3. **-:**  
+3. **-**  
    Das Programm wird nichts vorlesen.
 
 4. **Audiodatei:**  
