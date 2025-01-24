@@ -87,3 +87,4 @@ Du hast die Möglichkeit, diese wie folgt zu bearbeiten:
 Mit diesen einfachen Werkzeugen hast du unheimlich viele Möglichkeiten. Bei der entwicklung war ich selber ziemlich erstaunt, was man damit alles machen kann. Ich habe ein paar Beispiele in der Excel-Datei gelassen, um dich ein bisschen zu inspirieren, aber das Potenzial ist bei weitem nicht erschöpft. Ich bin wirklich gespannt, auf welche Ideen die Community kommen wird.
 
 Viel Spaß!
+Chris
