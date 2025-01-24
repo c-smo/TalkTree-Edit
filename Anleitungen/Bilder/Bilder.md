@@ -18,33 +18,42 @@ Die Dimensionen sollten aber, abgesehen vom verwendeten Speicherplatz und der Qu
 
 ---
 
-**Beispiel 1:**  
-Symbol: Oma  
-Aussprache:  
-Untertitel: Oma  
-Farbe:  
-Link: Hallo 1
+**Beispiel 1:**
+
+```
+Symbol:         Oma
+Aussprache:
+Untertitel:     Oma
+Farbe:
+Link:
+```
 
 Dieser Knopf zeigt die Datei **Oma.png**, da diese im Bilder-Ordner als Beispiel bereits vorhanden ist.
 
 ---
 
-**Beispiel 2:**  
-Symbol: 👋  
-Aussprache: Hallo  
-Untertitel:  
-Farbe:  
-Link: Hallo 1
+**Beispiel 2:**
+
+```
+Symbol:           👋
+Aussprache:     Hallo
+Untertitel:
+Farbe:
+Link:           Hallo 1
+```
 
 Dieser Knopf zeigt "👋", da es keine Datei mit dem Namen **👋.png** gibt.
 
 ---
 
-**Beispiel 3:**  
-Symbol: Ich  
-Aussprache:  
-Untertitel:  
-Farbe:  
+**Beispiel 3:**
+
+```
+Symbol:         Ich
+Aussprache:
+Untertitel:
+Farbe:
 Link:
+```
 
 Dieser Knopf würde den Text **Ich** darstellen. Die Größe der Schrift wird dynamisch angepasst.
