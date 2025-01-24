@@ -1,14 +1,38 @@
 # Vorwort
 
-Vielen Dank, dass du **TalkTree** ausprobierst! Das Projekt befindet sich noch in der Entwicklung, und es kann und wird sich vermutlich noch einiges ändern. Mein Ziel ist es, möglichst früh Feedback zu ermöglichen, damit die App ihr volles Potenzial entfalten kann. Änderungsvorschläge, Wünsche und Fragen bzw. jede Art von Feedback sind herzlich erwünscht!
+Vielen Dank, dass du **TalkTree** ausprobierst! Das Projekt befindet sich noch in der Entwicklung, und es kann und wird sich vermutlich noch einiges ändern. Fehler und Bugs sind leider noch zu erwarten 🤫 Mein Ziel ist es, möglichst früh Feedback zu ermöglichen, damit die App ihr volles Potenzial entfalten kann. Änderungsvorschläge, Wünsche und Fragen bzw. jede Art von Feedback sind herzlich erwünscht!
 
 # Erste Schritte
 
+## Download:
+
+### Windows
+
+- [TalkTree Editor | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.1.0/TalkTree.Editor_v0.1.0_x64-setup.exe)
+
+---
+
+### MacOS
+
+- [TalkTree Editor | arm](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.1.0/TalkTree.Editor_v0.1.0_aarch64.dmg)
+
+- [TalkTree Editor | intel](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.1.0/TalkTree.Editor_v0.1.0_x64.dmg)
+
+---
+
+## Installation:
+
+Wähle ein beliebiges Verzeichnis und installiere das Programm.
+
+## Weitere Schritte:
+
 Nach der Installation solltest du eine Datei mit dem Namen **"TalkTree Editor"** in deinem gewählten Installationsverzeichnis finden.
 
-Beim ersten Start sucht/erstellt das Programm die Projektstruktur auf deinem Desktop in einem Ordner mit dem Namen **TalkTree**.
+Beim Start sucht/erstellt das Programm die Projektstruktur auf deinem Desktop in einem Ordner mit dem Namen **TalkTree**.
 
 In diesem Ordner findest du Folgendes:
+
+### Überblick:
 
 - /[Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Audio/Audio.md)
 - /[Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Bilder/Bilder.md)
@@ -22,6 +46,8 @@ In diesem Ordner findest du Folgendes:
 - **_TalkTree.xlsx_**
 
 In dieser Anleitung fokussieren wir uns auf die Datei **TalkTree.xlsx**.
+
+---
 
 # TalkTree.xlsx
 
@@ -77,10 +103,10 @@ Auf dieser Seite solltest du ein 3 x 6-Raster sehen mit den folgenden Werten in 
 ## Farbe:
 
 1. **Einfach leer lassen:**  
-   Das Programm verwendet die Standardfarbe "Blau". Die Standardfarbe kann beliebig angepasst werden nähere Informationen findest du hier [Farben](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md).
+   Das Programm verwendet die [Standardfarbe](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md), diese kann beliebig angepasst.
 
 2. **Eine Farbe per Name wählen:**
-   Siehe Tabelle mit dem Namen "Farben".
+   Siehe Tabelle mit dem Namen "Farben" für Beispiele.
 
 3. **Es ist auch möglich, eigene [Farben](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md) zu verwenden.**
 
@@ -108,6 +134,8 @@ Untertitel:    TalkTree    <- Unter dem Symbol steht "TalkTree"
 Farbe:           Lila      <- Der Knopf ist Lila
 Link:          viel_spaß   <- und verlinkt auf die Tabelle "viel_spaß"
 ```
+
+---
 
 # Schlusswort
 
