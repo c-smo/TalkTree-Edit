@@ -27,7 +27,7 @@ Sobald du alle benötigten Informationen hast, kehre zu der Datei **"Speechgen.t
 
 **Beispiel:**
 
-```txt
+```
 API-Token: 123456789
 E-Mail: deine@e.Mail
 Stimme: Ryan DE  <- Beispiel einer validen Stimme
