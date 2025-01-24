@@ -8,9 +8,9 @@ TalkTree soll eine offene und zugängliche Plattform sein, die Menschen mit Komm
 
 - [TalkTree Editor | MacOS-aarch64](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.1.0/TalkTree.Editor_v0.1.0_aarch64.dmg)
 
-~~[App | Android](URL)~~
+~~[App | Android](URL)~~ _to-do_
 
-~~[App | iOS](URL)~~
+~~[App | iOS](URL)~~ _to-do_
 
 ## Anleitungen:
 
@@ -18,8 +18,14 @@ TalkTree soll eine offene und zugängliche Plattform sein, die Menschen mit Komm
 
 **Weiter Anleitungen:**
 
-- [Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Audio/Audio.md)
-- [Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Bilder/Bilder.md)
+- /[Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Audio/Audio.md)
+- /[Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Bilder/Bilder.md)
+- /[Einstellungen]
+
+  - [Einstellungen](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Einstellungen.md)
+  - [Farben](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md)
+  - [Server](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Server.md)
+  - [Speechgen](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Speechgen.md)
 
 ## Lizenz:
 
@@ -27,6 +33,5 @@ TalkTree soll eine offene und zugängliche Plattform sein, die Menschen mit Komm
 
 ## Kontakt
 
-Christopher Smolic
-
+- Christopher Smolic
 - c-smo@users.noreply.github.com
