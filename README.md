@@ -22,7 +22,7 @@ Dieses Programm ist unter der [MIT](https://github.com/c-smo/TalkTree-Edit/blob/
 
 - [Erste Schritte](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Erste_Schritte.md)
 
-**Weiter Anleitungen:**
+**Weitere Anleitungen:**
 
 - /[Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Audio/Audio.md)
 - /[Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Bilder/Bilder.md)
