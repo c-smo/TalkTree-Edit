@@ -30,7 +30,7 @@ Weit verbreitet bei älteren Smartphones und einigen modernen Modellen.
 
 ---
 
-**9:18 (2:1)**
+**9:18 (1:2)**
 
 Häufig bei modernen Smartphones mit größeren und schmaleren Displays.
 
