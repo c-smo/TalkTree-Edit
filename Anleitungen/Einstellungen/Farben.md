@@ -4,7 +4,8 @@ In dieser Datei hast du die Möglichkeit, die Standardfarben anzupassen und neue
 
 ## Beispiele
 
-**Beispiel 1:**  
+### Beispiel 1:
+
 Am Ende des Reiters "Farben" fügen wir folgende Zeile hinzu:
 
 ```
@@ -34,8 +35,9 @@ Die Farbe als HEX-Code. Um einen Hex-Code zu finden, verwende ich [Google Farbw�
 
 ---
 
-**Beispiel 2:**
-Wir verändern die Standardfarbe der Knöpfe zu Pink (nichts für schwache Nerven):
+## Beispiel 2:
+
+Wir verändern die Standardfarbe der Knöpfe zu Pink:
 
 ```
 [Standardfarben]
