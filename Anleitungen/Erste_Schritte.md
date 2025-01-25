@@ -142,7 +142,7 @@ Symbol:           🌳       <- Dargestellt wird 🌳
 Aussprache:       -        <- Kein TTS
 Untertitel:    TalkTree    <- Unter dem Symbol steht "TalkTree"
 Farbe:           Gelb      <- Der Knopf ist gelb
-Link:          TalkTree   <- und verlinkt auf die Tabelle "TalkTree"
+Link:          Viel Spaß!   <- und verlinkt auf die Tabelle "Viel Spaß!"
 ```
 
 ---
@@ -151,6 +151,6 @@ Link:          TalkTree   <- und verlinkt auf die Tabelle "TalkTree"
 
 Mit diesen einfachen Werkzeugen hast du unheimlich viele Möglichkeiten. Bei der Entwicklung war ich selber ziemlich erstaunt, was man damit alles machen kann. Ich habe ein paar Beispiele in der Excel-Datei gelassen, um dich ein bisschen zu inspirieren, aber das Potenzial ist bei weitem nicht erschöpft. Ich bin wirklich gespannt, auf welche Ideen die Community so kommen wird.
 
-Viel Spaß!
+Ich wünsche viel Freude beim erschaffen!
 
 Chris
