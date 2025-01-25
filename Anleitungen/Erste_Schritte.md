@@ -51,9 +51,9 @@ In dieser Anleitung fokussieren wir uns auf die Datei **TalkTree.xlsx**.
 
 # TalkTree.xlsx
 
-<img src="./preview_xlsx.png" alt="preview" width="478" height="730">
-
 Diese Datei ist das Herzstück der App und wird verwendet, um diese zu bearbeiten. Öffne sie in einem Programm deiner Wahl. Ich verwende [LibreOffice](https://de.libreoffice.org/), aber jedes Programm, das Excel-Dateien bearbeiten kann, sollte funktionieren.
+
+<img src="./preview_xlsx.png" alt="preview" width="478" height="730">
 
 Die Datei ist nur als Muster gedacht und kann beliebig bearbeitet werden. Alle Änderungen sollten nach dem Speichern der Excel-Datei sofort im TalkTree Editor sichtbar werden.
 
@@ -104,10 +104,12 @@ Auf dieser Seite solltest du ein 3 x 6-Raster sehen mit den folgenden Werten in 
 
 ## Farbe:
 
-1. **Einfach leer lassen:**  
+1. **Einfach leer lassen:**
+
    Das Programm verwendet die [Standardfarbe](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md), diese kann beliebig angepasst werden.
 
 2. **Eine Farbe per Name wählen:**
+
    Siehe Tabelle mit dem Namen "Farben" für Beispiele.
 
 3. **Es ist auch möglich, eigene [Farben](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md) zu verwenden.**
