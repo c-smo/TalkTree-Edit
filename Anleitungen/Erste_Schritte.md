@@ -1,6 +1,6 @@
 # Vorwort
 
-Vielen Dank, dass du TalkTree ausprobierst und damit einen wichtigen Beitrag dazu leistest, der App zu helfen, ihr volles Potenzial zu entfalten! Das Projekt befindet sich aktuell noch in der Entwicklung, daher ist es wahrscheinlich, dass sich noch einiges ändern wird. Fehler und Bugs können leider noch auftreten 🤫. Mein Ziel ist es jedoch, möglichst früh Feedback zu erhalten. Änderungsvorschläge, Wünsche und Fragen sind daher herzlich willkommen!
+Vielen Dank, dass du TalkTree ausprobierst und damit einen wichtigen Beitrag dazu leistest, der App zu helfen, ihr volles Potenzial zu entfalten! Das Projekt befindet sich aktuell noch in der Entwicklung, daher ist es wahrscheinlich, dass sich noch einiges ändern wird. Fehler und Bugs können leider noch auftreten 🤫. Das Ziel ist es jedoch, möglichst früh Feedback zu erhalten. Änderungsvorschläge, Wünsche und Fragen sind daher herzlich willkommen!
 
 # Erste Schritte
 
