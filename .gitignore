@@ -3,7 +3,7 @@ TalkTree_Edit/node_modules/
 npm-debug.log*
 .DS_Store
 x.md
-.dev/
-.vscode/
+TalkTree_Edit/.dev/
+TalkTree_Edit/.vscode/
 .github/*
 TalkTree_Edit/src-tauri/target
