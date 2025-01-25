@@ -11,7 +11,7 @@ Als Referenz: Ich habe zu Beginn der Entwicklung einmalig 5€ aufgeladen und ha
 ## Einrichtung:
 
 1. **Account erstellen und Guthaben aufladen**  
-   Besuche [speechgen.io](https://speechgen.io/). Nachdem du deinen Account angelegt und ausreichend Guthaben hast, klicke **oben rechts** auf "Profil".  
+   Besuche [speechgen.io](https://speechgen.io/). Nachdem du deinen Account angelegt und ausreichend Guthaben hast, klicke **oben rechts** auf **"Profil"**.  
    <img src="./profile.png" alt="profil" width="534" height="140">
 
 2. **API-Token abrufen:**  
