@@ -2,9 +2,11 @@
 
 Diese Datei wird verwendet, um grundlegende Einstellungen der App zu steuern. Bei Änderungen dieser Datei muss der **"TalkTree Editor"** neu gestartet werden, falls das Programm es nicht selbständig macht.
 
-# Informationen
+---
 
-## Zeilen und Spalten
+# Übersicht
+
+### Zeilen und Spalten
 
 Hier steuert man die Zeilen und Spalten der App. Wenn man ein anderes Layout möchte, muss man die Datei "TalkTree.xlsx" dementsprechend anpassen.
 
@@ -16,7 +18,7 @@ Die Umrandungen, die ich in der Beispiel "TalkTree.xlsx"-Datei hinzugefügt habe
 
 ---
 
-## Seitenverhältnis
+### Seitenverhältnis
 
 Hier steuert man das Seitenverhältnis der App, dieses sollte auf das Endgerät angepasst sein. Genaue Informationen über das Seitenverhältnis (Aspect Ratio) des Endgeräts lassen sich durch eine kurze Google-Suche meist leicht finden.
 
@@ -55,6 +57,6 @@ Hier hat man die Möglichkeit, die Eckenrundung der Knöpfe zu steuern.
 
 ---
 
-## Swipe
+### Swipe
 
 Alternative Eingabemethode. Die Knöpfe lassen sich nun mit dem Finger bewegen und lösen erst aus, sobald sie einen beliebigen Rand des Displays berühren.
