@@ -6,4 +6,4 @@ x.md
 .dev/
 .vscode/
 .github/*
-src-tauri/target
+TalkTree_Edit/src-tauri/target
