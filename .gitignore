@@ -1,5 +1,5 @@
 dist/
-node_modules/
+TalkTree_Edit/node_modules/
 npm-debug.log*
 .DS_Store
 x.md
