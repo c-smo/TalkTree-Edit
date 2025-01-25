@@ -51,7 +51,7 @@ In dieser Anleitung fokussieren wir uns auf die Datei **TalkTree.xlsx**.
 
 # TalkTree.xlsx
 
-<img src="./preview_xlsx" alt="token" width="478" height="523">
+<img src="./preview_xlsx.png" alt="preview" width="956" height="1460">
 
 Diese Datei ist das Herzstück der App und wird verwendet, um diese zu bearbeiten. Öffne sie in einem Programm deiner Wahl. Ich verwende [LibreOffice](https://de.libreoffice.org/), aber jedes Programm, das Excel-Dateien bearbeiten kann, sollte funktionieren.
 
