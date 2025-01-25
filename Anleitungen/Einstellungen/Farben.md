@@ -24,14 +24,14 @@ Sie setzt sich folgendermaßen zusammen:
 
 ---
 
-**Name:**
-Der Name, den du zukünftig innerhalb von "TalkTree.xlsx" verwenden kannst.
+- **Name:**
+  Der Name, den du zukünftig innerhalb von "TalkTree.xlsx" verwenden kannst.
 
-**Leerzeichen:**
-ähm ja, ein Leerzeichen :D
+- **Leerzeichen:**
+  ähm ja, ein Leerzeichen :D
 
-**Hex:**
-Die Farbe als HEX-Code. Um einen Hex-Code zu finden, verwende ich [Google Farbwähler](https://g.co/kgs/QjsPT6Y).
+- **Hex:**
+  Die Farbe als HEX-Code. Um einen Hex-Code zu finden, verwende ich [Google Farbwähler](https://g.co/kgs/QjsPT6Y).
 
 ---
 
