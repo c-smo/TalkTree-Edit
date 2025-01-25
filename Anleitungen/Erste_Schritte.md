@@ -45,7 +45,7 @@ In diesem Ordner findest du Folgendes:
 
 - **_TalkTree.xlsx_**
 
-In dieser Anleitung fokussieren wir uns auf die Datei **TalkTree.xlsx**.
+In dieser Anleitung fokussieren wir uns auf die Datei **"TalkTree.xlsx"**.
 
 ---
 
