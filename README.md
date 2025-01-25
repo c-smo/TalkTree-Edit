@@ -8,6 +8,8 @@ Ein weiterer wichtiger Aspekt bei der Entwicklung war, die Bearbeitung so einfac
 
 Dieses Programm ist unter der [MIT](https://github.com/c-smo/TalkTree-Edit/blob/main/LICENSE.md) Lizenz veröffentlicht und daher kostenfrei erhältlich. Mein Ziel ist es jedem Menschen die Möglichkeit zu schaffen, ein ganz persönliches Bäumchen zu pflanzen 🌱
 
+Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Erste_Schritte.md) weiter.
+
 ## Download:
 
 **Windows:**
