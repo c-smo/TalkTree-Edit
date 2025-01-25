@@ -19,7 +19,7 @@ Pink #cc39bd <- Neue Farbe
 
 Sie setzt sich folgendermaßen zusammen:
 
-**[Name][Leerzeichen][HEX]**
+**[ Name ][ Leerzeichen ][ HEX ]**
 
 ---
 
