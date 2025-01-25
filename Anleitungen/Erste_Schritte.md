@@ -34,9 +34,9 @@ In diesem Ordner findest du Folgendes:
 
 ### Überblick:
 
-- /[Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Audio/Audio.md)
-- /[Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Bilder/Bilder.md)
-- /[Einstellungen]
+- [/Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Audio/Audio.md)
+- [/Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Bilder/Bilder.md)
+- /Einstellungen
 
   - [Einstellungen](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Einstellungen.md)
   - [Farben](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md)
