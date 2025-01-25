@@ -1,6 +1,6 @@
 # Speechgen.txt
 
-Diese Datei wird verwendet, um die [speechgen.io](https://speechgen.io/) API in den Arbeitsablauf zu integrieren. Dadurch werden die benötigten Audiodateien automatisch im Hintergrund heruntergeladen und im [Audio-Ordner](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Audio/Audio.md) gespeichert.
+Diese Datei wird verwendet, um die [speechgen.io](https://speechgen.io/) API in den Arbeitsablauf zu integrieren. Dadurch werden die benötigten Audiodateien automatisch im Hintergrund heruntergeladen und im [Audio-Ordner](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree-Edit/Anleitungen/Audio/Audio.md) gespeichert.
 
 Um dieses Feature zu verwenden, benötigst du einen Account auf Speechgen.io und solltest vermutlich ein wenig Guthaben aufladen. Es gibt zwar ein gratis "Probier-Kontingent", aber dieses ist sehr schnell erschöpft.
 
