@@ -39,8 +39,6 @@ Die Farbe als HEX-Code. Um einen Hex-Code zu finden, verwende ich [Google Farbw�
 
 Wir verändern die Standardfarbe der Knöpfe zu Pink:
 
----
-
 ```
 [Standardfarben]
 Hintergrund #2c3e50
