@@ -41,7 +41,7 @@ Symbol:           👋
 Aussprache:     Hallo
 Untertitel:
 Farbe:
-Link:           Hallo 1
+Link:          Hallo 1
 ```
 
 Dieser Knopf zeigt 👋, da es keine Datei mit dem Namen **👋.png** im Bilder-Ordner gibt.
