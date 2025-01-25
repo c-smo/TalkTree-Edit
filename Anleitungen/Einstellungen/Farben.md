@@ -30,9 +30,7 @@ Der Name, den du zukünftig innerhalb von "TalkTree.xlsx" verwenden kannst.
 ähm ja, ein Leerzeichen :D
 
 **Hex:**
-Die Farbe als HEX-Code
-
-Um einen Hex-Code zu finden, verwende ich [Google Farbwähler](https://g.co/kgs/QjsPT6Y).
+Die Farbe als HEX-Code. Um einen Hex-Code zu finden, verwende ich [Google Farbwähler](https://g.co/kgs/QjsPT6Y).
 
 ---
 
