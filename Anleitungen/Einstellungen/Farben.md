@@ -22,8 +22,6 @@ Sie setzt sich folgendermaßen zusammen:
 
 **[ Name ][ Leerzeichen ][ HEX ]**
 
----
-
 - **Name:**
   Der Name, den du zukünftig innerhalb von "TalkTree.xlsx" verwenden kannst.
 
