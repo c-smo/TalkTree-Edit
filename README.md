@@ -34,14 +34,14 @@ Dieses Programm ist unter der [MIT](https://github.com/c-smo/TalkTree-Edit/blob/
 
 ## Weitere Anleitungen:
 
-- [Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Audio/Audio.md)
-- [Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Bilder/Bilder.md)
-- Einstellungen
+- [/Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Audio/Audio.md)
+- [/Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Bilder/Bilder.md)
+- /Einstellungen
 
-  - [Einstellungen](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Einstellungen.md)
-  - [Farben](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md)
-  - [Server](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Server.md)
-  - [Speechgen](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Speechgen.md)
+  - [Einstellungen.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Einstellungen.md)
+  - [Farben.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md)
+  - [Server.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Server.md)
+  - [Speechgen.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Speechgen.md)
 
 ## Kontakt
 

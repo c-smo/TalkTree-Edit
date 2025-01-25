@@ -38,10 +38,10 @@ In diesem Ordner findest du Folgendes:
 - [/Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Bilder/Bilder.md)
 - /Einstellungen
 
-  - [Einstellungen](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Einstellungen.md)
-  - [Farben](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md)
-  - [Server](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Server.md)
-  - [Speechgen](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Speechgen.md)
+  - [Einstellungen.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Einstellungen.md)
+  - [Farben.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md)
+  - [Server.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Server.md)
+  - [Speechgen.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Speechgen.md)
 
 - **_TalkTree.xlsx_**
 
