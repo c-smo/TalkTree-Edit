@@ -42,7 +42,9 @@ Stimme: Ryan DE  <- Beispiel einer validen Stimme
 
 ## Schlussbemerkung
 
-Zukünftig sollten die Audiodateien automatisch heruntergeladen werden. Wenn es sich nur um eine einzelne Datei handelt - z. B. weil nur ein Knopf hinzugefügt wurde - geschieht dies unbemerkt im Hintergrund.
+Zukünftig sollten die Audiodateien automatisch heruntergeladen werden.
+
+Wenn es sich nur um eine einzelne Datei handelt - z. B. weil nur ein Knopf hinzugefügt wurde - geschieht dies unbemerkt im Hintergrund.
 
 Ab zwei Dateien bittet die App um Erlaubnis, bevor der Download gestartet wird.
 
