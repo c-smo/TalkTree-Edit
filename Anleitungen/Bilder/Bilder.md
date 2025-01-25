@@ -1,5 +1,7 @@
 # Bilder
 
+   <img src="./preview_images.png" alt="images" width="403" height="734">
+
 Das Standardverhalten der App ist, nach einer Datei im Bilder-Ordner zu suchen die den gleichen Namen wie die Spalte "Symbol" hat. Wenn die Datei gefunden wird, wird der Text überschrieben und anstelle dessen das Bild angezeigt (Beispiele findest du in der Tabelle mit dem Namen "Hallo 1"). Wenn keine Datei gefunden wird, wird das Symbol als Text angezeigt.
 
 Aktuell akzeptierte Formate sind **.png**, **.jpg** und **.jpeg**. Ich würde **.png** empfehlen, da hier ein transparenter Hintergrund möglich ist. Zur Bildbearbeitung verwende ich [photopea](https://www.photopea.com/), aber natürlich geht jede alternative Bildbearbeitungs-Software genauso gut. :)
