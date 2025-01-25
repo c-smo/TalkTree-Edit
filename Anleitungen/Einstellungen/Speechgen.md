@@ -18,14 +18,17 @@ Als Referenz: Ich habe zu Beginn der Entwicklung einmalig 5€ aufgeladen und ha
    Wir benötigen den **"API-Token"**. Drücke auf das **"Auge"**, um diesen anzeigen zu lassen.  
    <img src="./api_token.png" alt="token" width="635" height="229">
 
-3. **Stimme auswählen**  
-   Kehre zurück auf die Startseite und notiere dir den Namen der Stimme, die verwendet werden soll.
+3. **Stimme auswählen:**  
+   Notiere dir den Namen der Stimme, die verwendet werden soll. Eine Auswahl an Stimmen findest du auf der Startseite.
+
+4. **Deine E-Mail:**
+   Die E-Mail-Adresse, die du verwendet hast, um dich bei speechgen.io zu registrieren.
 
 ---
 
 ### Konfiguration in Speechgen.txt
 
-Sobald du alle benötigten Informationen hast, kehre zu der Datei **"Speechgen.txt"** zurück und füge die benötigten Werte ein.
+Sobald du alle benötigten Informationen hast, kehre zu der Datei **"Speechgen.txt"** zurück und füge diese ein.
 
 **Beispiel:**
 
