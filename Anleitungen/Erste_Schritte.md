@@ -142,7 +142,7 @@ Symbol:           🌳       <- Dargestellt wird 🌳
 Aussprache:       -        <- Kein TTS
 Untertitel:    TalkTree    <- Unter dem Symbol steht "TalkTree"
 Farbe:           Gelb      <- Der Knopf ist gelb
-Link:          Viel Spaß!   <- und verlinkt auf die Tabelle "Viel Spaß!"
+Link:          Viel Spaß!  <- und verlinkt auf die Tabelle "Viel Spaß!"
 ```
 
 ---
