@@ -61,7 +61,7 @@ Auf dieser Seite solltest du ein 3 x 6-Raster sehen mit den folgenden Werten in 
 
 ---
 
-# Bearbeitung:
+# Bearbeitung
 
 Du hast die Möglichkeit, "TalkTree.xlsx" folgendermaßen zu bearbeiten:
 
@@ -78,7 +78,7 @@ Du hast die Möglichkeit, "TalkTree.xlsx" folgendermaßen zu bearbeiten:
 
 ---
 
-## Aussprach
+## Aussprach:
 
 1. **Einfach leer lassen:**  
    Das Programm wird den Text im Symbol vorlesen.
