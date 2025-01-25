@@ -6,7 +6,7 @@
 
 ---
 
-In der Datei **"Server-ID.txt"** wird deine Server-ID (die lokale IP-Adresse des Rechners) gespeichert, sobald dieser das erste Mal gestartet wird.
+In der Datei **"Server-ID.txt"** wird deine Server-ID (die lokale IP-Adresse des Rechners) gespeichert, sobald dieser gestartet wird.
 
 Um den Server zu starten, öffne **"TalkTree Editor"** und drücke **"Enter"**. Der Rand des Bildschirms sollte sich weiß färben, als Indikation, dass der Server online ist. Um den Server abzuschalten, erneut **"Enter"** drücken.
 
