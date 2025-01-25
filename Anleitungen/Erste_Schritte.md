@@ -57,7 +57,9 @@ Diese Datei ist das Herzstück der App und wird verwendet, um diese zu bearbeite
 
 Die Datei ist nur als Muster gedacht und kann beliebig bearbeitet werden. Alle Änderungen sollten nach dem Speichern der Excel-Datei sofort im TalkTree Editor sichtbar werden.
 
-Die erste Seite, die man beim Start der App sieht, ist die Tabelle mit dem Namen **"home"** (**Wichtig:** die App sucht nach einer Tabelle mit diesem Namen und es werden Fehler auftreten wenn diese nicht vorhanden ist).
+Die erste Seite, die man beim Start der App sieht, ist die Tabelle mit dem Namen **"home"**
+
+**Wichtig:** die App sucht nach einer Tabelle mit dem Namen "home" und es werden Fehler auftreten wenn diese nicht vorhanden ist.
 
 Auf dieser Seite solltest du ein 3 x 6-Raster sehen mit den folgenden Werten in der ersten Spalte: **Symbol, Aussprache, Untertitel, Farbe, Link.**
 
