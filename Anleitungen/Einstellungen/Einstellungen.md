@@ -10,11 +10,11 @@ Diese Datei wird verwendet, um grundlegende Einstellungen der App zu steuern. Be
 
 Hier steuert man die Zeilen und Spalten der App. Wenn man ein anderes Layout möchte, muss man die Datei "TalkTree.xlsx" dementsprechend anpassen.
 
-Wichtig hierbei ist zu beachten, dass in der Spalte **"A"** die "Bezeichnung" der Zeile erwartet wird (Symbol, Aussprache, Untertitel, Farbe, Link).
+Wichtig hierbei ist zu beachten, dass in der Spalte **"A"** die Bezeichnung der Zeile erwartet wird (Symbol, Aussprache, Untertitel, Farbe, Link).
 
 Diese Bezeichnungen müssen jedoch nicht zwingend vorhanden sein, und eine leere Spalte "A" erfüllt ebenfalls ihren Zweck.
 
-Die Umrandungen, die ich in der Beispiel "TalkTree.xlsx"-Datei hinzugefügt habe, sind nur Deko und dienen der visuellen Erleichterung, sind aber ebenfalls nicht zwingend erforderlich.
+Die schwarzen Umrandungen, die ich in der Beispiel "TalkTree.xlsx"-Datei hinzugefügt habe, sind nur Deko und dienen der visuellen Erleichterung, sind aber ebenfalls nicht zwingend erforderlich.
 
 ---
 
