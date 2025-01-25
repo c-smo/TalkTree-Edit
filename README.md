@@ -26,6 +26,8 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 
 ---
 
+**Endgeräte:**
+
 - ~~[App | Android](URL)~~ _to-do_
 
 - ~~[App | iOS](URL)~~ _to-do_
