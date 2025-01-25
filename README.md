@@ -8,7 +8,7 @@ Ein weiterer wichtiger Aspekt bei der Entwicklung war, die Bearbeitung so einfac
 
 Dieses Programm ist unter der [MIT](https://github.com/c-smo/TalkTree-Edit/blob/main/LICENSE.md) Lizenz veröffentlicht und daher kostenfrei erhältlich. Mein Ziel ist es jedem Menschen die Möglichkeit zu schaffen, ein ganz persönliches Bäumchen zu pflanzen 🌱
 
-Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Erste_Schritte.md) weiter.
+Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Erste_Schritte.md) weiter.
 
 ## Download:
 
@@ -36,20 +36,20 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 
 ## Einleitung:
 
-- [Erste Schritte](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Erste_Schritte.md)
+- [Erste Schritte](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Erste_Schritte.md)
 
 ---
 
 ## Weitere Anleitungen:
 
-- [/Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Audio/Audio.md)
-- [/Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Bilder/Bilder.md)
+- [/Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Audio/Audio.md)
+- [/Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Bilder/Bilder.md)
 - /Einstellungen
 
-  - [Einstellungen.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Einstellungen.md)
-  - [Farben.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md)
-  - [Server.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Server.md)
-  - [Speechgen.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Speechgen.md)
+  - [Einstellungen.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Einstellungen/Einstellungen.md)
+  - [Farben.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Einstellungen/Farben.md)
+  - [Server.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Einstellungen/Server.md)
+  - [Speechgen.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Einstellungen/Speechgen.md)
 
 ---
 
