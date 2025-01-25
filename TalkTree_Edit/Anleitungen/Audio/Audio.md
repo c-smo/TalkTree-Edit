@@ -3,7 +3,7 @@
 Das Standardverhalten der App ist, den Text in der Zeile "Aussprache" (bzw. "Symbol", wenn die Aussprache leer gelassen wird) mit der im Betriebssystem integrierten Stimme vorzulesen. Diese ist leider von überschaubarer Qualität, aber es gibt Alternativen. :)
 
 1. **Speechgen.io**:  
-   Hier handelt es sich um einen Anbieter, bei dem man Text in Sprache umwandeln lassen kann (TTS). Ich habe diese Seite gewählt, da sie einige, in meinen Augen, sehr gute Stimmen anbietet und die Preise in Ordnung sind. Man braucht kein Abo, sondern kann – wie bei einem Prepaid-Handy – Guthaben aufladen und dieses dann verwenden. Mehr zur Integration findest du [hier](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree-Edit/Anleitungen/Einstellungen/Speechgen.md).
+   Hier handelt es sich um einen Anbieter, bei dem man Text in Sprache umwandeln lassen kann (TTS). Ich habe diese Seite gewählt, da sie einige, in meinen Augen, sehr gute Stimmen anbietet und die Preise in Ordnung sind. Man braucht kein Abo, sondern kann – wie bei einem Prepaid-Handy – Guthaben aufladen und dieses dann verwenden. Mehr zur Integration findest du [hier](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Einstellungen/Speechgen.md).
 
 2. **Andere Anbieter**:  
    Es gibt unzählige alternative TTS-Anbieter, und es ist möglich, jede beliebige Audio-Datei in den Audio-Ordner zu legen und diese im Programm zu verwenden. Als Beispiel habe ich ein Open-Source-Sample von ein paar Instrumenten beigelegt. Akzeptiert werden aktuell alle Dateien im **.mp3**-Format.
