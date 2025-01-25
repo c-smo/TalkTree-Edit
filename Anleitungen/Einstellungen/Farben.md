@@ -19,17 +19,17 @@ Pink #cc39bd <- Neue Farbe
 
 Sie setzt sich folgendermaßen zusammen:
 
-- **[Name][Leerzeichen][HEX]**
-  **Name:**
+**[Name][Leerzeichen][HEX]**
 
+---
+
+**Name:**
 Der Name, den du zukünftig innerhalb von "TalkTree.xlsx" verwenden kannst.
 
 **Leerzeichen:**
-
 ähm ja, ein Leerzeichen :D
 
 **Hex:**
-
 Die Farbe als HEX-Code
 
 Um einen Hex-Code zu finden, verwende ich [Google Farbwähler](https://g.co/kgs/QjsPT6Y).
