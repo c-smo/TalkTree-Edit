@@ -30,9 +30,13 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 
 - ~~[App | iOS](URL)~~ _to-do_
 
+---
+
 ## Einleitung:
 
 - [Erste Schritte](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Erste_Schritte.md)
+
+---
 
 ## Weitere Anleitungen:
 
@@ -44,6 +48,8 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
   - [Farben.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md)
   - [Server.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Server.md)
   - [Speechgen.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Speechgen.md)
+
+---
 
 ## Kontakt
 
