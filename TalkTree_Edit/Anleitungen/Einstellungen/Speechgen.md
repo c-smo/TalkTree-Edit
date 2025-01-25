@@ -12,11 +12,11 @@ Als Referenz: Ich habe zu Beginn der Entwicklung einmalig 5€ aufgeladen und ha
 
 1. **Account erstellen und Guthaben aufladen**  
    Besuche [speechgen.io](https://speechgen.io/). Nachdem du deinen Account angelegt und ausreichend Guthaben hast, klicke **oben rechts** auf **"Profil"**.  
-   <img src="./profile.png" alt="profil" width="534" height="140">
+   <img src="./preview_profile.png" alt="profil" width="534" height="140">
 
 2. **API-Token abrufen:**  
    Wir benötigen den **"API-Token"**. Drücke auf das **"Auge"**, um diesen anzeigen zu lassen.  
-   <img src="./api_token.png" alt="token" width="635" height="229">
+   <img src="./preview_api_token.png" alt="token" width="635" height="229">
 
 3. **Stimme auswählen:**  
    Notiere dir den Namen der Stimme, die verwendet werden soll. Eine Auswahl an Stimmen findest du auf der Startseite.
