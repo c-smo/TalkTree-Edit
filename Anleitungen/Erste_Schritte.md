@@ -135,12 +135,14 @@ Du hast die Möglichkeit, "TalkTree.xlsx" folgendermaßen zu bearbeiten:
 
 **Beispiel:**
 
+<img src="./preview_add_button.png" alt="preview" width="859" height="734">
+
 ```
-Symbol:           🌱       <- Dargestellt wird 🌱
+Symbol:           🌳       <- Dargestellt wird 🌳
 Aussprache:       -        <- Kein TTS
 Untertitel:    TalkTree    <- Unter dem Symbol steht "TalkTree"
-Farbe:           Lila      <- Der Knopf ist Lila
-Link:          viel_spaß   <- und verlinkt auf die Tabelle "viel_spaß"
+Farbe:           Gelb      <- Der Knopf ist gelb
+Link:          TalkTree   <- und verlinkt auf die Tabelle "TalkTree"
 ```
 
 ---
