@@ -52,8 +52,8 @@ Standard-Seitenverhältnis für die meisten iPads (z. B. iPad, iPad Air, iPad Pr
 
 Hier hat man die Möglichkeit, die Eckenrundung der Knöpfe zu steuern.
 
-- **0.0** = Eckig
-- **1.0** = rund.
+- **0.0** = eckig
+- **1.0** = rund
 
 ---
 
