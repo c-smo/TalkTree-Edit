@@ -59,7 +59,7 @@ Die Datei ist nur als Muster gedacht und kann beliebig bearbeitet werden. Alle Ã
 
 Die erste Seite, die man beim Start der App sieht, ist die Tabelle mit dem Namen **"home"**
 
-**Wichtig:** die App sucht nach einer Tabelle mit dem Namen "home" und es werden Fehler auftreten wenn diese nicht vorhanden ist.
+**Wichtig:** Die App sucht nach einer Tabelle mit dem Namen "home" und es werden Fehler auftreten wenn diese nicht vorhanden ist.
 
 Auf dieser Seite solltest du ein 3 x 6-Raster sehen mit den folgenden Werten in der ersten Spalte: **Symbol, Aussprache, Untertitel, Farbe, Link.**
 
