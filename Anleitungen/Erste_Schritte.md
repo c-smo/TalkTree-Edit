@@ -28,7 +28,7 @@ Wähle ein beliebiges Verzeichnis und installiere das Programm.
 
 Nach der Installation solltest du eine Datei mit dem Namen **"TalkTree Editor"** in deinem gewählten Installationsverzeichnis finden.
 
-Beim Start sucht/erstellt das Programm die Projektstruktur auf deinem Desktop in einem Ordner mit dem Namen **TalkTree**.
+Beim Start sucht/erstellt das Programm die Projektstruktur auf deinem Desktop in einem Ordner mit dem Namen **"TalkTree"**.
 
 In diesem Ordner findest du Folgendes:
 
