@@ -35,7 +35,7 @@ Die Farbe als HEX-Code. Um einen Hex-Code zu finden, verwende ich [Google Farbw�
 
 ---
 
-## Beispiel 2:
+### Beispiel 2:
 
 Wir verändern die Standardfarbe der Knöpfe zu Pink:
 
