@@ -59,9 +59,13 @@ Die Datei ist nur als Muster gedacht und kann beliebig bearbeitet werden. Alle �
 
 Die erste Seite, die man beim Start der App sieht, ist die Tabelle mit dem Namen **"home"** (die App sucht nach einer Tabelle mit diesem Namen).
 
-Auf dieser Seite solltest du ein 3 x 6-Raster sehen mit den folgenden Werten in der ersten Spalte: **Symbol, Aussprache, Untertitel, Farbe, Link.** Du hast die Möglichkeit, diese folgendermaßen zu bearbeiten:
+Auf dieser Seite solltest du ein 3 x 6-Raster sehen mit den folgenden Werten in der ersten Spalte: **Symbol, Aussprache, Untertitel, Farbe, Link.**
 
 ---
+
+# Bearbeitung:
+
+Du hast die Möglichkeit, "TalkTree.xlsx" folgendermaßen zu bearbeiten:
 
 ## Symbol:
 
