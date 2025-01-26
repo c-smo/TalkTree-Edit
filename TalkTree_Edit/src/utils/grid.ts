@@ -17,10 +17,10 @@ export function create_grid() {
 
   const fn = (a: number, b: number) => (a - 2 * margin - (b - 1 * gap)) / b;
 
-  const cellWidth = fn(window.innerWidth, cols);
-  const cellHeight = fn(window.innerHeight, rows);
+  const cell_width = fn(window.innerWidth, cols);
+  const cell_height = fn(window.innerHeight, rows);
 
-  Object.assign(GRID, { rows, cols, margin, gap, cellWidth, cellHeight });
+  Object.assign(GRID, { rows, cols, margin, gap, cell_width, cell_height });
 
   setBorderRadius(SETTINGS.radius * 50);
 

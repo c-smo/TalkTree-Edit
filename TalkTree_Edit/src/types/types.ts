@@ -1,8 +1,8 @@
 export type Grid = {
   rows: number;
   cols: number;
-  cellWidth: number;
-  cellHeight: number;
+  cell_width: number;
+  cell_height: number;
   margin: number;
 };
 
