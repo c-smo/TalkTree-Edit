@@ -32,14 +32,14 @@ In diesem Ordner findest du Folgendes:
 
 ### Überblick:
 
-- [/Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Audio/Audio.md)
-- [/Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Bilder/Bilder.md)
+- [/Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Audio/Audio.md)
+- [/Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Bilder/Bilder.md)
 - /Einstellungen
 
-  - [Einstellungen.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Einstellungen.md)
-  - [Farben.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md)
-  - [Server.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Server.md)
-  - [Speechgen.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Speechgen.md)
+  - [Einstellungen.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Einstellungen/Einstellungen.md)
+  - [Farben.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Einstellungen/Farben.md)
+  - [Server.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Einstellungen/Server.md)
+  - [Speechgen.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Einstellungen/Speechgen.md)
 
 - **_TalkTree.xlsx_**
 
