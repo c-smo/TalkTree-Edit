@@ -1,6 +1,6 @@
 import { export_audio } from "../../../_frontend_/export/export_audio";
 import { set_border_highlight } from "../../../_frontend_/ui/border_highlight";
-import { NEW_WORDS, globals_clear_new_words } from "../../../globals";
+import { NEW_WORDS, SET_NEW_WORDS } from "../../../globals";
 import { SqlWrapper } from "../../../types/types";
 import sql_get_key from "../../sql/sql_get_key";
 import { sql_upsert_uint8array } from "../../sql/sql_upsert_unit8array";
@@ -9,8 +9,8 @@ import API from "../__api_main__";
 import speechgen_download from "./speechgen_download";
 
 const speechgen_fetch = async (): Promise<void> => {
-  API.Q.push(...NEW_WORDS);
-  globals_clear_new_words();
+  API.Q.push(...NEW_WORDS());
+  SET_NEW_WORDS([]);
 
   if (API.has_task) return;
   API.has_task = true;

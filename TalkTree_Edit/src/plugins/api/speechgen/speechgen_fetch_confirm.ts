@@ -8,15 +8,15 @@ import speechgen_valid_data from "./speechgen_valid_data";
 const speechgen_fetch_confirm = async () => {
   if (!speechgen_valid_data()) return;
 
-  if (NEW_WORDS.length > API.confirmation_threshold) {
+  if (NEW_WORDS().length > API.confirmation_threshold) {
     const dict = dictionary.api_speechgen.prompt.confirmation;
     const title = dict.title;
-    const text = dict.text.replace(/\$/, `${NEW_WORDS.length}`);
+    const text = dict.text.replace(/\$/, `${NEW_WORDS().length}`);
     const confirmation = await confirm(text, { title });
     if (confirmation) {
       speechgen_fetch();
     }
-  } else if (NEW_WORDS.length) {
+  } else if (NEW_WORDS().length) {
     speechgen_fetch();
   }
 };

@@ -7,7 +7,7 @@ import { msgpackr_decode_tts_button } from "../../utils/msgpackr";
 
 const frontend_update = async () => {
   try {
-    const key = sql_get_key(CURRENT_SHEET);
+    const key = sql_get_key(CURRENT_SHEET());
     const uint8array = (await sql_read_uint8array(
       "buttons",
       key,

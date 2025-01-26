@@ -18,10 +18,7 @@ const server_init = async () => {
   } else {
     try {
       const local_ip = await start_server();
-      if (!local_ip) {
-        //TODO
-        return;
-      }
+      if (!local_ip) return;
       SETTINGS.server_ip = local_ip;
       await print_server();
       await update_greeting();
@@ -32,8 +29,8 @@ const server_init = async () => {
         softness: 12,
       });
       SET_SERVER_RUNNING(true);
-    } catch (error) {
-      err(error);
+    } catch (e) {
+      err(e);
       return;
     }
   }
@@ -44,8 +41,8 @@ const start_server = async (): Promise<string> => {
     await invoke("start_server");
     const local_ip = await invoke("get_device_ip");
     return `${local_ip}`;
-  } catch (error) {
-    err(error);
+  } catch (e) {
+    err(e);
     return "";
   }
 };
@@ -58,8 +55,8 @@ const connect_handler = async (local_ip: string): Promise<void> => {
         server_handle_request(msg.data, socket);
       }
     });
-  } catch (error) {
-    err(error);
+  } catch (e) {
+    err(e);
   }
 };
 
@@ -68,8 +65,8 @@ const update_greeting = async (): Promise<void> => {
     const newGlobalString = `greet|${msgpackr_encode_settings(SETTINGS)}`;
     await invoke("set_global_string", { newGlobalString });
     log(`new greeting: ${newGlobalString}`);
-  } catch (error) {
-    err(error);
+  } catch (e) {
+    err(e);
   }
 };
 

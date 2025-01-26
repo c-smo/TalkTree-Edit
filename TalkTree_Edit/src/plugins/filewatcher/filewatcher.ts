@@ -22,7 +22,7 @@ const FILE_WATCHER = {
       if (!stat_result.mtime) continue;
       last_modified_time[path] = stat_result.mtime.getTime();
     }
-
+    //@ts-ignore
     FILE_WATCHER.current_intervall = setInterval(async () => {
       if (!API.Q.length) {
         for (const path of FILE_WATCHER.target_paths) {

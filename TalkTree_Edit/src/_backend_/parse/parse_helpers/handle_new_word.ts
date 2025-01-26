@@ -1,4 +1,9 @@
-import { ALL_WORDS, NEW_WORDS, SET_ALL_WORDS } from "../../../globals";
+import {
+  ALL_WORDS,
+  NEW_WORDS,
+  SET_ALL_WORDS,
+  SET_NEW_WORDS,
+} from "../../../globals";
 import sql_get_key from "../../../plugins/sql/sql_get_key";
 import sql_read_uint8array from "../../../plugins/sql/sql_read_unit8array";
 import { sql_upsert_uint8array } from "../../../plugins/sql/sql_upsert_unit8array";
@@ -16,7 +21,7 @@ const handle_new_word = async (new_word: string): Promise<void> => {
   if (!buffer_exists) {
     const file = await fs_read_file_without_extension(new_word, ROOT.dir.audio);
     if (!file || !file.binary) {
-      NEW_WORDS.push(new_word);
+      SET_NEW_WORDS([...NEW_WORDS(), new_word]);
     } else {
       await sql_upsert_uint8array({
         table_name: "audio",

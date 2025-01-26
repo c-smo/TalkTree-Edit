@@ -63,7 +63,6 @@ const handle_api = async () => {
 };
 
 const refresh_buttons = async () => {
-  //console.log("🔄 refreshing...");
   const wrapped_xlsx = await process_xlsx();
   await sql_upsert_wrapper_array(wrapped_xlsx);
   await frontend_update();
