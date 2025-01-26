@@ -2,7 +2,7 @@
 
 - Als **"Server"** bezeichne ich den Rechner, auf dem du "TalkTree Editor" installiert hast.
 
-- Der **"Client"** ist das gewählte Endgerät (die App dazu kommt bald).
+- Der **"Client"** ist das gewählte [Endgerät](https://github.com/c-smo/TalkTree-App).
 
 ---
 
@@ -14,4 +14,4 @@ Um den Server abzuschalten, erneut **"Enter"** drücken.
 
 Der Server stellt die Dateien, die der Client benötigt, um ein Update durchzuführen, in deinem lokalen Netzwerk zur Verfügung.
 
-Nähere Informationen zum Thema Updates folgen bald.
+Nähere Informationen zum Thema Updates findest du [hier](https://github.com/c-smo/TalkTree-App/blob/main/TalkTree_App/Anleitungen/updates.md).
