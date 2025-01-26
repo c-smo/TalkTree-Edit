@@ -74,7 +74,7 @@ Du hast die Möglichkeit, "TalkTree.xlsx" folgendermaßen zu bearbeiten:
    Jede Art von Text ist möglich. Das Programm versucht, die Schriftgröße dynamisch anzupassen, damit diese in den Knopf passt. Dennoch würde ich abraten, allzu lange Wörter zu verwenden – "Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz" ist vielleicht nicht ideal. :D
 
 3. **Bilddatei:**  
-   Genauere Infos findest du [hier](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree-Edit/Anleitungen/Bilder/Bilder.md).
+   Genauere Infos findest du [hier](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Bilder/Bilder.md).
 
 ---
 
@@ -90,7 +90,7 @@ Du hast die Möglichkeit, "TalkTree.xlsx" folgendermaßen zu bearbeiten:
    Das Programm wird nichts vorlesen.
 
 4. **Audiodatei:**  
-   Genauere Infos findest du [hier](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree-Edit//Anleitungen/Audio/Audio.md).
+   Genauere Infos findest du [hier](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Audio/Audio.md).
 
 ---
 
@@ -108,13 +108,13 @@ Du hast die Möglichkeit, "TalkTree.xlsx" folgendermaßen zu bearbeiten:
 
 1. **Einfach leer lassen:**
 
-   Das Programm verwendet die [Standardfarbe](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree-Edit/Anleitungen/Einstellungen/Farben.md), diese kann beliebig angepasst werden.
+   Das Programm verwendet die [Standardfarbe](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Einstellungen/Farben.md), diese kann beliebig angepasst werden.
 
 2. **Eine Farbe per Name wählen:**
 
    Siehe Tabelle mit dem Namen "Farben" für Beispiele.
 
-3. **Es ist auch möglich, eigene [Farben](https://github.com/c-smo/TalkTree-Edit/blob/main/Anleitungen/Einstellungen/Farben.md) zu verwenden.**
+3. **Es ist auch möglich, eigene [Farben](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Einstellungen/Farben.md) zu verwenden.**
 
 ---
 
