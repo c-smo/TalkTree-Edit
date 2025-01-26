@@ -28,9 +28,8 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 
 **Endgeräte:**
 
-[TalkTree App](https://github.com/c-smo/TalkTree-App)
-
 - [ TalkTree App | Android](https://github.com/c-smo/TalkTree-App/releases/download/v0.1.0/TalkTree.App_v0.1.0_android.apk)
+
 - ~~[App | iOS](URL)~~ _to-do_
 
 ---
