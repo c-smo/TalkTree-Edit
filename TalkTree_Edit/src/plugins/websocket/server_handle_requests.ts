@@ -1,7 +1,8 @@
 import WebSocket from "@tauri-apps/plugin-websocket";
-import { sql_get_info_of_table } from "../sql/sql_get_info_of_table";
+import { ALL_WORDS, DB } from "../../globals";
+import sql_get_key from "../sql/sql_get_key";
 import sql_read_uint8array from "../sql/sql_read_unit8array";
-import { err, log } from "../terminal/commands/logs";
+import { err } from "../terminal/commands/logs";
 
 const server_handle_request = async (
   message_data: string,
@@ -10,35 +11,66 @@ const server_handle_request = async (
   const argv = message_data.split("|");
   const head = argv[0].toLowerCase();
   const body = argv[1];
-  if (head === "request_info") {
-    handle_request_info(body, socket);
-  } else if (head === "request_update") {
-    handle_request_update(body, socket);
+  try {
+    switch (head) {
+      case "request_info":
+        body === "audo"
+          ? void handle_audio(body, socket)
+          : void handle_buttons(body, socket);
+        break;
+      case "request_update":
+        void handle_update(body, socket);
+        break;
+    }
+  } catch (e) {
+    err(e);
   }
 };
 
-const handle_request_info = async (body: string, socket: WebSocket) => {
+const handle_audio = async (
+  table_name: string,
+  socket: WebSocket,
+): Promise<void> => {
   try {
-    const response = await sql_get_info_of_table(body);
+    const all_keys = ALL_WORDS()
+      .map((word) => sql_get_key(word))
+      .filter(async (key) => {
+        const exists = await sql_read_uint8array(table_name, key);
+        if (exists != null) console.log("sending", key);
+        return exists !== null;
+      })
+      .join(",");
+    const response = `${table_name},${all_keys}`;
     await socket.send(`sql_info|${response}`);
-  } catch (error) {
-    err(error);
+  } catch (e) {
+    err(e);
   }
 };
 
-const handle_request_update = async (body: string, socket: WebSocket) => {
-  try {
-    const key = body.split("@")[0];
-    const table_name = body.split("@")[1];
+const handle_buttons = async (
+  table_name: string,
+  socket: WebSocket,
+): Promise<void> => {
+  const all_keys = (await DB.select<any[]>(`SELECT * FROM ${table_name}`))
+    .map((row) => `${row.key}`)
+    .join(",");
+  const response = `${table_name},${all_keys}`;
+  await socket.send(`sql_info|${response}`);
+};
 
-    const uint8array = (await sql_read_uint8array(
-      table_name,
-      key,
-    )) as Uint8Array;
+const handle_update = async (
+  body: string,
+  socket: WebSocket,
+): Promise<void> => {
+  const request_data = body.split("@");
+  try {
+    const key = `${request_data.shift()}`;
+    const table_name = `${request_data.shift()}`;
+    const uint8array = await sql_read_uint8array(table_name, key);
+    if (uint8array === null) return;
     await socket.send(`sql_update|${table_name},${key},${uint8array}`);
-    log(`send:${key}@${table_name} ${String(uint8array).slice(0, 5)}`);
-  } catch (error) {
-    err(error);
+  } catch (e) {
+    err(e);
   }
 };
 

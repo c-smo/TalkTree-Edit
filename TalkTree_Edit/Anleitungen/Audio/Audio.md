@@ -8,6 +8,8 @@ Das Standardverhalten der App ist, den Text in der Zeile "Aussprache" (bzw. "Sym
 2. **Andere Anbieter**:  
    Es gibt unzählige alternative TTS-Anbieter, und es ist möglich, jede beliebige Audio-Datei in den Audio-Ordner zu legen und diese im Programm zu verwenden. Als Beispiel habe ich ein Open-Source-Sample von ein paar Instrumenten beigelegt. Akzeptiert werden aktuell alle Dateien im **.mp3**-Format.
 
+   Eine Auflistung der neuen Wörter findest du in der Datei [Neu.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Audio/Neu.md). Diese befindet sich im Audio-Ordner und wird bei jedem Start neu generiert.
+
 Um eine Audio-Datei mit der App zu verknüpfen, muss diese bloß denselben Namen haben wie die Zeile "Aussprache". Alternativ wie die Zeile "Symbol", wenn man die "Aussprache" leer lässt.
 
 ---

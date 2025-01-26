@@ -13,15 +13,7 @@ const print_api = async (): Promise<void> => {
     output.push(`${keys[i]}: ${values[i]}`);
   }
 
-  try {
-    await writeTextFile(ROOT.file.api, output.join("\n"));
-  } catch (error) {
-    err("🔥🖨️🔥");
-  }
-};
-
-export const swap_bool_for_string = (b: boolean) => {
-  return b === true ? dict.misc.boolean_true : dict.misc.boolean_false;
+  await writeTextFile(ROOT.file.api, output.join("\n")).catch((e) => err(e));
 };
 
 export default print_api;

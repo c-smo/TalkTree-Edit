@@ -12,11 +12,7 @@ const print_colors = async (): Promise<void> => {
   output.push("");
   append(dict.colors, COLORS, output);
 
-  try {
-    await writeTextFile(ROOT.file.color, output.join("\n"));
-  } catch (error) {
-    err("🔥🖨️🔥");
-  }
+  await writeTextFile(ROOT.file.color, output.join("\n")).catch((e) => err(e));
 };
 
 const append = (dict: any, parent: any, output: string[]) => {

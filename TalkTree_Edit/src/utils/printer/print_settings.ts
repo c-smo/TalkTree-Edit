@@ -17,11 +17,7 @@ const print_settings = async (): Promise<void> => {
     }
   }
 
-  try {
-    await writeTextFile(ROOT.file.conf, output.join("\n"));
-  } catch (error) {
-    err("🔥🖨️🔥");
-  }
+  await writeTextFile(ROOT.file.conf, output.join("\n")).catch((e) => err(e));
 };
 
 const swap_bool_for_string = (b: boolean) => {
