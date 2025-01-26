@@ -5,16 +5,10 @@ import { Settings, TTSButton } from "./types/types";
 
 export const TABLE_NAMES = ["buttons", "images", "audio", "settings"] as const;
 
-//TODO
-export let CURRENT_SHEET = "home";
+export const [CURRENT_SHEET, SET_CURRENT_SHEET] = createSignal("home");
 
-export const set_current_sheet = (link: string) => {
-  CURRENT_SHEET = link;
-};
+export const [NEW_WORDS, SET_NEW_WORDS] = createSignal([] as string[]);
 
-/**
- * used to send audio to client, in case db holds more words than needed
- */
 export const [ALL_WORDS, SET_ALL_WORDS] = createSignal([] as string[]);
 
 export const [IS_INIT, SET_IS_INIT] = createSignal(false);
@@ -45,14 +39,6 @@ export const globals_init_settings = async (
   wrapper: SettingsWrapper,
 ): Promise<void> => {
   Object.assign(SETTINGS, { ...wrapper });
-};
-
-export const NEW_WORDS: string[] = [];
-
-export const globals_clear_new_words = () => {
-  while (NEW_WORDS.length) {
-    NEW_WORDS.shift();
-  }
 };
 
 export const globals_init_db = async (): Promise<void> => {

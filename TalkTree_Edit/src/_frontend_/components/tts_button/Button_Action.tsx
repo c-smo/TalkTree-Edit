@@ -1,4 +1,4 @@
-import { CURRENT_PROPS, set_current_sheet } from "../../../globals";
+import { CURRENT_PROPS, SET_CURRENT_SHEET } from "../../../globals";
 import { err } from "../../../plugins/terminal/commands/logs";
 import { TTSButton } from "../../../types/types";
 import { sleep } from "../../../utils/helpers";
@@ -25,6 +25,6 @@ export const trigger_action = async (index: number) => {
   } catch (error) {
     err(error);
   }
-  set_current_sheet(tts_button.link);
+  SET_CURRENT_SHEET(tts_button.link);
   frontend_update();
 };

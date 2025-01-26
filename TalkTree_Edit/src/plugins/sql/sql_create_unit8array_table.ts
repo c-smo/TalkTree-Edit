@@ -1,5 +1,5 @@
 import { DB } from "../../globals";
-import { err, log } from "../terminal/commands/logs";
+import { err } from "../terminal/commands/logs";
 
 export const sql_create_uint8array_table = async (
   table_name: string,
@@ -12,7 +12,6 @@ export const sql_create_uint8array_table = async (
 
     if (table_exists_result.length === 0 || refresh) {
       if (table_exists_result.length !== 0 && refresh) {
-        log("🔥 Burning old Table 🔥");
         await DB.execute(`DROP TABLE ${table_name}`);
       }
       await DB.execute(

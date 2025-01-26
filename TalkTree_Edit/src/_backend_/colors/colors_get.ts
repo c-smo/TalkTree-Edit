@@ -9,7 +9,7 @@ const colors_get = (color_name: string, link: string): string => {
 };
 
 const should_darken = (link: string) => {
-  return link != "empty_cell" && link != "-" && link != CURRENT_SHEET;
+  return link != "empty_cell" && link != "-" && link != CURRENT_SHEET();
 };
 
 function darken_hex(hex: string, amount: number = 0.3): string {
