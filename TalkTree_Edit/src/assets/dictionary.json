@@ -7,8 +7,12 @@
       "desktop": "Desktop"
     },
     "files": {
+      "api_speechgen": "Speechgen.txt",
+      "colors": "Farben.txt",
+      "settings": "Einstellungen.txt",
       "xlsx": "TalkTree.xlsx",
-      "server_id": "Server-ID"
+      "server_id": "Server-ID.txt",
+      "new_words": "Neu.txt"
     }
   },
   "settings": {

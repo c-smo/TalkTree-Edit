@@ -5,11 +5,17 @@ import { Settings, TTSButton } from "./types/types";
 
 export const TABLE_NAMES = ["buttons", "images", "audio", "settings"] as const;
 
+//TODO
 export let CURRENT_SHEET = "home";
 
 export const set_current_sheet = (link: string) => {
   CURRENT_SHEET = link;
 };
+
+/**
+ * used to send audio to client, in case db holds more words than needed
+ */
+export const [ALL_WORDS, SET_ALL_WORDS] = createSignal([] as string[]);
 
 export const [IS_INIT, SET_IS_INIT] = createSignal(false);
 

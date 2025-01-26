@@ -3,7 +3,7 @@ import sql_read_uint8array from "../../../plugins/sql/sql_read_unit8array";
 import { err } from "../../../plugins/terminal/commands/logs";
 import { TTSButton } from "../../../types/types";
 import { uint8array_to_base64 } from "../../../utils/helpers";
-import handle_new_word from "./add_new_word";
+import handle_new_word from "./handle_new_word";
 
 export const finalize_button = async (tts_button: TTSButton): Promise<void> => {
   finalize_tts(tts_button);

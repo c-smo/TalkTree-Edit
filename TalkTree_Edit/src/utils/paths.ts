@@ -16,17 +16,18 @@ export type Root = {
     api: string;
     db: string;
     server: string;
+    new_words: string;
   };
 };
 export const ROOT: Root = {} as Root;
 
 export async function paths_init(): Promise<void> {
-  const d = dict.paths;
-
   const desktop = await desktopDir();
   const baseDir = await join(desktop, "TalkTree");
 
-  const paths = {
+  const d = dict.paths;
+
+  const paths: Root = {
     dir: {
       base: baseDir,
       desktop: desktop,
@@ -35,18 +36,15 @@ export async function paths_init(): Promise<void> {
       images: await join(baseDir, d.dirs.images),
     },
     file: {
-      xlsx: await join(baseDir, d.files.xlsx),
-      conf: await join(baseDir, d.dirs.conf, `${dict.settings.title}.txt`),
-      color: await join(baseDir, d.dirs.conf, `${dict.colors.title}.txt`),
-      api: await join(baseDir, d.dirs.conf, `${dict.api_speechgen.title}.txt`),
       db: await join(baseDir, `talktree.db`),
-      server: await join(
-        baseDir,
-        d.dirs.conf,
-        `${dict.paths.files.server_id}.txt`,
-      ),
+      xlsx: await join(baseDir, d.files.xlsx),
+      conf: await join(baseDir, d.dirs.conf, `${d.files.settings}`),
+      color: await join(baseDir, d.dirs.conf, `${d.files.colors}`),
+      api: await join(baseDir, d.dirs.conf, `${d.files.api_speechgen}`),
+      server: await join(baseDir, d.dirs.conf, `${d.files.server_id}`),
+      new_words: await join(baseDir, d.dirs.audio, `${d.files.new_words}`),
     },
-  } as Root;
+  };
 
   Object.assign(ROOT, paths);
 }
