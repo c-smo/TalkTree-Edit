@@ -9,7 +9,7 @@
     "build": "vite build",
     "serve": "vite preview",
     "tauri": "tauri",
-    "okletsgo": "node ./.dev/build.js"
+    "my:build": "node ./.dev/build.js"
   },
   "license": "MIT",
   "dependencies": {
