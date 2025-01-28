@@ -26,6 +26,8 @@ Bitte stelle sicher, dass sich beide Programme (App und Editor) auf der gleichen
 
 **MacOS:**
 
+# 28.1. Die mac Versionen starten auf manchen Systemen nicht. Hab es leider erst jetzt gemerkt aber ich schau es mir morgen an :)
+
 - [TalkTree Editor v0.2.0 | arm](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_v0.2.0_aarch64.dmg)
 
 - [TalkTree Editor v0.2.0 | intel](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_v0.2.0_x86_64.dmg)
