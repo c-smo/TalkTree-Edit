@@ -1,9 +1,9 @@
 import WebSocket from "@tauri-apps/plugin-websocket";
-import { set_border_highlight } from "../../_frontend_/ui/border_highlight";
 import { ALL_WORDS, DB, SET_TOTAL_UPDATES, TOTAL_UPDATES } from "../../globals";
 import sql_get_key from "../sql/sql_get_key";
 import sql_read_uint8array from "../sql/sql_read_unit8array";
 import { err } from "../terminal/commands/logs";
+import { stop_server } from "./_server_init_";
 
 const server_handle_request = async (
   message_data: string,
@@ -16,20 +16,22 @@ const server_handle_request = async (
   try {
     switch (head) {
       case "request_info":
-        SET_TOTAL_UPDATES(TOTAL_UPDATES() + 1);
-
-        const response =
-          body === "audio" ? await handle_audio() : await handle_buttons();
-
-        await socket.send(`sql_info|audio,${response.join(",")}`);
+        if (body === "audio") {
+          const response = await handle_audio();
+          await socket.send(`sql_info|audio,${response.join(",")}`);
+        } else if (body === "buttons") {
+          const response = await handle_buttons();
+          await socket.send(`sql_info|buttons,${response.join(",")}`);
+        } else if (body === "total") {
+          const response = await handle_total();
+          await socket.send(`sql_total|${response}`);
+        }
         return;
       case "request_update":
         await handle_update(body, socket);
         return;
-      case "request_total":
-        await handle_total(socket);
-        return;
       case "request_fin":
+        await stop_server();
         return;
     }
   } catch (e) {
@@ -67,11 +69,11 @@ const handle_buttons = async (): Promise<string[]> => {
   }
 };
 
-const handle_total = async (socket: WebSocket): Promise<void> => {
+const handle_total = async (): Promise<number> => {
   const audio_update_length = await handle_audio();
   const buttons_update_length = await handle_buttons();
   const total = audio_update_length.length + buttons_update_length.length;
-  await socket.send(`sql_total|${total}`);
+  return total;
 };
 
 const handle_update = async (
@@ -79,7 +81,6 @@ const handle_update = async (
   socket: WebSocket,
 ): Promise<void> => {
   const request_data = body.split("@");
-  set_border_highlight({ visible: true, color: "#b1fac5" });
   SET_TOTAL_UPDATES(TOTAL_UPDATES() - 1);
 
   try {

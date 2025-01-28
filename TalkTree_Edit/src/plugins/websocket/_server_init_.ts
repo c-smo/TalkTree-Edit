@@ -20,6 +20,7 @@ const server_init = async () => {
     stop_server();
   } else {
     try {
+      SET_TOTAL_UPDATES(0);
       const local_ip = await start_server();
       if (!local_ip) return;
       SETTINGS.server_ip = local_ip;
@@ -41,7 +42,6 @@ const server_init = async () => {
 
 const start_server = async (): Promise<string> => {
   try {
-    SET_TOTAL_UPDATES(0);
     await invoke("start_server");
     const local_ip = await invoke("get_device_ip");
     return `${local_ip}`;

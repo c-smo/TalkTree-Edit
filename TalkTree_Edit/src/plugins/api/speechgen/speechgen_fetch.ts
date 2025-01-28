@@ -14,7 +14,7 @@ const speechgen_fetch = async (): Promise<void> => {
 
   if (API.has_task) return;
   API.has_task = true;
-  set_border_highlight();
+  set_border_highlight({ visible: true });
   fetch();
 };
 
