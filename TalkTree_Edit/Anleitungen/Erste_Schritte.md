@@ -8,15 +8,15 @@ Vielen Dank, dass du TalkTree ausprobierst und damit einen wichtigen Beitrag daz
 
 ### Windows
 
-- [TalkTree Editor | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_0.2.0_x64-setup.exe)
+- [TalkTree Editor v0.2.0 | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_0.2.0_x64-setup.exe)
 
 ---
 
 ### MacOS
 
-- [TalkTree Editor | arm](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_v0.2.0_aarch64.dmg)
+- [TalkTree Editor v0.2.0 | arm](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_v0.2.0_aarch64.dmg)
 
-- [TalkTree Editor | intel](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_v0.2.0_x86_64.dmg)
+- [TalkTree Editor v0.2.0 | intel](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_v0.2.0_x86_64.dmg)
 
 ---
 
