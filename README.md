@@ -20,6 +20,8 @@ Bitte stelle sicher, dass sich beide Programme (App und Editor) auf der gleichen
 
 **Windows:**
 
+### 28.1 Auf manchen Windows-Systemen sehen die Emojis furchtbar aus. Ich werde mir etwas anderes einfallen lassen damit man nicht gleich in Schockstarre verfällt wenn man die App das erste mal öffnet :D
+
 - [TalkTree Editor v0.2.0 | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_0.2.0_x64-setup.exe)
 
 ---
