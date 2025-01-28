@@ -5,6 +5,8 @@ import { Settings, TTSButton } from "./types/types";
 
 export const TABLE_NAMES = ["buttons", "images", "audio", "settings"] as const;
 
+export const [TOTAL_UPDATES, SET_TOTAL_UPDATES] = createSignal(0);
+
 export const [CURRENT_SHEET, SET_CURRENT_SHEET] = createSignal("home");
 
 export const [NEW_WORDS, SET_NEW_WORDS] = createSignal([] as string[]);

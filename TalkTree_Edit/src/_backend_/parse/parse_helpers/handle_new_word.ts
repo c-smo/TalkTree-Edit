@@ -13,7 +13,7 @@ import { fs_read_file_without_extension } from "../../fs/fs_read_file";
 
 const handle_new_word = async (new_word: string): Promise<void> => {
   if (new_word === "-" || new_word === "empty_cell") return;
-  SET_ALL_WORDS([...ALL_WORDS()]);
+  SET_ALL_WORDS([...ALL_WORDS(), new_word]);
 
   const key = sql_get_key(new_word);
   const buffer_exists = await sql_read_uint8array("audio", key);
