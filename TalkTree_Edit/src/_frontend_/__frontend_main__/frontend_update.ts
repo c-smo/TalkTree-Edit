@@ -19,7 +19,6 @@ const frontend_update = async () => {
         buffer_array[button.button_index] = button;
       });
     }
-    console.log(buffer_array);
     SET_CURRENT_PROPS([...buffer_array]);
   } catch (error) {
     err(error);
