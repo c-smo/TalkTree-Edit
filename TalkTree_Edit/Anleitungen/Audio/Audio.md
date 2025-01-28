@@ -52,4 +52,4 @@ Farbe:
 Link:        Farben
 ```
 
-Dieser Knopf sucht nach **keiner** Datei, da die Aussprache abgestellt ist.
+Dieser Knopf sucht nach **keiner** Datei, da die Aussprache deaktiviert ist.
