@@ -1,24 +1,22 @@
 # Bilder
 
-Das Standardverhalten der App ist es, nach einer Bild-Datei im Bilder-Ordner zu suchen. Wenn es eine Bild-Datei gibt, die den gleichen Namen wie die Spalte "Symbol" trägt, wird der angezeigte Text, von der Bild-Datei überschrieben.
+Ein Knopf kann beliebige Bild-Dateien in den Formaten **png**, **jpg** und **jpeg** anzeigen. Dazu muss die Datei bloß denselben Namen wie die Zeile „Symbol“ tragen und im Bilder-Ordner abgelegt werden.
 
-Wenn keine Bild-Datei gefunden wird, wird das Symbol als regulärer Text angezeigt.
+Ich empfehle **.png**, da hier ein transparenter Hintergrund möglich ist. Zur Bildbearbeitung verwende ich meistens [Photopea](https://www.photopea.com/).
 
-Aktuell akzeptierte Formate sind **.png**, **.jpg** und **.jpeg**.
-
-Ich würde **.png** empfehlen, da hier ein transparenter Hintergrund möglich ist. Zur Bildbearbeitung verwende ich [photopea](https://www.photopea.com/), aber natürlich geht jede alternative Bildbearbeitungs-Software genauso gut :)
+Wird keine passende Bilddatei im Bilder-Ordner gefunden, erscheint der Text aus der Spalte "Symbol" als reguläre Schrift auf dem Knopf.
 
    <img src="./preview_images.png" alt="images" width="403" height="734">
 
 ## Bevorzugte Bildformate:
 
 **Knopf ohne Untertitel:**  
-Breite: 400  
-Höhe: 400
+Breite: 400px
+Höhe: 400px
 
 **Knopf mit Untertitel:**  
-Breite: 400  
-Höhe: 300
+Breite: 400px  
+Höhe: 300px
 
 Die Dimensionen sollten aber, abgesehen vom verwendeten Speicherplatz und der Qualität, ansonsten keinen Einfluss haben, da das Programm die Bilder auf die benötigte Größe skaliert.
 
@@ -34,7 +32,7 @@ Farbe:
 Link:
 ```
 
-Dieser Knopf zeigt die Datei **Oma.png**, da diese im Bilder-Ordner als Beispiel bereits vorhanden ist.
+Dieser Knopf zeigt das Bild **Oma.png**, da diese Datei im Bilder-Ordner als Beispiel bereits vorhanden ist.
 
 ---
 
@@ -55,11 +53,11 @@ Dieser Knopf zeigt 👋, da es keine Datei mit dem Namen **👋.png** im Bilder-
 **Beispiel 3:**
 
 ```
-Symbol:         Ich
-Aussprache:
+Symbol:          Wo?
+Aussprache:    Wo ist
 Untertitel:
 Farbe:
-Link:
+Link:          Namen
 ```
 
-Dieser Knopf würde den Text **"Ich"** darstellen. Die Größe der Schrift wird dynamisch angepasst.
+Dieser Knopf würde den Text **"Wo?"** als reguläre Schrift anzeigen. Die Schriftgröße wird dynamisch angepasst.

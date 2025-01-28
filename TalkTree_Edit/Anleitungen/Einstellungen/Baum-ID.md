@@ -12,6 +12,6 @@ Um den Server zu starten, öffne **"TalkTree Editor"** und drücke **"Enter"**. 
 
 Um den Server manuell abzuschalten, erneut **"Enter"** drücken.
 
-Der Server stellt die Dateien, die der Client benötigt, um ein [Update](https://github.com/c-smo/TalkTree-App/blob/main/TalkTree_App/Anleitungen/updates.md) durchzuführen, in deinem **lokalen** Netzwerk zur Verfügung.
+Der Server stellt alle Daten, die der Client benötigt, um ein [Update](https://github.com/c-smo/TalkTree-App/blob/main/TalkTree_App/Anleitungen/updates.md) durchzuführen, in deinem **lokalen** Netzwerk zur Verfügung.
 
 Sobald ein [Update](https://github.com/c-smo/TalkTree-App/blob/main/TalkTree_App/Anleitungen/updates.md) erfolgreich durchgeführt wurde, schaltet sich der Server automatisch ab und die weiße Färbung am Bildschirmrand verschwindet.

@@ -2,7 +2,7 @@
 
 Diese Datei wird verwendet, um die [speechgen.io](https://speechgen.io/) API in den Arbeitsablauf zu integrieren. Dadurch werden die benötigten Audiodateien automatisch im Hintergrund heruntergeladen und im [Audio-Ordner](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Audio/Audio.md) gespeichert.
 
-Um dieses Feature zu verwenden, benötigst du einen Account auf Speechgen.io und solltest vermutlich ein wenig Guthaben aufladen. Es gibt zwar ein gratis "Probier-Kontingent", aber dieses ist sehr schnell erschöpft.
+Hierfür benötigst du einen Account auf Speechgen.io und solltest vermutlich ein wenig Guthaben aufladen. Es gibt zwar ein gratis "Probier-Kontingent", aber dieses ist sehr schnell erschöpft.
 
 Als Referenz: Ich habe zu Beginn der Entwicklung einmalig 5€ aufgeladen und habe immer noch die Hälfte davon zur Verfügung (und ich habe schon so manches einsprechen lassen).
 

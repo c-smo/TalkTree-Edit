@@ -1,6 +1,6 @@
 # Einstellungen.txt
 
-Diese Datei wird verwendet, um grundlegende Einstellungen der App zu steuern. Bei Änderungen dieser Datei muss der **"TalkTree Editor"** neu gestartet werden, falls das Programm es nicht selbständig macht.
+Diese Datei wird verwendet, um grundlegende Einstellungen der App zu steuern. Bei Änderungen an dieser Datei muss **"TalkTree Editor"** neu gestartet werden.
 
 ---
 
@@ -8,19 +8,17 @@ Diese Datei wird verwendet, um grundlegende Einstellungen der App zu steuern. Be
 
 ### Zeilen und Spalten
 
-Hier steuert man die Zeilen und Spalten der App. Wenn man ein anderes Layout möchte, muss man die Datei "TalkTree.xlsx" dementsprechend anpassen.
+Hier kannst du die Zeilen und Spalten steuern. Das Layout von "TalkTree.xlsx" sollte entsprechend angepasst werden. Einige Beispiel-Layouts findest du hier. _to-do_
 
-Wichtig hierbei ist zu beachten, dass in der Spalte **"A"** die Bezeichnung der Zeile erwartet wird (Symbol, Aussprache, Untertitel, Farbe, Link).
+**Wichtig:** In der Spalte **"A"** wird die Bezeichnung der Zeile erwartet (Symbol, Aussprache, Untertitel, Farbe, Link). Diese Bezeichnungen müssen jedoch nicht zwingend vorhanden sein; eine leere Spalte "A" erfüllt ebenfalls ihren Zweck.
 
-Diese Bezeichnungen müssen jedoch nicht zwingend vorhanden sein, und eine leere Spalte "A" erfüllt ebenfalls ihren Zweck.
-
-Die schwarzen Umrandungen, die ich in der Beispiel "TalkTree.xlsx"-Datei hinzugefügt habe, sind nur Deko und dienen der visuellen Erleichterung, sind aber ebenfalls nicht zwingend erforderlich.
+Die schwarzen Umrandungen, die ich in der Beispiel-„TalkTree.xlsx“-Datei hinzugefügt habe, sind nur dekorativ und dienen der visuellen Erleichterung. Sie sind nicht erforderlich.
 
 ---
 
 ### Seitenverhältnis
 
-Hier steuert man das Seitenverhältnis der App, dieses sollte auf das Endgerät angepasst sein. Genaue Informationen über das Seitenverhältnis (Aspect Ratio) des Endgeräts lassen sich durch eine kurze Google-Suche meist leicht finden.
+Das Seitenverhältnis (Aspect Ratio) der App sollte an das Endgerät angepasst sein. Genaue Informationen über das Seitenverhältnis des Endgeräts lassen sich in der Regel durch eine kurze Google-Suche problemlos finden.
 
 ### Gängige Seitenverhältnisse
 
@@ -50,7 +48,7 @@ Standard-Seitenverhältnis für die meisten iPads (z. B. iPad, iPad Air, iPad Pr
 
 ## Radius
 
-Hier hat man die Möglichkeit, die Eckenrundung der Knöpfe zu steuern.
+Hier kannst du die Eckenrundung der Knöpfe steuern:
 
 - **0.0** = eckig
 - **1.0** = rund
@@ -59,4 +57,4 @@ Hier hat man die Möglichkeit, die Eckenrundung der Knöpfe zu steuern.
 
 ### Swipe
 
-Alternative Eingabemethode. Die Knöpfe lassen sich nun mit dem Finger bewegen und lösen erst aus, sobald sie einen beliebigen Rand des Displays berühren.
+Alternative Eingabemethode: Die Knöpfe lassen sich nun mit dem Finger bewegen und lösen erst aus, sobald sie einen beliebigen Rand des Displays berühren.
