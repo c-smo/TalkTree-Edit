@@ -25,17 +25,8 @@
     "sql:allow-select",
     "process:default",
     "dialog:allow-confirm",
-    "http:allow-fetch",
     "websocket:allow-connect",
     "websocket:allow-send",
-    {
-      "identifier": "http:default",
-      "allow": [
-        {
-          "url": "https://file.io/*"
-        }
-      ]
-    },
     {
       "identifier": "fs:scope",
       "allow": [
