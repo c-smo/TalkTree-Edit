@@ -87,7 +87,7 @@ Du hast die Möglichkeit, "TalkTree.xlsx" folgendermaßen zu bearbeiten:
    Das Programm wird diesen Text vorlesen, anstatt das Symbol.
 
 3. **-**  
-   Das Programm wird nichts vorlesen.
+   TTS ist abgestellt. Das Programm wird nichts vorlesen.
 
 4. **Audiodatei:**  
    Genauere Infos findest du [hier](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Audio/Audio.md).
