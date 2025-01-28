@@ -71,7 +71,7 @@ Du hast die Möglichkeit, "TalkTree.xlsx" folgendermaßen zu bearbeiten:
    Der Knopf wird nicht erscheinen.
 
 2. **Text/Emoji:**  
-   Jede Art von Text ist möglich. Das Programm versucht, die Schriftgröße dynamisch anzupassen, damit diese in den Knopf passt. Dennoch würde ich abraten, allzu lange Wörter zu verwenden – "Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz" ist vielleicht nicht ideal. :D
+   Jede Art von Text ist möglich. Das Programm versucht, die Schriftgröße dynamisch anzupassen, damit diese in den Knopf passt. Dennoch würde ich abraten, allzu lange Wörter zu verwenden "Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz" ist vielleicht nicht ideal. :D
 
 3. **Bilddatei:**  
    Genauere Infos findest du [hier](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Bilder/Bilder.md).
