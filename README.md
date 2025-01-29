@@ -28,6 +28,8 @@ Bitte stelle sicher, dass sich beide Programme (App und Editor) auf der gleichen
 
 **Aktuelle Version: v0.2.0** 
 
+---
+
 **Windows:**
 
 - [TalkTree Editor v0.2.0 | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_0.2.0_x64-setup.exe)
