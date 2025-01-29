@@ -20,7 +20,8 @@ Bitte stelle sicher, dass sich beide Programme (App und Editor) auf der gleichen
 
 **Windows:**
 
-### 28.1 - Auf Windows-Systemen sehen die Emojis furchtbar aus. Ich werde mir etwas anderes einfallen lassen damit man nicht gleich in Schockstarre verfällt wenn man die App das erste mal öffnet :D
+### 28.1 - Auf Windows-Systemen sehen die Emojis furchtbar aus.
+#### Ich werde mir etwas anderes einfallen lassen damit man nicht gleich in Schockstarre verfällt wenn man die App das erste mal öffnet :D
 
 - [TalkTree Editor v0.2.0 | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_0.2.0_x64-setup.exe)
 
@@ -28,8 +29,8 @@ Bitte stelle sicher, dass sich beide Programme (App und Editor) auf der gleichen
 
 **MacOS:**
 
-### 28.1. Die mac Versionen starten nicht weil die Datei """defekt""" ist.
-### In Wahrheit liegt es vermutlich an den """Sichheits"""-Zertifikaten... 🙄 zu deutsch: Apple will Geld. Denn wie jeder weiß ist eine App erst dann sicher wenn man Apple 100€ gezahlt hat... Ich werde aber in den sauren Apfel beißen und zeitnah einen Apple-Developer-Account anlegen. Dann sollte die App problemlos funktionieren. 
+### 28.1 - Die mac Versionen starten nicht weil die Datei """defekt""" ist.
+#### In Wahrheit liegt es vermutlich an den """Sichheits"""-Zertifikaten... 🙄 zu deutsch: Apple will Geld. Denn wie jeder weiß, ist eine App erst dann sicher, wenn man Apple 100€ gezahlt hat... Ich werde aber in den sauren Apfel beißen und zeitnah einen Apple-Developer-Account anlegen. Dann sollte die App problemlos funktionieren. 
 
 - ~~[TalkTree Editor v0.2.0 | arm](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_v0.2.0_aarch64.dmg)~~
 
