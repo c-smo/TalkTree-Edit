@@ -35,6 +35,7 @@ export type TTSButton = {
   color: string;
   link: string;
   button_index: number;
+  is_emoji: boolean;
 };
 
 export type Settings = {

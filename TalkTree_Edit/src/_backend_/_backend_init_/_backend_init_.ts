@@ -3,7 +3,6 @@ import sql_upsert_wrapper_array from "../../plugins/sql/sql_upsert_wrapper_array
 import { err } from "../../plugins/terminal/commands/logs";
 import process_audio from "../process/process_audio";
 import process_color from "../process/process_color";
-import process_images from "../process/process_images";
 import process_settings from "../process/process_settings";
 import process_xlsx from "../process/process_xlsx";
 
@@ -14,9 +13,6 @@ const _backend_init_ = async () => {
   try {
     const audio_wrapper_array = await process_audio();
     await sql_upsert_wrapper_array(audio_wrapper_array);
-
-    const images_wrapper_array = await process_images();
-    await sql_upsert_wrapper_array(images_wrapper_array);
 
     const xlsx_wrapper_array = await process_xlsx();
     await sql_upsert_wrapper_array(xlsx_wrapper_array);

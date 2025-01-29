@@ -30,6 +30,7 @@ const get_buttons_on_sheet = async (
           color: colors_get(sheet_data[row + 3][col], sheet_data[row + 4][col]),
           link: sheet_data[row + 4][col],
           button_index,
+          is_emoji: false,
         };
         await finalize_button(tts_button);
         all_button_data.push(tts_button);

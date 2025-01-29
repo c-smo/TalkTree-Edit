@@ -1,5 +1,11 @@
-import { join, resolveResource } from "@tauri-apps/api/path";
-import { copyFile, exists, mkdir } from "@tauri-apps/plugin-fs";
+import { join, resolveResource, resourceDir } from "@tauri-apps/api/path";
+import {
+  exists,
+  mkdir,
+  readDir,
+  readFile,
+  writeFile,
+} from "@tauri-apps/plugin-fs";
 import dict from "../assets/dictionary.json";
 import { TABLE_NAMES } from "../globals";
 import API from "../plugins/api/__api_main__";
@@ -14,6 +20,7 @@ const validate_all = async (): Promise<void> => {
   try {
     await validate_structure();
     await validate_samples();
+    await validate_images();
     await validate_db_tables();
   } catch (error) {
     err(error);
@@ -32,7 +39,8 @@ export const validate_structure = async (): Promise<void> => {
 
     if (!(await exists(ROOT.file.xlsx))) {
       const resource_path = await resolveResource("resources/default.xlsx");
-      await copyFile(resource_path, ROOT.file.xlsx);
+      const binary = await readFile(resource_path);
+      await writeFile(ROOT.file.xlsx, binary);
     }
   } catch (error) {
     err(error);
@@ -72,43 +80,42 @@ const validate_file_path = async (file_path: string, callback: Function) => {
   }
 };
 
-const validate_samples = async () => {
-  const audio_files = [
-    "808-1",
-    "808-2",
-    "clap-1",
-    "clap-2",
-    "hihat-1",
-    "hihat-2",
-    "hihat-3",
-    "kick-1",
-    "kick-2",
-    "kick-3",
-    "snare-1",
-    "snare-2",
-  ];
-  for (const file_name of audio_files) {
-    const path = `resources/M-${file_name}.mp3`;
+const copy_files = async (src_dir: string, out_dir: string): Promise<void> => {
+  const all_entries = await readDir(src_dir);
+  for (const entry of all_entries) {
     try {
-      const out = await join(ROOT.dir.audio, `M-${file_name}.mp3`);
-      if (!(await exists(out))) {
-        const resource_path = await resolveResource(path);
-        await copyFile(resource_path, out);
+      const resource_path = await join(src_dir, entry.name);
+      const out_path = await join(out_dir, entry.name);
+      if ((await exists(out_path)) === false) {
+        const binary = await readFile(resource_path);
+        await writeFile(out_path, binary);
       }
     } catch (error) {
       err(error);
     }
   }
+};
 
+const validate_samples = async () => {
+  try {
+    const src_dir = await join(await resourceDir(), "resources", "audio");
+    copy_files(src_dir, ROOT.dir.audio);
+  } catch (e) {
+    err(e);
+  }
+};
+
+const validate_images = async (): Promise<void> => {
   const image_files = ["mom", "dad", "grandma", "grandpa"];
   for (const file_name of image_files) {
     try {
       const key = file_name as keyof typeof dict.samples;
       const out = await join(ROOT.dir.images, `${dict.samples[key]}.png`);
-      if (!(await exists(out))) {
+      if ((await exists(out)) === false) {
         const path = `resources/I-${file_name}.png`;
         const resource_path = await resolveResource(path);
-        await copyFile(resource_path, out);
+        const binary = await readFile(resource_path);
+        await writeFile(out, binary);
       }
     } catch (error) {
       err(error);

@@ -9,8 +9,8 @@ const Button_Symbol = (props: { index: number; is_clicked: () => boolean }) => {
         <img
           class="button-symbol"
           style={{
-            width: `${Math.min(GRID.cell_height, GRID.cell_width) === GRID.cell_width ? `${100}%` : "auto"}`,
-            height: `${Math.min(GRID.cell_height, GRID.cell_width) === GRID.cell_height ? `${100}%` : "auto"}`,
+            width: `${get_image_size(CURRENT_PROPS()[props.index], GRID.cell_width)}`,
+            height: `${get_image_size(CURRENT_PROPS()[props.index], GRID.cell_height)}`,
           }}
           src={CURRENT_PROPS()[props.index].symbol}
         />
@@ -27,6 +27,15 @@ const Button_Symbol = (props: { index: number; is_clicked: () => boolean }) => {
       )}
     </>
   );
+};
+
+const get_image_size = (button: TTSButton, check_against: number): string => {
+  if (button.is_emoji && check_against === GRID.cell_height) {
+    return "70%";
+  } else if (Math.min(GRID.cell_height, GRID.cell_width) === check_against) {
+    return "100%";
+  }
+  return "auto";
 };
 
 function get_font_size(data: TTSButton): number {

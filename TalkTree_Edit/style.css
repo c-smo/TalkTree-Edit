@@ -4,11 +4,6 @@
   user-select: none !important;
 }
 
-.emoji {
-  font-family: "Twemoji", "Segoe UI Emoji", "Apple Color Emoji",
-    "NotoColorEmoji", sans-serif;
-}
-
 :root {
   --global-font-family: sans-serif;
 }

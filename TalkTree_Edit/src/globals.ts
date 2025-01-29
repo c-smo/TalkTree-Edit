@@ -3,7 +3,7 @@ import { createSignal } from "solid-js";
 import { SettingsWrapper } from "./_backend_/process/process_settings";
 import { Settings, TTSButton } from "./types/types";
 
-export const TABLE_NAMES = ["buttons", "images", "audio", "settings"] as const;
+export const TABLE_NAMES = ["buttons", "audio", "settings"] as const;
 
 export const [TOTAL_UPDATES, SET_TOTAL_UPDATES] = createSignal(0);
 

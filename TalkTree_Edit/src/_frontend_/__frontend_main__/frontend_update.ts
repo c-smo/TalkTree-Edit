@@ -40,6 +40,7 @@ const get_ghost_button = (): TTSButton => {
     color: "-",
     link: "-",
     button_index: 0,
+    is_emoji: false,
   };
 };
 

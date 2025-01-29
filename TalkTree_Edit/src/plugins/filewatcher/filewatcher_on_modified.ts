@@ -1,6 +1,5 @@
 import { relaunch } from "@tauri-apps/plugin-process";
 import { validate_structure } from "../../__main__/validation";
-import process_images from "../../_backend_/process/process_images";
 import process_xlsx from "../../_backend_/process/process_xlsx";
 import frontend_update from "../../_frontend_/__frontend_main__/frontend_update";
 import { set_border_highlight } from "../../_frontend_/ui/border_highlight";
@@ -52,9 +51,7 @@ const handle_config: FileHandler = async () => {
 };
 
 const handle_images: FileHandler = async () => {
-  const wrapped_images = await process_images();
-  await sql_upsert_wrapper_array(wrapped_images);
-  await frontend_update();
+  await refresh_buttons();
 };
 
 const handle_api = async () => {

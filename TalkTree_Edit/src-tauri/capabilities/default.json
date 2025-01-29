@@ -31,13 +31,13 @@
       "identifier": "fs:scope",
       "allow": [
         {
+          "path": "$RESOURCE/**/*"
+        },
+        {
           "path": "$DESKTOP/*"
         },
         {
-          "path": "$DESKTOP/TalkTree/*"
-        },
-        {
-          "path": "$DESKTOP/TalkTree/*/*"
+          "path": "$DESKTOP/TalkTree/**/*"
         },
         {
           "path": "$APPCONFIG/*"
