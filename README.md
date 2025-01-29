@@ -24,7 +24,9 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 
 ## Download:
 
-Bitte stelle sicher, dass sich beide Programme (App und Editor) auf der gleichen Version befinden. **Aktuelle Version: v0.2.0** 
+Bitte stelle sicher, dass sich beide Programme (App und Editor) auf der gleichen Version befinden. 
+
+**Aktuelle Version: v0.2.0** 
 
 **Windows:**
 
