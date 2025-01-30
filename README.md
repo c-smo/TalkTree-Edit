@@ -24,6 +24,8 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 👉 Bitte stelle sicher, dass sowohl die [App](https://github.com/c-smo/TalkTree-App) als auch der Editor auf der aktuellen Version sind. Dies ist vor allem während der Entwicklung wichtig, um Kompatibilität gewährleisten zu können.
 
 **Aktuelle Version: v0.2.1** 
+- noto-emoji integration
+- Unterverzeichnisse im Bilder-Ordner sollten jetzt möglich sein habe ich aber noch nicht ausfühlich getestet
 
 ---
 

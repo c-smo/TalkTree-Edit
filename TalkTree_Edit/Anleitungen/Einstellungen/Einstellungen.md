@@ -1,5 +1,7 @@
 # Einstellungen.txt
 
+   <img src="./preview_settings.png" alt="preview_settings" width="345" height="184">
+
 Diese Datei wird verwendet, um grundlegende Einstellungen der App zu steuern. Bei Änderungen an dieser Datei muss **"TalkTree Editor"** neu gestartet werden.
 
 ---
