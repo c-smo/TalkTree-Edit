@@ -65,7 +65,7 @@ In dieser Anleitung fokussieren wir uns auf die Datei **"TalkTree.xlsx"**.
 
 Diese Datei ist das Herzstück der App und wird verwendet, um diese zu bearbeiten. Öffne sie in einem Programm deiner Wahl. Ich verwende [LibreOffice](https://de.libreoffice.org/), aber jedes Programm, das Excel-Dateien bearbeiten kann, sollte funktionieren.
 
-<img src="./preview_xlsx.png" alt="preview" width="478" height="730">
+<img src="./preview_xlsx.png" alt="preview_xlsx" width="478" height="730">
 
 Die Datei ist nur als Muster gedacht und kann beliebig bearbeitet werden. Alle Änderungen sollten nach dem Speichern der Excel-Datei sofort im "TalkTree Editor" sichtbar sein.
 
@@ -147,7 +147,7 @@ Du hast die Möglichkeit, "TalkTree.xlsx" folgendermaßen zu bearbeiten:
 
 **Beispiel:**
 
-<img src="./preview_add_button.png" alt="preview" width="859" height="734">
+<img src="./preview_add_button.png" alt="preview_add_button" width="604" height="522">
 
 ```
 Symbol:           🌳       <- Dargestellt wird 🌳

@@ -2,7 +2,7 @@
 
 In dieser Datei hast du die Möglichkeit, die Standardfarben anzupassen und neue Farben hinzuzufügen.
 
-   <img src="./preview_colors.png" alt="colors" width="403" height="734">
+   <img src="./preview_colors.png" alt="preview_colors" width="362" height="696">
 
 ---
 

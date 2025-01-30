@@ -1,6 +1,6 @@
 # TalkTree – UK Framework
 
-   <img src="./preview.png" alt="token" width="414" height="730">
+   <img src="./preview_main.png" alt="preview_main" width="362" height="696">
 
 TalkTree soll eine offene und zugängliche Plattform bieten, die Menschen mit Kommunikationsbarrieren dabei unterstützt, die eigene Stimme zu finden. Durch eine Vielzahl von Anpassungsmöglichkeiten lässt sich die App ganz individuell auf den Bedarf der Nutzer:innen abstimmen.
 

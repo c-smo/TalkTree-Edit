@@ -29,7 +29,7 @@ Eine Liste aller Wörter, die noch keine verknüpfte Audio-Datei haben, findest 
 
 ---
 
-   <img src="./preview_audio.png" alt="audio" width="401" height="729">
+   <img src="./preview_audio.png" alt="preview_audio" width="362" height="696">
 
 ---
 
