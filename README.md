@@ -21,7 +21,7 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 
 ## Download:
 
-👉 Bitte stelle sicher, dass sowohl die [App](https://github.com/c-smo/TalkTree-App) als auch der Editor auf der aktuellen Version sind. Dies ist vor allem während der Entwicklung wichtig, um Kompatibilität gewährleisten zu können.
+**Wichtig:** Bitte stelle sicher, dass sowohl die [App](https://github.com/c-smo/TalkTree-App) als auch der Editor auf der aktuellen Version sind. Vor allem während der Entwicklung relevant, um Kompatibilität zwischen den Programmen gewährleisten zu können.
 
 **Aktuelle Version: v0.2.1** 
 - noto-emoji integration.
