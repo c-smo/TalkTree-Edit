@@ -77,7 +77,7 @@ Auf dieser Seite solltest du ein 3 x 6-Raster sehen mit den folgenden Werten in 
 
 # Bearbeitung
 
-Du hast die Möglichkeit, "TalkTree.xlsx" folgendermaßen zu bearbeiten:
+Du hast die Möglichkeit, **TalkTree.xlsx** folgendermaßen zu bearbeiten:
 
 ## Symbol:
 
@@ -141,7 +141,7 @@ Du hast die Möglichkeit, "TalkTree.xlsx" folgendermaßen zu bearbeiten:
    Der Knopf verlinkt zu der Tabelle mit dem angegebenen Namen.
 
 3. **Eigener Tabellenname:**  
-   Der Knopf verlinkt zurück auf die gleiche Tabelle.
+   Der Knopf verlinkt zurück auf die eigene Tabelle.
 
 ---
 

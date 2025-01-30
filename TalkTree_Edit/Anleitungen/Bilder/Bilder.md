@@ -10,6 +10,8 @@ Wird keine passende Datei im Bilder-Ordner gefunden, erscheint der Text aus der 
 
 ## Bevorzugte Bildformate:
 
+**_Side Note: Die angegebenen Formate sind aktuell nicht korrekt (glaub ich :D). Ich bin gerade dabei, verschiedene Ansätze auszuprobieren._**
+
 **Knopf ohne Untertitel:**  
 Breite: 400px
 Höhe: 400px
