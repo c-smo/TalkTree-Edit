@@ -7,11 +7,12 @@ const Button_Symbol = (props: { index: number; is_clicked: () => boolean }) => {
     <>
       {CURRENT_PROPS()[props.index].symbol.includes("data:image/png;base64") ? (
         <img
-          class="button-symbol"
-          style={{
-            width: `${get_image_size(CURRENT_PROPS()[props.index], GRID.cell_width)}`,
-            height: `${get_image_size(CURRENT_PROPS()[props.index], GRID.cell_height)}`,
-          }}
+          class={
+            CURRENT_PROPS()[props.index].is_emoji
+              ? "button-symbol emoji"
+              : "button-symbol"
+          }
+          style={{}}
           src={CURRENT_PROPS()[props.index].symbol}
         />
       ) : (
@@ -29,14 +30,37 @@ const Button_Symbol = (props: { index: number; is_clicked: () => boolean }) => {
   );
 };
 
-const get_image_size = (button: TTSButton, check_against: number): string => {
-  if (button.is_emoji && check_against === GRID.cell_height) {
+const width_is_smaller = () => {
+  return GRID.cell_width < GRID.cell_height;
+};
+
+const get_image_width = (button: TTSButton) => {
+  if (button.is_emoji) {
     return "70%";
-  } else if (Math.min(GRID.cell_height, GRID.cell_width) === check_against) {
+  }
+  if (GRID.cell_width > GRID.cell_height) {
+    return "100%";
+  } else {
+    return "auto";
+  }
+};
+
+const get_image_height = (button: TTSButton) => {
+  if (GRID.cell_width > GRID.cell_height) {
+    return "auto";
+  } else {
     return "100%";
   }
-  return "auto";
 };
+
+// const get_image_size = (button: TTSButton, check_against: number): string => {
+//   if (button.is_emoji && check_against === GRID.cell_height) {
+//     return "70%";
+//   } else if (Math.min(GRID.cell_height, GRID.cell_width) === check_against) {
+//     return "100%";
+//   }
+//   return "auto";
+// };
 
 function get_font_size(data: TTSButton): number {
   const MAX_WIDTH = 0.7;

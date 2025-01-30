@@ -53,7 +53,7 @@ Diese Datei ist das Herzstück der App und wird verwendet, um diese zu bearbeite
 
 <img src="./preview_xlsx.png" alt="preview" width="478" height="730">
 
-Die Datei ist nur als Muster gedacht und kann beliebig bearbeitet werden. Alle Änderungen sollten nach dem Speichern der Excel-Datei sofort im "TalkTree Editor" sichtbar werden.
+Die Datei ist nur als Muster gedacht und kann beliebig bearbeitet werden. Alle Änderungen sollten nach dem Speichern der Excel-Datei sofort im "TalkTree Editor" sichtbar sein.
 
 Die erste Seite, die man beim Start der App sieht, ist die Tabelle mit dem Namen **"home"**. Hier ist es **wichtig** zu beachten, dass die App nach einer Tabelle mit diesem namen sucht. Es werden Fehler auftreten wenn diese nicht vorhanden ist.
 
