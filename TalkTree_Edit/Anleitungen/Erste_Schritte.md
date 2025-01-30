@@ -6,17 +6,31 @@ Vielen Dank, dass du TalkTree ausprobierst und damit einen wichtigen Beitrag daz
 
 ## Download:
 
-### Windows
+👉 Bitte stelle sicher, dass sowohl die App als auch der Editor auf der aktuellen Version sind. Dies ist vor allem während der Entwicklung wichtig, um Kompatibilität gewährleisten zu können.
 
-- [TalkTree Editor v0.2.0 | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_0.2.0_x64-setup.exe)
+**Aktuelle Version: v0.2.1**
 
 ---
 
-### MacOS
+**Windows:**
 
-- [TalkTree Editor v0.2.0 | arm](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_v0.2.0_aarch64.dmg)
+- [TalkTree Editor v0.2.1 | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.1/TalkTree.Editor_0.2.1_x64-setup.exe)
 
-- [TalkTree Editor v0.2.0 | intel](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_v0.2.0_x86_64.dmg)
+---
+
+**MacOS:**
+
+- ~~[TalkTree Editor v0.2.0 | arm](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_v0.2.0_aarch64.dmg)~~
+
+- ~~[TalkTree Editor v0.2.0 | intel](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_v0.2.0_x86_64.dmg)~~
+
+---
+
+**[TalkTree App](https://github.com/c-smo/TalkTree-App) für Endgeräte:**
+
+- [ TalkTree App v0.2.0 | Android](https://github.com/c-smo/TalkTree-App/releases/download/v0.2.0/TalkTree-App_v0.2.0_android.apk)
+
+- ~~[App | iOS](URL)~~ _to-do_
 
 ---
 
