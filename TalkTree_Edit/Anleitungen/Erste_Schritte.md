@@ -1,12 +1,12 @@
 # Vorwort
 
-Vielen Dank, dass du TalkTree ausprobierst und damit einen wichtigen Beitrag dazu leistest, der App zu helfen, ihr volles Potenzial zu entfalten! Das Projekt befindet sich aktuell noch in der Entwicklung, daher ist es möglich, dass noch vereinzelte Fehler auftreten. Das Ziel ist es jedoch, möglichst früh Feedback zu erhalten. Änderungsvorschläge, Wünsche und Fragen sind daher herzlich willkommen!
+Vielen Dank, dass du TalkTree ausprobierst und damit einen wichtigen Teil zur Entwicklung beiträgst! Das Projekt befindet sich aktuell noch in der Frühphase, daher kann es sein, dass hin und wieder Fehler auftreten. Ich wollte jedoch die Möglichkeit schaffen, möglichst früh Feedback zu erhalten. Änderungsvorschläge, Wünsche und Fragen sind daher jederzeit herzlich willkommen!
 
 # Erste Schritte
 
 ## Download:
 
-👉 Bitte stelle sicher, dass sowohl die App als auch der Editor auf der aktuellen Version sind. Dies ist vor allem während der Entwicklung wichtig, um Kompatibilität gewährleisten zu können.
+**Wichtig:** Bitte stelle sicher, dass sowohl die [App](https://github.com/c-smo/TalkTree-App) als auch der **Editor** auf einer kompatiblen Version sind. Hier zählt die erste Zahl in der Versions-Nummer, die keine 0 ist.
 
 **Aktuelle Version: v0.2.1**
 
