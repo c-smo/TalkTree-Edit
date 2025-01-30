@@ -26,7 +26,7 @@ Vielen Dank, dass du TalkTree ausprobierst und damit einen wichtigen Teil zur En
 
 ---
 
-**[TalkTree App](https://github.com/c-smo/TalkTree-App) für Endgeräte:**
+TalkTree **[App](https://github.com/c-smo/TalkTree-App) für Endgeräte:**
 
 - [ TalkTree App v0.2.0 | Android](https://github.com/c-smo/TalkTree-App/releases/download/v0.2.0/TalkTree-App_v0.2.0_android.apk)
 
