@@ -23,7 +23,8 @@
       "cols": "Spalten",
       "aspect_ratio": "Seitenverhältnis",
       "radius": "Radius",
-      "input": "Swipe"
+      "input": "Swipe",
+      "emoji_size": "Emoji Größe"
     }
   },
   "colors": {

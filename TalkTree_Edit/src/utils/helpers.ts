@@ -29,3 +29,7 @@ export const uint8array_to_base64 = (buffer: Uint8Array): string => {
   }
   return `data:image/png;base64,${btoa(binary)}`;
 };
+
+export const set_css_global = (name: string, value: string) => {
+  document.documentElement.style.setProperty(name, value);
+};

@@ -9,6 +9,7 @@ export type SettingsWrapper = {
   radius: number;
   aspect_ratio: string;
   use_swipe: boolean;
+  emoji_size: number;
 };
 
 const process_settings = async (): Promise<void> => {
@@ -26,7 +27,7 @@ const process_settings = async (): Promise<void> => {
     ?.filter((el) => el != undefined)
     .map((el) => el.trim());
 
-  if (defined_values.length < 5) return;
+  if (defined_values.length < 6) return;
 
   const wrapper: SettingsWrapper = {
     rows: Number(defined_values[0]),
@@ -34,6 +35,7 @@ const process_settings = async (): Promise<void> => {
     aspect_ratio: defined_values[2],
     radius: parseFloat(defined_values[3]),
     use_swipe: parse_boolean(defined_values[4]),
+    emoji_size: Number(defined_values[5]),
   };
   globals_init_settings(wrapper);
 };

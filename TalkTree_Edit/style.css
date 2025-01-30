@@ -6,6 +6,7 @@
 
 :root {
   --global-font-family: sans-serif;
+  --global-emoji-size: 70%;
 }
 
 html,
@@ -88,8 +89,8 @@ body {
 }
 
 .emoji {
-  max-width: 70%;
-  max-height: 70%;
+  max-width: var(--global-emoji-size);
+  max-height: var(--global-emoji-size);
 }
 
 img {

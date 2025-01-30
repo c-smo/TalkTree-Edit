@@ -30,38 +30,6 @@ const Button_Symbol = (props: { index: number; is_clicked: () => boolean }) => {
   );
 };
 
-const width_is_smaller = () => {
-  return GRID.cell_width < GRID.cell_height;
-};
-
-const get_image_width = (button: TTSButton) => {
-  if (button.is_emoji) {
-    return "70%";
-  }
-  if (GRID.cell_width > GRID.cell_height) {
-    return "100%";
-  } else {
-    return "auto";
-  }
-};
-
-const get_image_height = (button: TTSButton) => {
-  if (GRID.cell_width > GRID.cell_height) {
-    return "auto";
-  } else {
-    return "100%";
-  }
-};
-
-// const get_image_size = (button: TTSButton, check_against: number): string => {
-//   if (button.is_emoji && check_against === GRID.cell_height) {
-//     return "70%";
-//   } else if (Math.min(GRID.cell_height, GRID.cell_width) === check_against) {
-//     return "100%";
-//   }
-//   return "auto";
-// };
-
 function get_font_size(data: TTSButton): number {
   const MAX_WIDTH = 0.7;
   const MIN_FONT_SIZE = 5;

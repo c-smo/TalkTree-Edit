@@ -44,6 +44,7 @@ export type Settings = {
   aspect_ratio: string;
   radius: number;
   use_swipe: boolean;
+  emoji_size: number;
   server_ip: string;
   default_colors: {
     background: string;

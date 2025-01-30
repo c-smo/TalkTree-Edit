@@ -2,6 +2,7 @@ import Database from "@tauri-apps/plugin-sql";
 import { createSignal } from "solid-js";
 import { SettingsWrapper } from "./_backend_/process/process_settings";
 import { Settings, TTSButton } from "./types/types";
+import { set_css_global } from "./utils/helpers";
 
 export const TABLE_NAMES = ["buttons", "audio", "settings"] as const;
 
@@ -29,6 +30,7 @@ export const SETTINGS: Settings = {
   aspect_ratio: "9:18",
   radius: 0.2,
   use_swipe: false,
+  emoji_size: 0.7,
   server_ip: "-",
   default_colors: {
     background: "#2c3e50",
@@ -41,6 +43,7 @@ export const globals_init_settings = async (
   wrapper: SettingsWrapper,
 ): Promise<void> => {
   Object.assign(SETTINGS, { ...wrapper });
+  set_css_global("--global-emoji-size", `${100 * SETTINGS.emoji_size}%`);
 };
 
 export const globals_init_db = async (): Promise<void> => {
