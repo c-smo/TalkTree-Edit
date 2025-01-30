@@ -59,7 +59,7 @@ Symbol:          Wo?
 Aussprache:    Wo ist
 Untertitel:
 Farbe:
-Link:          Namen
+Link:           Namen
 ```
 
 Dieser Knopf würde den Text **"Wo?"** als reguläre Schrift anzeigen. Die Schriftgröße wird dynamisch angepasst.

@@ -95,7 +95,7 @@ Du hast die Möglichkeit, **TalkTree.xlsx** folgendermaßen zu bearbeiten:
 ## Aussprach:
 
 1. **Einfach leer lassen:**  
-   Das Programm wird den Text im Symbol vorlesen.
+   Das Programm wird den Text im Symbol mittels [Text-To-Speech](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Audio/Audio.md#Text-to-Speech) vorlesen.
 
 2. **Ein anderer Text:**  
    Das Programm wird diesen Text vorlesen, anstatt das Symbol.
