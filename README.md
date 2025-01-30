@@ -18,7 +18,7 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 #### Ich werde mir etwas anderes einfallen lassen damit man nicht gleich in Schockstarre verfällt wenn man die App das erste mal öffnet :D
 
 ### 28.1 - Die mac Versionen starten nicht weil die Datei """defekt""" ist.
-#### Die Wahrheit ist, es fehlen die """Sicherheits"""-Zertifikate. Denn wie jeder weiß, ist eine App erst dann sicher, wenn man Apple 100€ gezahlt hat... 🙄 aber ja hilft alles nichts, ich werde in den sauren Apfel beißen und zeitnah einen Apple-Developer-Account anlegen. Dann sollte alles problemlos funktionieren.
+#### Die Wahrheit ist, es fehlen die """Sicherheits"""-Zertifikate. Denn wie jeder weiß, ist eine App erst dann sicher, wenn man Apple 100€ gezahlt hat... 🙄 aber ja hilft alles nichts, ich werde in den sauren Apfel beißen und zeitnah einen Apple-Developer-Account anlegen. Dann sollte alles problemlos funktionieren. "Build from Source" ist weiterhin möglich da hier keine Zertifikate benötigt werden.
 
 ---
 
