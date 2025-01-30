@@ -24,7 +24,7 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 
 ## Download:
 
-Bitte stelle sicher, dass sich beide Programme (App und Editor) auf der gleichen Version befinden. 
+👉 Bitte stelle sicher, dass sowohl die App als auch der Editor auf der aktuellen Version sind. Dies ist vor allem während der Entwicklung wichtig, um Kompatibilität gewährleisten zu können.
 
 **Aktuelle Version: v0.2.0** 
 
