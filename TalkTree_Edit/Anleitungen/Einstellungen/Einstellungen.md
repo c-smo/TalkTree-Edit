@@ -65,7 +65,7 @@ Alternative Eingabemethode: Die Knöpfe lassen sich nun mit dem Finger bewegen u
 
 Hier kannst du steuern, wie viel Fläche Emojis innerhalb des Knopfes zur Verfügung haben.
 
-- 0.0 = 0 % – Unsichtbar
-- 1.0 = 100 % – Die komplette verfügbare Fläche
+- 0.0 = Keine Fläche
+- 1.0 = Die komplette verfügbare Fläche
 
 **_Side Note: Leider ist mir erst nach dem Build für v0.2.1 eingefallen, dass diese Einstellung nützlich sein könnte. Deshalb wird dieses Feature erst ab der nächsten Version zur Verfügung stehen._**
