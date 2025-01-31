@@ -4,13 +4,13 @@ Ein Knopf kann beliebige Bild-Dateien in den Formaten **png**, **jpg** und **jpe
 
 Ich empfehle **.png**, da hier ein transparenter Hintergrund möglich ist. Zur Bildbearbeitung verwende ich meistens [Photopea](https://www.photopea.com/).
 
-Wird keine passende Datei im Bilder-Ordner gefunden, erscheint der Text aus der Spalte "Symbol" als reguläre Schrift auf dem Knopf.
+Wird **keine** passende Datei im Bilder-Ordner gefunden, erscheint der Text aus der Spalte "Symbol" als reguläre Schrift auf dem Knopf.
 
    <img src="./preview_images.png" alt="preview_images" width="358" height="696">
 
 ## Bevorzugte Bildformate:
 
-**_Side Note: Die angegebenen Formate sind aktuell nicht korrekt (glaub ich :D). Ich bin gerade dabei, verschiedene Ansätze auszuprobieren._**
+**_Side Note: Die angegebenen Dimensionen sind aktuell nicht korrekt (glaub ich :D). Ich bin gerade dabei, verschiedene Ansätze auszuprobieren._**
 
 **Knopf ohne Untertitel:**  
 Breite: 400px

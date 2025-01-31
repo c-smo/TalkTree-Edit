@@ -25,11 +25,13 @@ Rechtsklick auf die App > „Öffnen“
 
 ---
 
-### macOS präsentiert eine dramatische Warnung
+### Apple präsentiert ein Meisterwerk regulatorischer Präzision
 
 „OK“ klicken – Mutprobe bestanden!
 
    <img src="./preview_macos_open_2.png" alt="preview_macos_open_2" width="549" height="517">
+
+**_Hinweis: Man beachte die kunstvolle Differenzierung. Es handelt sich keineswegs um einen Nachweis von Schadsoftware – was man bei Vorliegen derselben natürlich sofort feststellen würde –, sondern schlicht um die erhabene Weigerung, überhaupt erst danach zu suchen. Ein wahrhaft avantgardistischer Ansatz im Risikomanagement._**
 
 ---
 

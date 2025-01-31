@@ -20,7 +20,7 @@ Die schwarzen Umrandungen, die ich in der Beispiel-„TalkTree.xlsx“-Datei hin
 
 ### Seitenverhältnis
 
-Das Seitenverhältnis (Aspect Ratio) der App sollte an das [Endgerät](https://github.com/c-smo/TalkTree-App) angepasst sein. Genaue Informationen über das Seitenverhältnis des Endgeräts lassen sich in der Regel durch eine kurze Google-Suche problemlos finden.
+Das Seitenverhältnis (Aspect-Ratio) der App sollte an das [Endgerät](https://github.com/c-smo/TalkTree-App) angepasst sein. Genaue Informationen über das Seitenverhältnis des Endgeräts lassen sich in der Regel durch eine kurze Google-Suche problemlos finden.
 
 ### Gängige Seitenverhältnisse
 

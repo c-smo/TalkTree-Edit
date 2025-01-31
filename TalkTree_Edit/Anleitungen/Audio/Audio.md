@@ -22,7 +22,7 @@ Um die Audio-Wiedergabe für einen Knopf zu deaktivieren, genügt es, ein **" - 
    Das Hauptargument war jedoch, dass kein Abo erforderlich ist. Stattdessen kann man, ähnlich wie bei einem Prepaid-Handy, Guthaben aufladen und dieses flexibel nutzen. Als Referenz: Zu Beginn der Entwicklung habe ich einmalig 5€ aufgeladen, und trotz zahlreicher Sprachaufnahmen ist noch fast die Hälfte des Guthabens übrig.
 
 2. **Alternative TTS-Anbieter**:  
-   Es gibt eine Vielzahl von TTS-Anbietern, und es lohnt sich, die Augen offen zu halten, da es in diesem Bereich aktuell rasante Entwicklungen gibt.
+   Es gibt eine Vielzahl von TTS-Anbietern, und es lohnt sich, die Augen offen zu halten, da es in diesem Bereich aktuell rasante Entwicklungen gibt. Eine Liste aller Wörter, die noch keine verknüpfte **.mp3**-Datei haben findest du in der Datei [Neu.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Audio/Neu.md).
 
 3. **Beliebige mp3-Dateien**:  
    Ein Knopf kann jede beliebige **mp3**-Datei abspielen. Hierfür genügt es dieser Audio-Datei denselben Namen wie die Zeile "Symbol" zu geben und sie in den Audio-Ordner zu legen. Der Inhalt der Zeile "Aussprache" wird bevorzugt, falls in dieser eine Eingabe vorhanden ist.
