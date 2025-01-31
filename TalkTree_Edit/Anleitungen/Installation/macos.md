@@ -31,7 +31,7 @@ Rechtsklick auf die App > „Öffnen“
 
    <img src="./preview_macos_open_2.png" alt="preview_macos_open_2" width="549" height="517">
 
-**_Hinweis: Man beachte die kunstvolle Differenzierung. Es handelt sich keineswegs um einen Nachweis von Schadsoftware – was man bei Vorliegen derselben natürlich sofort nach dem Entpacken feststellen würde – sondern schlicht um die erhabene Weigerung, überhaupt erst danach zu suchen. Ein wahrhaft avantgardistischer Ansatz im Risikomanagement._**
+**_Hinweis: Man beachte die kunstvolle Differenzierung. Es handelt sich keineswegs um einen Nachweis von Schadsoftware – was man bei Vorliegen derselben natürlich sofort nach dem Entpacken feststellen würde – sondern schlicht um die erhabene Weigerung, auch weiterhin danach zu suchen. Ein wahrhaft avantgardistischer Ansatz im Risikomanagement._**
 
 ---
 
@@ -41,7 +41,7 @@ Erneut Rechtsklick > „Öffnen“
 
 ---
 
-### macOS gestattet uns das Programm zu öffnen
+### Uns wird gestattet das Programm zu öffnen
 
 <img src="./preview_macos_open_3.png" alt="preview_macos_open_3" width="549" height="517">
 

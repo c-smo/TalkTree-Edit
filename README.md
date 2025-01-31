@@ -14,7 +14,7 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 
 ## Neuigkeiten:
 ### 31.01 - Neue Kontakt E-Mail
-Ich habe gerade geschimpft bekommen, weil eine Freundin auf eine Antwort von mir gewartet hat. Ich dachte, die "c-smo@users.noreply.github.com" Adresse leitet Nachrichten direkt an mich weiter, aber da habe ich mich wohl getäuscht … keine Ahnung, wo die gelandet sind.
+Eine Freundin hat mir vorhin äußerst respektvoll und höflich ihren Unmut über eine fehlende Antwort meinerseits unterbreitet. Ich dachte, die “c-smo@users.noreply.github.com”-Adresse leitet Nachrichten direkt an mich weiter, aber da habe ich mich wohl getäuscht … keine Ahnung, wo die gelandet sind.
 
 Tut mir leid, falls es noch andere gab, die auf eine Antwort gewartet haben. :( Ich habe die E-Mail-Adresse jetzt ausgetauscht.
 
