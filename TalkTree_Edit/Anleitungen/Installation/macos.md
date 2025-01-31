@@ -41,6 +41,6 @@ Erneut Rechtsklick > „Öffnen“
 
 ### macOS gestattet uns das Programm zu öffnen
 
-<img src="./preview_macos_open_2.png" alt="preview_macos_open_3" width="549" height="517">
+<img src="./preview_macos_open_3.png" alt="preview_macos_open_3" width="549" height="517">
 
 Und plötzlich, wie durch Zauberhand, erscheint das Freigabefenster. Schade, dass diese Option aus technischen Gründen erst nach zwei Anläufen darstellbar ist.
