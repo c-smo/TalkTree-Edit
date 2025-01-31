@@ -43,4 +43,4 @@ Erneut Rechtsklick > „Öffnen“
 
 <img src="./preview_macos_open_3.png" alt="preview_macos_open_3" width="549" height="517">
 
-Und plötzlich, wie durch Zauberhand, erscheint das Freigabefenster. Schade, dass diese Option aus technischen Gründen erst nach zwei Anläufen darstellbar ist.
+Und plötzlich, wie durch Zauberhand, erscheint das Freigabefenster. Schade, dass diese Option, höchstwahrscheinlich aus technischen Gründen, erst nach zwei Anläufen darstellbar ist.
