@@ -39,7 +39,7 @@ Erneut Rechtsklick > „Öffnen“
 
 ---
 
-### macOS gestatt uns das Programm zu öffnen
+### macOS gestattet uns das Programm zu öffnen
 
 <img src="./preview_macos_open_2.png" alt="preview_macos_open_3" width="549" height="517">
 
