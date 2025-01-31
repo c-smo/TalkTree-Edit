@@ -18,6 +18,8 @@ Ich habe gerade geschimpft bekommen, weil eine Freundin auf eine Antwort von mir
 
 Tut mir leid, falls es noch andere gab, die auf eine Antwort gewartet haben. :( Ich habe die E-Mail-Adresse jetzt ausgetauscht.
 
+---
+
 ## Download:
 
 **Wichtig:** Bitte stelle sicher, dass sowohl die [App](https://github.com/c-smo/TalkTree-App) als auch der **Editor** auf einer kompatiblen Version sind. Hier zählt die erste Zahl in der Versions-Nummer, die keine 0 ist.
