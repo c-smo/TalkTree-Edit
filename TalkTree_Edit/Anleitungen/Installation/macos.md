@@ -9,7 +9,7 @@ Da ich dieses innovative Geschäftsmodell kategorisch ablehne, bleibt nur der We
 ## Download
 
 - [TalkTree Editor | arm](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.1/TalkTree-Editor_v0.2.1_aarch.zip)
-- ~~[TalkTree Editor | intel]()~~
+- [TalkTree Editor | intel](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.1/TalkTree-Editor_v0.2.1_intel.zip)
 
 ### Anwendung öffnen
 

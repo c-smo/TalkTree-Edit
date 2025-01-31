@@ -4,7 +4,7 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "build:intel": "node .dev/build.js scripts",
+    "build:intel": "node .dev/build.js x86_64",
     "build:aarch": "node .dev/build.js aarch64",
     "start": "vite",
     "dev": "vite",
