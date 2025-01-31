@@ -12,6 +12,12 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 
 ---
 
+## Neuigkeiten:
+**31.01 - Neue Kontakt e-Mail**
+Ich habe gerade geschimpft bekommen, weil eine Freundin auf eine Antwort von mir gewartet hat. Ich dachte, die "c-smo@users.noreply.github.com" Adresse leitet Nachrichten direkt an mich weiter, aber da habe ich mich wohl getäuscht … keine Ahnung, wo die gelandet sind.
+
+Tut mir leid, falls es noch andere gab, die auf eine Antwort gewartet haben. :( Ich habe die E-Mail-Adresse jetzt ausgetauscht.
+
 ## Download:
 
 **Wichtig:** Bitte stelle sicher, dass sowohl die [App](https://github.com/c-smo/TalkTree-App) als auch der **Editor** auf einer kompatiblen Version sind. Hier zählt die erste Zahl in der Versions-Nummer, die keine 0 ist.
@@ -66,4 +72,4 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 ## Kontakt
 
 - Christopher Smolic
-- c-smo@users.noreply.github.com
+- c-smolic@proton.me
