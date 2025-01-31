@@ -6,7 +6,7 @@ In dieser Datei hast du die Möglichkeit, die Standardfarben anzupassen und neue
 
 ---
 
-## Beispiel 1:
+## Eine neue Farbe hinzufügen
 
 Am Ende des Reiters "Farben" fügen wir folgende Zeile hinzu:
 
@@ -35,7 +35,7 @@ Sie setzt sich folgendermaßen zusammen:
 
 ---
 
-## Beispiel 2:
+## Standardfarben
 
 Wir verändern die Standardfarbe der Knöpfe zu Pink:
 
