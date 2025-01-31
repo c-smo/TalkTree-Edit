@@ -12,13 +12,6 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 
 ---
 
-## Neuigkeiten
-
-### 28.1 - Die mac Versionen starten nicht weil die Datei """defekt""" ist.
-#### Die Wahrheit ist, es fehlen die """Sicherheits"""-Zertifikate. Denn wie jeder weiß, ist eine App erst dann sicher, wenn man Apple 100€ gezahlt hat... 🙄 aber ja hilft alles nichts, ich werde in den sauren Apfel beißen und zeitnah einen Apple-Developer-Account anlegen. Dann sollte alles problemlos funktionieren. "Build from Source" ist weiterhin möglich da hier keine Zertifikate benötigt werden.
-
----
-
 ## Download:
 
 **Wichtig:** Bitte stelle sicher, dass sowohl die [App](https://github.com/c-smo/TalkTree-App) als auch der **Editor** auf einer kompatiblen Version sind. Hier zählt die erste Zahl in der Versions-Nummer, die keine 0 ist.
@@ -37,13 +30,13 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 
 **MacOS:**
 
-- ~~[TalkTree Editor v0.2.0 | arm](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_v0.2.0_aarch64.dmg)~~
 
-- ~~[TalkTree Editor v0.2.0 | intel](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_v0.2.0_x86_64.dmg)~~
+- [TalkTree Editor | macOS](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Installation/macos.md)
+
 
 ---
 
-**[TalkTree App](https://github.com/c-smo/TalkTree-App) für Endgeräte:**
+**TalkTree [App](https://github.com/c-smo/TalkTree-App) für Endgeräte:**
 
 - [ TalkTree App v0.2.0 | Android](https://github.com/c-smo/TalkTree-App/releases/download/v0.2.0/TalkTree-App_v0.2.0_android.apk)
 

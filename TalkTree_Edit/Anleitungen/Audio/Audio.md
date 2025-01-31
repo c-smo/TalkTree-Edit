@@ -1,16 +1,16 @@
 # Audio
 
-Standardmäßig liest die App den Text in der Zeile „Symbol“ mittels Text-to-Speech (TTS) vor. Ist die Zeile „Aussprache“ ausgefüllt, wird deren Inhalt bevorzugt.
+Eine Liste aller Wörter, die noch keine verknüpfte Audio-Datei haben, findest du in der Datei [Neu.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Audio/Neu.md). Sie befindet sich im Audio-Ordner und wird bei jedem Start des Editors neu generiert.
 
-Um die Audio-Wiedergabe für einen Knopf zu deaktivieren, genügt es, ein **" - "** in die Zeile „Aussprache“ einzufügen.
+## Text-to-Speech
+
+Standardmäßig liest die App den Text in der Zeile „Symbol“ mittels Text-to-Speech (TTS) vor. Ist die Zeile „Aussprache“ ausgefüllt, wird deren Inhalt bevorzugt.
 
 Für die TTS-Wiedergabe verwendet die App die **betriebssysteminterne Stimme**, deren Qualität jedoch oft leider überschaubar ist. Es gibt aber Alternativen.
 
 **_Side Note: Während der Entwicklung der Endgeräte-App ist mir aufgefallen, dass iOS inzwischen ziemlich gute Stimmen bietet, die man herunterladen kann. Android holt auch langsam auf. Die genaue Integration muss ich mir noch anschauen, das Thema habe ich aber auf dem Schirm :) Eine kostenfreie und nahtlose Implementierung von qualitativ hochwertiger TTS-Wiedergabe wäre ideal und könnte so möglicherweise realisierbar sein._**
 
-## Text-to-Speech
-
-Eine Liste aller Wörter, die noch keine verknüpfte Audio-Datei haben, findest du in der Datei [Neu.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Audio/Neu.md). Sie befindet sich im Audio-Ordner und wird bei jedem Start des Editors neu generiert.
+Um die Audio-Wiedergabe für einen Knopf zu deaktivieren, genügt es, ein **" - "** in die Zeile „Aussprache“ einzufügen.
 
 ---
 
@@ -25,15 +25,13 @@ Eine Liste aller Wörter, die noch keine verknüpfte Audio-Datei haben, findest 
    Es gibt eine Vielzahl von TTS-Anbietern, und es lohnt sich, die Augen offen zu halten, da es in diesem Bereich aktuell rasante Entwicklungen gibt.
 
 3. **Beliebige mp3-Dateien**:  
-   Ein Knopf kann jede beliebige **mp3**-Datei abspielen. Hierfür genügt es dieser Audio-Datei denselben Namen wie die Zeile "Symbol" zu geben und sie in den Audio-Ordner zu legen. Auch hier wird der Inhalt der Zeile "Aussprache" bevorzugt, falls in dieser eine Eingabe vorhanden ist.
-
----
-
-   <img src="./preview_audio.png" alt="preview_audio" width="362" height="696">
+   Ein Knopf kann jede beliebige **mp3**-Datei abspielen. Hierfür genügt es dieser Audio-Datei denselben Namen wie die Zeile "Symbol" zu geben und sie in den Audio-Ordner zu legen. Der Inhalt der Zeile "Aussprache" wird bevorzugt, falls in dieser eine Eingabe vorhanden ist.
 
 ---
 
 ## Beispiele
+
+ <img src="./preview_audio.png" alt="preview_audio" width="362" height="696">
 
 **Beispiel 1:**
 

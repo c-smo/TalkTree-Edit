@@ -1,7 +1,7 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
   "productName": "TalkTree Editor",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "identifier": "talk.tree.edit",
   "build": {
     "beforeDevCommand": "npm run dev",
@@ -23,6 +23,26 @@
     }
   },
   "bundle": {
+    "macOS": {
+      "signingIdentity": "c-smo",
+      "dmg": {
+        "appPosition": {
+          "x": 180,
+          "y": 170
+        },
+        "applicationFolderPosition": {
+          "x": 480,
+          "y": 170
+        },
+        "windowSize": {
+          "height": 400,
+          "width": 660
+        }
+      },
+      "files": {},
+      "hardenedRuntime": true,
+      "minimumSystemVersion": "10.13"
+    },
     "resources": ["resources/**/*"],
     "active": true,
     "targets": "all",

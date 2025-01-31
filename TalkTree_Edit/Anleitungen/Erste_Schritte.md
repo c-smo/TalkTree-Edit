@@ -1,6 +1,6 @@
 # Vorwort
 
-Vielen Dank, dass du TalkTree ausprobierst und damit einen wichtigen Teil zur Entwicklung beiträgst! Das Projekt befindet sich aktuell noch in der Frühphase, daher kann es sein, dass hin und wieder Fehler auftreten. Ich wollte jedoch die Möglichkeit schaffen, möglichst früh Feedback zu erhalten. Änderungsvorschläge, Wünsche und Fragen sind daher jederzeit herzlich willkommen!
+Vielen Dank, dass du TalkTree ausprobierst und damit einen wichtigen Teil zur Entwicklung beiträgst! Das Projekt steckt noch in den Anfängen, deshalb kann es zu Fehlern kommen. Ich wollte aber früh die Möglichkeit bieten, Feedback zu sammeln. Änderungsvorschläge, Wünsche und Fragen sind daher jederzeit herzlich willkommen!
 
 # Erste Schritte
 
@@ -20,9 +20,7 @@ Vielen Dank, dass du TalkTree ausprobierst und damit einen wichtigen Teil zur En
 
 **MacOS:**
 
-- ~~[TalkTree Editor v0.2.0 | arm](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_v0.2.0_aarch64.dmg)~~
-
-- ~~[TalkTree Editor v0.2.0 | intel](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.0/TalkTree-Edit_v0.2.0_x86_64.dmg)~~
+- [TalkTree Editor | macOS](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Installation/macos.md)
 
 ---
 
