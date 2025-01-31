@@ -2,7 +2,7 @@
 
 **_Hinweis: Bitte bewahren Sie während des Prozesses Ihre Ironie-Reserven. Das wiederholte Klicken durch dystopische Warnhinweise kann in der Open-Source-Community nachweislich zu akuter Sarkasmus-Exazerbation führen._**
 
-Apple verwendet äußerst kreative Methoden, um potenzielle Kunden dazu zu ermutigen, jährlich 99 € in einen Developer-Account zu investieren – für das Privileg, Software für andere Menschen zugänglich zu machen.
+Apple verwendet äußerst kreative Methoden, um potenzielle Kunden zu ermutigen, jährlich 99 € in einen Developer-Account zu investieren – für das Privileg, Software für andere Menschen zugänglich zu machen.
 
 Da ich dieses Geschäftsmodell kategorisch ablehne, bleibt nur der Weg über selbstsignierte Zertifikate. Diese werden pauschal als Bedrohung klassifiziert. Aber keine Sorge, Apple hat sich besonders viel Mühe gegeben, eine Installation innerhalb des großzügig interpretierten gesetzlichen Spielraums zu ermöglichen und diesen Prozess maximal benutzer*innen*freundlich zu gestalten.
 
