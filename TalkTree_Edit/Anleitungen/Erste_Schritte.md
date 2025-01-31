@@ -126,7 +126,7 @@ Du hast die Möglichkeit, **TalkTree.xlsx** folgendermaßen zu bearbeiten:
 
    Siehe Tabelle mit dem Namen "Farben" für Beispiele.
 
-3. **Es ist auch möglich, eigene [Farben](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Einstellungen/Farben.md#Eine neue Farbe hinzufügen) zu verwenden.**
+3. **Es ist auch möglich, eigene [Farben](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Einstellungen/Farben.md) zu verwenden.**
 
 ---
 
