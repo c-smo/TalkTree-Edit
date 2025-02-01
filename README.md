@@ -37,7 +37,7 @@ Ich dachte, die “c-smo@users.noreply.github.com”-Adresse leitet Nachrichten 
 
 **Windows:**
 
-- [TalkTree Editor | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.1/TalkTree.Editor_0.2.2_x64-setup.exe)
+- [TalkTree Editor | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.2/TalkTree.Editor_0.2.2_x64-setup.exe)
 
 ---
 
