@@ -15,9 +15,9 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 ## Neuigkeiten:
 
 ### 01.02 Nächste Schritte
-Die Version v0.2.2 scheint derzeit stabil zu sein, d.h. mir sind keine Fehler bekannt. Sollte jemandem etwas auffallen, lasst es mich bitte wissen, damit ich es beheben kann.
+Die Version v0.3.0 scheint derzeit stabil zu sein, d.h. mir sind keine Fehler bekannt. Sollte jemandem etwas auffallen, lasst es mich bitte wissen, damit ich es beheben kann.
 
-Ich werde jetzt die App auf den neuesten Stand bringen (das sollte nicht lange dauern) und danach mit der iOS-Implementierung starten. Drückt mir die Daumen – Apple und ich sind im Moment nicht die besten Freunde.
+Ich werde als nächstes mit der iOS-Implementierung starten. Drückt mir die Daumen – Apple und ich sind im Moment nicht die besten Freunde.
 
 ### 31.01 - Neue Kontakt E-Mail
 Ich dachte, die “c-smo@users.noreply.github.com”-Adresse leitet Nachrichten direkt an mich weiter, aber da habe ich mich getäuscht. Tut mir leid, falls jemand vergeblich auf eine Antwort gewartet hat. Ich habe die E-Mail Adresse jetzt ausgetauscht.
@@ -28,16 +28,14 @@ Ich dachte, die “c-smo@users.noreply.github.com”-Adresse leitet Nachrichten 
 
 **Wichtig:** Bitte stelle sicher, dass sowohl die [App](https://github.com/c-smo/TalkTree-App) als auch der **Editor** auf einer kompatiblen Version sind. Hier zählt die erste Zahl in der Versions-Nummer, die keine 0 ist.
 
-**Aktuelle Version: v0.2.2 - stable** 
-- [Noto-Emoji](https://github.com/googlefonts/noto-emoji) Integration abgeschlossen.
-- Unterverzeichnisse im [Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Bilder/Bilder.md)-Ordner sind jetzt möglich.
-- [Bild-Vorlage](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Bilder/Vorlage.md)
+**Aktuelle Version: v0.3.0 - stable** 
+- Editor und App sind jetzt auf dem gleichen Stand. Ein Kompatibilitäts-Update war leider erforderlich.  
 
 ---
 
 **Windows:**
 
-- [TalkTree Editor | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.2/TalkTree.Editor_0.2.2_x64-setup.exe)
+- [TalkTree Editor | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.3.0/TalkTree.Editor_0.3.0_x64-setup.exe)
 
 ---
 
@@ -51,7 +49,7 @@ Ich dachte, die “c-smo@users.noreply.github.com”-Adresse leitet Nachrichten 
 
 **TalkTree [App](https://github.com/c-smo/TalkTree-App) für Endgeräte:**
 
-- [ TalkTree App v0.2.0 | Android](https://github.com/c-smo/TalkTree-App/releases/download/v0.2.0/TalkTree-App_v0.2.0_android.apk)
+- [ TalkTree App v0.3.0 | Android](https://github.com/c-smo/TalkTree-App/releases/download/v0.3.0/TalkTree-App_v0.3.0_android.apk)
 
 - ~~[App | iOS](URL)~~ _to-do_
 
