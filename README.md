@@ -14,9 +14,7 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 
 ## Neuigkeiten:
 ### 31.01 - Neue Kontakt E-Mail
-Eine Freundin hat mir vorhin äußerst respektvoll und höflich ihren Unmut über eine fehlende Antwort meinerseits unterbreitet. Ich dachte, die “c-smo@users.noreply.github.com”-Adresse leitet Nachrichten direkt an mich weiter, aber da habe ich mich wohl getäuscht … keine Ahnung, wo die gelandet sind.
-
-Tut mir leid, falls es noch andere gab, die auf eine Antwort gewartet haben. :( Ich habe die E-Mail-Adresse jetzt ausgetauscht.
+Ich dachte, die “c-smo@users.noreply.github.com”-Adresse leitet Nachrichten direkt an mich weiter, aber da habe ich mich getäuscht. Tut mir leid, falls jemand vergeblich auf eine Antwort gewartet hat. Ich habe die E-Mail Adresse jetzt ausgetauscht.
 
 ---
 
@@ -24,15 +22,16 @@ Tut mir leid, falls es noch andere gab, die auf eine Antwort gewartet haben. :( 
 
 **Wichtig:** Bitte stelle sicher, dass sowohl die [App](https://github.com/c-smo/TalkTree-App) als auch der **Editor** auf einer kompatiblen Version sind. Hier zählt die erste Zahl in der Versions-Nummer, die keine 0 ist.
 
-**Aktuelle Version: v0.2.1** 
-- [Noto-Emoji](https://github.com/googlefonts/noto-emoji) Integration.
-- Unterverzeichnisse im Bilder-Ordner sollten jetzt möglich sein, habe ich aber noch nicht ausführlich getestet.
+**Aktuelle Version: v0.2.2** 
+- [Noto-Emoji](https://github.com/googlefonts/noto-emoji) Integration abgeschlossen.
+- Unterverzeichnisse im [Bild](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Bilder/Bilder.md)-Ordner sind jetzt möglich.
+- [Bild-Vorlage](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Bilder/Vorlage.md)
 
 ---
 
 **Windows:**
 
-- [TalkTree Editor v0.2.1 | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.1/TalkTree.Editor_0.2.1_x64-setup.exe)
+- [TalkTree Editor | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.1/TalkTree.Editor_0.2.2_x64-setup.exe)
 
 ---
 
