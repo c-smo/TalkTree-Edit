@@ -6,11 +6,11 @@
 
 ---
 
-In der Datei **"Baum-ID.txt"** wird deine lokale IP-Adresse gespeichert, sobald der Server gestartet wird.
+In der Datei **"Baum-ID.txt"** wird die lokale IP-Adresse des Servers gespeichert, sobald dieser startet.
 
-Um den Server zu starten, öffne **"TalkTree Editor"** und drücke **"Enter"**. Als Indikation dass der Server online ist, färbt sich der Bildschirmrand weiß.
+Um den Server zu starten, öffne "TalkTree Editor" und drücke **_Enter_**. Als Indikation dass der Server online ist, färbt sich der Bildschirmrand weiß.
 
-Um den Server manuell abzuschalten, erneut **"Enter"** drücken.
+Um den Server manuell abzuschalten, erneut **_Enter_** drücken.
 
 Der Server stellt alle Daten, die der Client benötigt, um ein [Update](https://github.com/c-smo/TalkTree-App/blob/main/TalkTree_App/Anleitungen/updates.md) durchzuführen, in deinem **lokalen** Netzwerk zur Verfügung.
 

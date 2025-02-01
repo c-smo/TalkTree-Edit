@@ -14,7 +14,7 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 
 ## Neuigkeiten:
 
-### 01.02 Nächste Schritte
+### 01.02 - Nächste Schritte
 Die Version v0.3.0 scheint derzeit stabil zu sein, d.h. mir sind keine Fehler bekannt. Sollte jemandem etwas auffallen, lasst es mich bitte wissen, damit ich es beheben kann.
 
 Ich werde als nächstes mit der iOS-Implementierung starten. Drückt mir die Daumen – Apple und ich sind im Moment nicht die besten Freunde.
