@@ -15,9 +15,9 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 ## Neuigkeiten:
 
 ### 01.02 Nächste Schritte
-Soweit ich weiß, ist Version v0.2.2 stabil, heißt es gibt keine gravierenden Fehler. Falls jemandem etwas auffällt, bitte teilt es mir mit, damit ich es beheben kann.
+Die Version v0.2.2 scheint derzeit stabil zu sein, d.h. mir sind keine Fehler bekannt. Sollte jemandem etwas auffallen, lasst es mich bitte wissen, damit ich es beheben kann.
 
-Ich werde jetzt die App auf den neuesten Stand bringen (sollte nicht lange dauern) und dann mit der iOS-Implementierung beginnen. Drückt mir die Daumen, Apple und ich sind aktuell keine Freunde.
+Ich werde jetzt die App auf den neuesten Stand bringen (das sollte nicht lange dauern) und danach mit der iOS-Implementierung starten. Drückt mir die Daumen – Apple und ich sind im Moment nicht die besten Freunde.
 
 ### 31.01 - Neue Kontakt E-Mail
 Ich dachte, die “c-smo@users.noreply.github.com”-Adresse leitet Nachrichten direkt an mich weiter, aber da habe ich mich getäuscht. Tut mir leid, falls jemand vergeblich auf eine Antwort gewartet hat. Ich habe die E-Mail Adresse jetzt ausgetauscht.
