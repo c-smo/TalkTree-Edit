@@ -1,12 +1,7 @@
 import { invoke } from "@tauri-apps/api/core";
 import WebSocket from "@tauri-apps/plugin-websocket";
 import { set_border_highlight } from "../../_frontend_/ui/border_highlight";
-import {
-  SERVER_RUNNING,
-  SET_SERVER_RUNNING,
-  SET_TOTAL_UPDATES,
-  SETTINGS,
-} from "../../globals";
+import { SERVER_RUNNING, SET_SERVER_RUNNING, SETTINGS } from "../../globals";
 import { msgpackr_encode_settings } from "../../utils/msgpackr";
 import print_server from "../../utils/printer/print_server";
 import { err } from "../terminal/commands/logs";
@@ -20,7 +15,6 @@ const server_init = async () => {
     stop_server();
   } else {
     try {
-      SET_TOTAL_UPDATES(0);
       const local_ip = await start_server();
       if (!local_ip) return;
       SETTINGS.server_ip = local_ip;

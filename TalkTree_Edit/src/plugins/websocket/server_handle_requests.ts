@@ -1,5 +1,5 @@
 import WebSocket from "@tauri-apps/plugin-websocket";
-import { ALL_WORDS, DB, SET_TOTAL_UPDATES, TOTAL_UPDATES } from "../../globals";
+import { ALL_WORDS, DB } from "../../globals";
 import sql_get_key from "../sql/sql_get_key";
 import sql_read_uint8array from "../sql/sql_read_unit8array";
 import { err } from "../terminal/commands/logs";
@@ -16,16 +16,8 @@ const server_handle_request = async (
   try {
     switch (head) {
       case "request_info":
-        if (body === "audio") {
-          const response = await handle_audio();
-          await socket.send(`sql_info|audio,${response.join(",")}`);
-        } else if (body === "buttons") {
-          const response = await handle_buttons();
-          await socket.send(`sql_info|buttons,${response.join(",")}`);
-        } else if (body === "total") {
-          const response = await handle_total();
-          await socket.send(`sql_total|${response}`);
-        }
+        const response = await handle_total();
+        await socket.send(`sql_total|${response}`);
         return;
       case "request_update":
         await handle_update(body, socket);
@@ -46,10 +38,11 @@ const handle_audio = async (): Promise<string[]> => {
     const all_keys_with_audio = (await Promise.all(
       all_keys.map(async (key) => {
         const exists = await sql_read_uint8array("audio", key);
-        return exists !== null ? key : null;
+        return exists !== null ? `a-${key}` : null;
       }),
     )) as string[];
-    return all_keys_with_audio;
+
+    return all_keys_with_audio.filter((el) => el != null);
   } catch (e) {
     err(e);
     return [];
@@ -59,7 +52,7 @@ const handle_audio = async (): Promise<string[]> => {
 const handle_buttons = async (): Promise<string[]> => {
   try {
     const all_keys = (await DB.select<any[]>(`SELECT key FROM buttons`)).map(
-      (row) => row.key,
+      (row) => `b-${row.key}`,
     );
 
     return all_keys;
@@ -69,11 +62,11 @@ const handle_buttons = async (): Promise<string[]> => {
   }
 };
 
-const handle_total = async (): Promise<number> => {
-  const audio_update_length = await handle_audio();
-  const buttons_update_length = await handle_buttons();
-  const total = audio_update_length.length + buttons_update_length.length;
-  return total;
+const handle_total = async (): Promise<string> => {
+  const audio_update = await handle_audio();
+  const buttons_update = await handle_buttons();
+  const all_downloads = [...audio_update, ...buttons_update].join(",");
+  return all_downloads;
 };
 
 const handle_update = async (
@@ -81,8 +74,6 @@ const handle_update = async (
   socket: WebSocket,
 ): Promise<void> => {
   const request_data = body.split("@");
-  SET_TOTAL_UPDATES(TOTAL_UPDATES() - 1);
-
   try {
     const key = `${request_data.shift()}`;
     const table_name = `${request_data.shift()}`;
