@@ -1,16 +1,8 @@
 import dict from "../../assets/dictionary.json";
 import { globals_init_settings } from "../../globals";
+import { SettingsWrapper } from "../../types/types";
 import { ROOT } from "../../utils/paths";
 import { fs_read_file_without_extension } from "../fs/fs_read_file";
-
-export type SettingsWrapper = {
-  cols: number;
-  rows: number;
-  radius: number;
-  aspect_ratio: string;
-  use_swipe: boolean;
-  emoji_size: number;
-};
 
 const process_settings = async (): Promise<void> => {
   const file = await fs_read_file_without_extension(

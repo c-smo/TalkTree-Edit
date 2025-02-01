@@ -2,7 +2,7 @@
 
    <img src="./preview_settings.png" alt="preview_settings" width="345" height="184">
 
-Diese Datei wird verwendet, um grundlegende Einstellungen der App zu steuern. Bei Änderungen an dieser Datei muss **"TalkTree Editor"** neu gestartet werden.
+Diese Datei wird verwendet, um grundlegende Einstellungen der App zu steuern. Bei Änderungen an dieser Datei muss **"TalkTree Editor"** neu gestartet werden (sollte automatisch passieren).
 
 ---
 
@@ -69,5 +69,3 @@ Hier kannst du steuern, wie viel Fläche Emojis innerhalb des Knopfes zur Verfü
 
 - 0.0 = keine Fläche
 - 1.0 = die komplette verfügbare Fläche
-
-**_Side Note: Leider ist mir erst nach dem Build für v0.2.1 eingefallen, dass diese Einstellung nützlich sein könnte. Deshalb wird dieses Feature erst ab der nächsten Version zur Verfügung stehen._**

@@ -8,21 +8,17 @@ Wird **keine** passende Datei im Bilder-Ordner gefunden, erscheint der Text aus 
 
    <img src="./preview_images.png" alt="preview_images" width="358" height="696">
 
-## Bevorzugte Bildformate:
+## Format
 
-**_Side Note: Die angegebenen Dimensionen sind aktuell nicht korrekt (glaub ich :D). Ich bin gerade dabei, verschiedene Ansätze auszuprobieren._**
+Du kannst die Datei [Vorlage.png](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Bilder/Vorlage.md) im Bilder-Ordner als Referenz für das aktuelle Knopf-Format verwenden.
 
-**Knopf ohne Untertitel:**  
-Breite: 400px
-Höhe: 400px
+Die Dimensionen sollten aber – abgesehen vom Speicherplatz und der Qualität – keinen Einfluss haben, da das Programm die Bilder auf die benötigte Breite skaliert. Das Seitenverhältnis bleibt dabei unverändert.
 
-**Knopf mit Untertitel:**  
-Breite: 400px  
-Höhe: 300px
-
-Die Dimensionen sollten aber, abgesehen vom verwendeten Speicherplatz und der Qualität, ansonsten keinen Einfluss haben, da das Programm die Bilder auf die benötigte Größe skaliert.
+Ragt die Höhe des Bildes über den Knopf hinaus, wird der überstehende Bereich maskiert. Ist die Höhe zu gering, wird die Standardfarbe der Knöpfe sichtbar.
 
 ---
+
+## Beispiele
 
 **Beispiel 1:**
 
@@ -55,11 +51,11 @@ Dieser Knopf zeigt 👋, da es keine Datei mit dem Namen **👋.png** im Bilder-
 **Beispiel 3:**
 
 ```
-Symbol:          Wo?
-Aussprache:    Wo ist
-Untertitel:
+Symbol:       Orte/Kino
+Aussprache:   ins Kino
+Untertitel:     Kino
 Farbe:
-Link:           Namen
+Link:        Namen Freunde
 ```
 
-Dieser Knopf würde den Text **"Wo?"** als reguläre Schrift anzeigen. Die Schriftgröße wird dynamisch angepasst.
+Dieser Knopf würde nach einem Bild mit dem Namen **Kino.png** im Unterverzeichnis Bilder/Orte/ suchen.

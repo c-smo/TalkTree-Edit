@@ -16,7 +16,7 @@ const Button_Suptitle = (props: {
         "margin-top": `${props.is_clicked() ? 12 : 2}%`,
       }}
     >
-      <span class="subtitle-span">{CURRENT_PROPS()[props.index].subtitle}</span>
+      {CURRENT_PROPS()[props.index].subtitle}
     </div>
   );
 };

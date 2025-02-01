@@ -8,7 +8,7 @@ In dieser Datei hast du die Möglichkeit, die Standardfarben anzupassen und neue
 
 ## Eine neue Farbe hinzufügen
 
-Am Ende des Reiters "Farben" fügen wir folgende Zeile hinzu:
+Am Ende des Reiters [Farben] fügen wir folgende Zeile hinzu:
 
 ```
 [Farben]

@@ -24,7 +24,7 @@ export const _init_ = async (): Promise<void> => {
 
     await FILE_WATCHER.init();
     await print_new_words();
-    SET_IS_INIT(true); // --> __main__.ts
+    SET_IS_INIT(true); // --> __main__.tsx
   } catch (error) {
     err(error);
   }

@@ -1,7 +1,6 @@
 import Database from "@tauri-apps/plugin-sql";
 import { createSignal } from "solid-js";
-import { SettingsWrapper } from "./_backend_/process/process_settings";
-import { Settings, TTSButton } from "./types/types";
+import { Settings, SettingsWrapper, TTSButton } from "./types/types";
 import { set_css_global } from "./utils/helpers";
 
 export const TABLE_NAMES = ["buttons", "audio", "settings"] as const;

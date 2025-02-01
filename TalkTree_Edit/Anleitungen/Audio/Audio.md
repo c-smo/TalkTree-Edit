@@ -8,9 +8,9 @@ Standardmäßig liest die App den Text in der Zeile „Symbol“ mittels Text-to
 
 Für die TTS-Wiedergabe verwendet die App die **betriebssysteminterne Stimme**, deren Qualität jedoch oft leider überschaubar ist. Es gibt aber Alternativen.
 
-**_Side Note: Während der Entwicklung der Endgeräte-App ist mir aufgefallen, dass iOS inzwischen ziemlich gute Stimmen bietet, die man herunterladen kann. Android holt auch langsam auf. Die genaue Integration muss ich mir noch anschauen, das Thema habe ich aber auf dem Schirm :) Eine kostenfreie und nahtlose Implementierung von qualitativ hochwertiger TTS-Wiedergabe wäre ideal und könnte so möglicherweise realisierbar sein._**
-
 Um die Audio-Wiedergabe für einen Knopf zu deaktivieren, genügt es, ein **" - "** in die Zeile „Aussprache“ einzufügen.
+
+**_Side Note: Während der Entwicklung der Endgeräte-App ist mir aufgefallen, dass iOS inzwischen ziemlich gute Stimmen bietet, die man herunterladen kann. Android holt auch langsam auf. Die genaue Integration muss ich mir noch anschauen, das Thema habe ich aber auf dem Schirm :) Eine kostenfreie und nahtlose Implementierung von qualitativ hochwertiger TTS-Wiedergabe wäre ideal und könnte so möglicherweise realisierbar sein._**
 
 ---
 
@@ -50,14 +50,14 @@ Dieser Knopf spielt die Datei **"M-snare-1.mp3"** ab, da sie sich als Beispiel b
 **Beispiel 2:**
 
 ```
-Symbol:        Du
-Aussprache:
+Symbol:           Du
+Aussprache:    kannst du
 Untertitel:
 Farbe:
-Link:
+Link:           Wünsche
 ```
 
-Dieser Knopf sucht die Datei **"Du.mp3"** im Audio-Ordner. Da sie nicht vorhanden ist, wird der Text über die betriebssysteminterne TTS-Wiedergabe vorgelesen.
+Dieser Knopf sucht die Datei **"kannst du.mp3"** im Audio-Ordner. Da sie nicht vorhanden ist, wird der Text über die betriebssysteminterne TTS-Wiedergabe vorgelesen.
 
 ---
 

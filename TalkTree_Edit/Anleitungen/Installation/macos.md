@@ -8,8 +8,8 @@ Da ich dieses Geschäftsmodell kategorisch ablehne, bleibt nur der Weg über sel
 
 ## Download
 
-- [TalkTree Editor | arm](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.1/TalkTree-Editor_v0.2.1_aarch.zip)
-- [TalkTree Editor | intel](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.1/TalkTree-Editor_v0.2.1_intel.zip)
+- [TalkTree Editor | arm](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.1/TalkTree-Editor_v0.2.2_aarch.zip)
+- [TalkTree Editor | intel](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.1/TalkTree-Editor_v0.2.2_intel.zip)
 
 ### Anwendung öffnen
 

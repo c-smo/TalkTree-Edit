@@ -53,6 +53,15 @@ export type Settings = {
   };
 };
 
+export type SettingsWrapper = {
+  cols: number;
+  rows: number;
+  radius: number;
+  aspect_ratio: string;
+  use_swipe: boolean;
+  emoji_size: number;
+};
+
 export type SqlWrapper = {
   table_name: string;
   key: string;

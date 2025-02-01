@@ -1,18 +1,16 @@
-import { SqlWrapper } from "../../../types/types";
-
-const jpg_arr_to_png = async (jpg_arr: SqlWrapper[]): Promise<SqlWrapper[]> => {
-  const png_arr = [] as SqlWrapper[];
-  for (let wrapper of jpg_arr) {
-    const binary = await convert_jpg_to_png(wrapper.value);
-    if (!binary) continue;
-    png_arr.push({
-      table_name: wrapper.table_name,
-      key: wrapper.key,
-      value: binary,
-    });
-  }
-  return png_arr;
-};
+// const jpg_arr_to_png = async (jpg_arr: SqlWrapper[]): Promise<SqlWrapper[]> => {
+//   const png_arr = [] as SqlWrapper[];
+//   for (let wrapper of jpg_arr) {
+//     const binary = await convert_jpg_to_png(wrapper.value);
+//     if (!binary) continue;
+//     png_arr.push({
+//       table_name: wrapper.table_name,
+//       key: wrapper.key,
+//       value: binary,
+//     });
+//   }
+//   return png_arr;
+// };
 
 const convert_jpg_to_png = async (
   jpg_data: Uint8Array,
@@ -49,4 +47,4 @@ const convert_jpg_to_png = async (
   });
 };
 
-export default jpg_arr_to_png;
+export default convert_jpg_to_png;

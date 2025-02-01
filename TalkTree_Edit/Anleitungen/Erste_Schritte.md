@@ -8,13 +8,13 @@ Vielen Dank, dass du TalkTree ausprobierst und damit einen wichtigen Teil zur En
 
 **Wichtig:** Bitte stelle sicher, dass sowohl die [App](https://github.com/c-smo/TalkTree-App) als auch der **Editor** auf einer kompatiblen Version sind. Hier zählt die erste Zahl in der Versions-Nummer, die keine 0 ist.
 
-**Aktuelle Version: v0.2.1**
+**Aktuelle Version: v0.2.2**
 
 ---
 
 **Windows:**
 
-- [TalkTree Editor v0.2.1 | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.1/TalkTree.Editor_0.2.1_x64-setup.exe)
+- [TalkTree Editor | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.2.2/TalkTree.Editor_0.2.2_x64-setup.exe)
 
 ---
 

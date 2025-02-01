@@ -17,6 +17,8 @@ export type Root = {
     db: string;
     server: string;
     new_words: string;
+    image_template: string;
+    image_template2: string;
   };
 };
 export const ROOT: Root = {} as Root;
@@ -43,6 +45,16 @@ export async function paths_init(): Promise<void> {
       api: await join(baseDir, d.dirs.conf, `${d.files.api_speechgen}`),
       server: await join(baseDir, d.dirs.conf, `${d.files.server_id}`),
       new_words: await join(baseDir, d.dirs.audio, `${d.files.new_words}`),
+      image_template: await join(
+        baseDir,
+        d.dirs.images,
+        `${d.files.image_template}`,
+      ),
+      image_template2: await join(
+        baseDir,
+        d.dirs.images,
+        `${d.files.image_template2}`,
+      ),
     },
   };
 

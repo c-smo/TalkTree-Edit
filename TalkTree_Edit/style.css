@@ -7,6 +7,7 @@
 :root {
   --global-font-family: sans-serif;
   --global-emoji-size: 70%;
+  --global-subtitle-size: 13px;
 }
 
 html,
@@ -61,22 +62,17 @@ body {
 .button-subtitle {
   z-index: 2;
   width: 100%;
-  height: 30%;
+  height: 33%;
   box-shadow: inset -5px -5px 10px 1px rgba(0, 0, 0, 0.3);
   display: flex;
-
   text-align: center;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   text-overflow: clip;
   transform: none;
-}
-
-.subtitle-span {
-  position: absolute;
-  transform: none;
-  bottom: 0;
+  text-wrap: balance;
+  font-size: var(--global-subtitle-size);
 }
 
 .button-symbol {

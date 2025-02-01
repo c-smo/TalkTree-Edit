@@ -4,6 +4,7 @@ import { err } from "../../../plugins/terminal/commands/logs";
 import { TTSButton } from "../../../types/types";
 import { uint8array_to_base64 } from "../../../utils/helpers";
 import { ROOT } from "../../../utils/paths";
+import convert_jpg_to_png from "../../process/process_helpers/convert_jpg_to_png";
 import handle_new_word from "./handle_new_word";
 
 export const finalize_button = async (tts_button: TTSButton): Promise<void> => {
@@ -32,15 +33,19 @@ const finalize_symbol = async (tts_button: TTSButton): Promise<void> => {
       ROOT.dir.images,
       ...tts_button.symbol.split("/"),
     );
-
     let uint8Array = null;
     if (emoji_path != "") {
       uint8Array = await readFile(emoji_path);
       tts_button.is_emoji = true;
     } else if (await exists(`${image_path}.png`)) {
       uint8Array = await readFile(`${image_path}.png`);
+    } else if (await exists(`${image_path}.jpg`)) {
+      const jpg = await readFile(`${image_path}.jpg`);
+      uint8Array = await convert_jpg_to_png(jpg);
+    } else if (await exists(`${image_path}.jpeg`)) {
+      const jpeg = await readFile(`${image_path}.jpeg`);
+      uint8Array = await convert_jpg_to_png(jpeg);
     }
-
     if (uint8Array) {
       tts_button.symbol = uint8array_to_base64(uint8Array);
     }

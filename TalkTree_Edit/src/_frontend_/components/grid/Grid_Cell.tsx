@@ -1,5 +1,7 @@
-import { createSignal } from "solid-js";
+import { createSignal, onMount } from "solid-js";
 import { SETTINGS } from "../../../globals";
+import { set_grid_cell_size } from "../../../utils/grid";
+import print_image_template from "../../../utils/printer/print_image_template";
 import { Button_Container } from "../tts_button/_Button_Container";
 import Button_Subtitle from "../tts_button/Button_Subtitle";
 
@@ -8,6 +10,11 @@ export const Cell = (props: { index: number }) => {
   const [pos, set_pos] = createSignal({ x: 0, y: 0 });
   const [z_index, set_z_index] = createSignal(0);
   const [is_clicked, set_is_clicked] = createSignal(false);
+
+  onMount(() => {
+    set_grid_cell_size();
+    print_image_template();
+  });
 
   return (
     <div

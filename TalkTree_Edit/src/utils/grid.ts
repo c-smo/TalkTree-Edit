@@ -1,10 +1,8 @@
-import { createSignal } from "solid-js";
 import { SETTINGS } from "../globals";
 import { Grid } from "../types/types";
+import { set_css_global } from "./helpers";
 
 const MARGIN_PERCENTAGE = 0.05;
-
-export const [borderRadius, setBorderRadius] = createSignal(40);
 
 export const GRID = {} as Grid;
 
@@ -15,14 +13,7 @@ export function create_grid() {
     Math.min(window.innerWidth, window.innerHeight) * MARGIN_PERCENTAGE;
   const gap = margin;
 
-  const fn = (a: number, b: number) => (a - 2 * margin - (b - 1 * gap)) / b;
-
-  const cell_width = fn(window.innerWidth, cols);
-  const cell_height = fn(window.innerHeight, rows);
-
-  Object.assign(GRID, { rows, cols, margin, gap, cell_width, cell_height });
-
-  setBorderRadius(SETTINGS.radius * 50);
+  Object.assign(GRID, { rows, cols, margin, gap });
 
   const gc = document.querySelector(".grid-container")! as HTMLElement;
 
@@ -33,3 +24,14 @@ export function create_grid() {
   gc.style.margin = `${margin}px`;
   gc.style.gap = `${margin}px`;
 }
+
+export const set_grid_cell_size = () => {
+  const element = document.querySelector(".grid-cell")!;
+  const { width, height } = element.getBoundingClientRect();
+  GRID.cell_height = Math.floor(height);
+  GRID.cell_width = Math.floor(width);
+  set_css_global(
+    "--global-subtitle-size",
+    `${Math.floor(GRID.cell_height * 0.2)}px`,
+  );
+};

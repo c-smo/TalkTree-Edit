@@ -18,7 +18,7 @@ const _backend_init_ = async () => {
     await sql_upsert_wrapper_array(xlsx_wrapper_array);
 
     if (await API.init()) {
-      API.fetch();
+      void API.fetch();
     }
   } catch (error) {
     err(error);

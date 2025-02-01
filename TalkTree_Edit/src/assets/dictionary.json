@@ -12,7 +12,9 @@
       "settings": "Einstellungen.txt",
       "xlsx": "TalkTree.xlsx",
       "server_id": "Server-ID.txt",
-      "new_words": "Neu.txt"
+      "new_words": "Neu.txt",
+      "image_template": "Vorlage.png",
+      "image_template2": "Vorlage_Untertitel.png"
     }
   },
   "settings": {
