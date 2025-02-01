@@ -28,7 +28,7 @@ Ich dachte, die “c-smo@users.noreply.github.com”-Adresse leitet Nachrichten 
 
 **Wichtig:** Bitte stelle sicher, dass sowohl die [App](https://github.com/c-smo/TalkTree-App) als auch der **Editor** auf einer kompatiblen Version sind. Hier zählt die erste Zahl in der Versions-Nummer, die keine 0 ist.
 
-**Aktuelle Version: v0.2.2** 
+**Aktuelle Version: v0.2.2 - stable** 
 - [Noto-Emoji](https://github.com/googlefonts/noto-emoji) Integration abgeschlossen.
 - Unterverzeichnisse im [Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Bilder/Bilder.md)-Ordner sind jetzt möglich.
 - [Bild-Vorlage](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Bilder/Vorlage.md)
