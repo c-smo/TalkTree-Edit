@@ -14,10 +14,10 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 
 ## Neuigkeiten
 
-### 01.02 - Nächste Schritte
-Die Version v0.3 scheint derzeit "stabil" zu sein, d.h. mir sind keine Fehler bekannt. Sollte jemandem etwas auffallen, lasst es mich bitte wissen, damit ich es beheben kann.
+### 01.02 – Die nächsten Schritte  
+Die Version v0.3 scheint aktuell stabil zu sein – mir sind keine Fehler bekannt. Falls euch etwas auffällt, gebt mir bitte Bescheid, damit ich es beheben kann.  
 
-Ich werde als nächstes mit der iOS-Implementierung starten. Drückt mir die Daumen – Apple und ich sind im Moment nicht die besten Freunde.
+Als Nächstes starte ich mit der iOS-Implementierung. Drückt mir die Daumen – Apple und ich sind momentan nicht die besten Freunde.  
 
 ### 31.01 - Neue Kontakt E-Mail
 Ich dachte, die “c-smo@users.noreply.github.com”-Adresse leitet Nachrichten direkt an mich weiter, aber da habe ich mich getäuscht. Tut mir leid, falls jemand vergeblich auf eine Antwort gewartet hat. Ich habe die E-Mail Adresse jetzt ausgetauscht.
