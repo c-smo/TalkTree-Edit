@@ -137,7 +137,7 @@ Du hast die Möglichkeit, **TalkTree.xlsx** folgendermaßen zu bearbeiten:
 
 ---
 
-**Beispiel:**
+## Beispiel
 
 <img src="./preview_add_button.png" alt="preview_add_button" width="604" height="522">
 
