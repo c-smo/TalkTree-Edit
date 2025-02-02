@@ -1,6 +1,6 @@
 ## Datenschutz
 
-Das Programm kann **keine** personenbezogene Daten erfassen, speichern oder an Dritte übertragen.
+Das Programm kann **keinerlei** personenbezogene Daten erfassen, speichern oder an Dritte übertragen.
 
 ### Externe Kommunikation
 
