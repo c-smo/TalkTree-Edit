@@ -14,7 +14,7 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 
 ## Datenschutz
 
-Da sich mehr Leute für das Projekt interessieren als erwartet (vielen herzlichen Dank dafür! 🤭) möchte ich kurz auf das Thema [Datenschutz](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Dev/Datenschutz.md) eingehen.
+Da sich mehr Leute für das Projekt interessieren als erwartet (vielen herzlichen Dank dafür! 🤭) möchte ich kurz auf das Thema [Datenschutz](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Devlog/Datenschutz.md) eingehen.
 
 ---
 ## Neuigkeiten
@@ -29,7 +29,7 @@ P.S.: Um diese Neuigkeit aber auf einer positiven Note abzuschließen: Bevor es 
 
 P.P.S.: Im Worst Case lege ich mir zähneknirschend doch noch einen Developer-Account zu.
 
-[mehr](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Dev/NEWS.md)
+[mehr](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Devlog/NEWS.md)
 
 ---
 ## Download & Installation
