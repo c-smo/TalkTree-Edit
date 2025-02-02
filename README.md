@@ -28,21 +28,22 @@ Ich dachte, die “c-smo@users.noreply.github.com”-Adresse leitet Nachrichten 
 
 **Wichtig:** Bitte stelle sicher, dass sowohl die [App](https://github.com/c-smo/TalkTree-App) als auch der **Editor** auf einer kompatiblen Version sind. Hier zählt die erste Zahl in der Versions-Nummer, die keine 0 ist.
 
-**Aktuelle Version: v0.3.0 - stable** 
-- Editor und App sind jetzt auf dem gleichen Stand. Ein Kompatibilitäts-Update war leider erforderlich.  
+**Aktuelle Version: v0.3.1 - stable** 
+- Editor und App sind jetzt auf dem gleichen Stand. Ein Kompatibilitäts-Update war leider erforderlich. 
+- Ich habe Beispiel Audio-Dateien von Speechgen.io (Stimme: Ryan DE) für die bereits vorhandenen Knöpfe beigefügt, damit man einen Anhaltspunkt hat, was möglich ist.
 
 ---
 
 **Windows:**
 
-- [TalkTree Editor | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.3.0/TalkTree.Editor_0.3.0_x64-setup.exe)
+- [TalkTree Editor | Windows](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Installation/windows.md)
 
 ---
 
 **MacOS:**
 
 
-- [TalkTree Editor | macOS](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Installation/macos.md)
+- [TalkTree Editor | MacOS](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Installation/macos.md)
 
 
 ---
