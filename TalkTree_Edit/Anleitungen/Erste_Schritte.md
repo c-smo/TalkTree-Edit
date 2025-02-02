@@ -139,7 +139,7 @@ Du hast die Möglichkeit, diese folgendermaßen zu bearbeiten:
 
 ```
 Symbol:           🌳       <- Dargestellt wird 🌳
-Aussprache:       -        <- Kein TTS
+Aussprache:       -        <- Keine Audio-Wiedergabe
 Untertitel:    TalkTree    <- Unter dem Symbol steht "TalkTree"
 Farbe:           Gelb      <- Der Knopf ist gelb
 Link:          Viel Spaß!  <- und verlinkt auf die Tabelle "Viel Spaß!"
