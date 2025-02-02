@@ -1,8 +1,10 @@
 ## Datenschutz
 
+Das Programm kann **keine** personenbezogene Daten erfassen, speichern oder an Dritte übertragen.
+
 ### Externe Kommunikation
 
-Das Programm kann **keine** personenbezogene Daten erfassen, speichern oder an Dritte übertragen. Die einzige externe Kommunikation außerhalb deines lokalen Netzwerks erfolgt – sofern von dir aktiviert – zur API von **speechgen.io**. Dabei werden ausschließlich die Daten übermittelt, die für die Generierung der Audio-Datei erforderlich sind (z.B. Textinhalt und Sprachmodell-Einstellungen).
+Die einzige externe Kommunikation außerhalb deines lokalen Netzwerks erfolgt – sofern von dir aktiviert – zur API von **speechgen.io**. Dabei werden ausschließlich die Daten übermittelt, die für die Generierung der Audio-Datei erforderlich sind (z.B. Textinhalt und Sprachmodell-Einstellungen).
 
 ### Update-Prozess
 
