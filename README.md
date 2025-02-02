@@ -16,17 +16,18 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 
 Da sich mehr Leute für das Projekt interessieren als erwartet (vielen herzlichen Dank dafür 🤭) möchte ich kurz auf das Thema Datenschutz eingehen.
 
-Das Programm ist **nicht in der Lage**, personenbezogene Daten zu erfassen, zu speichern oder an Dritte zu übertragen. Die einzige externe Kommunikation außerhalb deines lokalen Netzwerks erfolgt – sofern gewünscht – zur API von **speechgen.io**. Dabei werden ausschließlich die Daten übermittelt, die für die Generierung der Audio-Datei erforderlich sind (z.B. Textinhalt und Sprachmodell-Einstellungen).  
+### Externe Kommunikation
+Das Programm kann **kein** personenbezogene Daten erfassen, speichern oder an Dritte übertragen. Die einzige externe Kommunikation außerhalb deines lokalen Netzwerks erfolgt – sofern von dir aktiviert – zur API von **speechgen.io**. Dabei werden ausschließlich die Daten übermittelt, die für die Generierung der Audio-Datei erforderlich sind (z.B. Textinhalt und Sprachmodell-Einstellungen).  
 
 ### Update-Prozess  
 Wenn du den Server zur Aktualisierung des Endgeräts aktivierst, werden lediglich die dafür notwendigen Daten (alle im TalkTree-Editor sicht- und hörbaren Inhalte) **lokal in deinem Netzwerk** bereitgestellt. Der Server schaltet sich automatisch ab, sobald ein Update erfolgreich abgeschlossen wurde.  
 
-### Dateizugriff beschränkt  
-Das Programm greift ausschließlich auf folgende Verzeichnisse zu:  
+### [Dateizugriff](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/src-tauri/capabilities/default.json)  
+Das Programm kann ausschließlich auf folgende Verzeichnisse zugreifen:  
 - Den Ordner **„TalkTree“** auf deinem Desktop (inkl. Unterdateien)  
 - Die vom Betriebssystem vorgegebenen **Applikationsverzeichnisse** (für programminterne Einstellungen und Caches)  
 
-Transparenz ist mir ein Anliegen: Sollten Fragen offen bleiben, meldet euch gern!  
+Transparenz ist mir ein Anliegen: Sollten Fragen offen bleiben, meldet euch gern!
 
 ---
 
