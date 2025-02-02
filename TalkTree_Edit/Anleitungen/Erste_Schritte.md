@@ -67,6 +67,8 @@ Auf dieser Seite solltest du ein 3 x 6-Raster sehen mit den folgenden Werten in 
 
 Du hast die Möglichkeit, diese folgendermaßen zu bearbeiten:
 
+---
+
 ### Symbol:
 
 1. **Einfach leer lassen:**  
