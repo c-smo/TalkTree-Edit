@@ -16,7 +16,9 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 
 ### 02.02 - iOS Integration
 
-Ich habe mich über die Möglichkeiten einer iOS-Integration informiert. Obwohl die EU 2024 ein Gesetz beschlossen hat, das Apple dazu motivieren soll, Geräte endlich für Drittanbieter zu öffnen, ist dies bis dato immer noch nur bedingt möglich. Außerhalb der EU ist es schlicht unmöglich. Ich bin zwar wirklich froh, dass dieser Konzern so sehr auf unsere Sicherheit bedacht ist, aber ich habe die Vermutung, dass es auch alternative Lösungen gibt, anstatt eine jährliche Gebühr zu verlangen, um eine App als sicher qualifizieren zu können...
+Ich habe mich über die Möglichkeiten einer iOS-Integration informiert. Obwohl die EU 2024 ein Gesetz beschlossen hat, das Apple dazu motivieren soll, Geräte endlich für Drittanbieter zu öffnen, ist dies bis dato immer noch nur bedingt möglich. Außerhalb der EU ist es schlicht unmöglich. 
+
+Ich bin zwar wirklich froh, dass dieser Konzern so sehr auf unsere Sicherheit bedacht ist, aber ich habe die Vermutung, dass es auch alternative Lösungen gibt, anstatt eine jährliche Gebühr zu verlangen, um eine App als sicher qualifizieren zu können...
 
 Ich gebe noch nicht auf, aber aktuell sieht es nicht gut aus :(
 
