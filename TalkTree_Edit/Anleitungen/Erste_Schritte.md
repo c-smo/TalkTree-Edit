@@ -4,7 +4,7 @@ Vielen Dank, dass du TalkTree ausprobierst und damit einen wichtigen Teil zur En
 
 # Erste Schritte
 
-## Download:
+## Download & Installation:
 
 **Wichtig:** Bitte stelle sicher, dass sowohl die [App](https://github.com/c-smo/TalkTree-App) als auch der **Editor** auf einer kompatiblen Version sind. Hier zählt die erste Zahl in der Versions-Nummer, die keine 0 ist.
 
@@ -30,9 +30,7 @@ TalkTree **[App](https://github.com/c-smo/TalkTree-App) für Endgeräte:**
 
 ---
 
-## Installation
-
-Wähle ein beliebiges Verzeichnis und installiere das Programm.
+## Überblick
 
 Nach der Installation solltest du eine Datei mit dem Namen **"TalkTree Editor"** in deinem gewählten Installationsverzeichnis finden.
 
@@ -41,8 +39,6 @@ Beim Start sucht/erstellt das Programm die Projektstruktur auf deinem Desktop in
 In diesem Ordner findest du Folgendes:
 
 ---
-
-## Überblick
 
 - [/Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Audio/Audio.md)
 - [/Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Bilder/Bilder.md)
