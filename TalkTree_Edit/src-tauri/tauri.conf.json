@@ -24,7 +24,6 @@
   },
   "bundle": {
     "macOS": {
-      "signingIdentity": "c-smo",
       "dmg": {
         "appPosition": {
           "x": 180,
