@@ -18,8 +18,6 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 
 Ich habe mich über die Möglichkeiten einer iOS-Integration informiert. Obwohl die EU 2024 ein Gesetz beschlossen hat, das Apple dazu motivieren soll, Geräte endlich für Drittanbieter zu öffnen, ist dies bis dato immer noch nur bedingt möglich. Außerhalb der EU ist es schlicht unmöglich. 
 
-Ich bin zwar wirklich froh, dass dieser Konzern so sehr auf unsere Sicherheit bedacht ist, aber ich habe die Vermutung, dass es auch alternative Lösungen gibt, anstatt eine jährliche Gebühr zu verlangen, um eine App als sicher qualifizieren zu können...
-
 Ich gebe noch nicht auf, aber aktuell sieht es nicht gut aus :(
 
 P.S.: Um diese Neuigkeit aber auf einer positiven Note abzuschließen: Bevor es gar keine Alternative für iPads gibt (eigentlich ist iOS nur wegen iPads interessant, weil diese bereits in den meisten Einrichtungen verfügbar sind), werde ich das Geld lieber investieren um eine Website zu hosten, auf die man mit dem iPad zugreifen kann, um das Programm von dort zu starten. Ich habe auch noch 1-2 Ideen wie ich Apple vielleicht doch überreden kann. Des wird scho ois! :)
