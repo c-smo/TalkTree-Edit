@@ -46,3 +46,9 @@ Erneut Rechtsklick > „Öffnen“
 <img src="./preview_macos_open_3.png" alt="preview_macos_open_3" width="549" height="517">
 
 Und plötzlich, wie durch Zauberhand, erscheint das Freigabefenster. Schade, dass diese Option, höchstwahrscheinlich aus technischen Gründen, erst nach zwei Anläufen darstellbar ist.
+
+---
+
+### Los geht's :)
+
+Nach Abschluss der Installation kannst du sofort loslegen. Ich empfehle aber, dir einen kurzen Überblick über die Möglichkeiten zur [Bearbeitung](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Erste_Schritte.md#TalkTree.xlsx) zu verschaffen.

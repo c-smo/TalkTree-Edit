@@ -25,3 +25,9 @@ Wähle - „Weitere Informationen“
 Wähle - „Trotzdem ausführen“
 
    <img src="./preview_windows_open_2.png" alt="preview_windows_open_2" width="439" height="326">
+
+---
+
+### Los geht's :)
+
+Nach Abschluss der Installation kannst du sofort loslegen. Ich empfehle aber, dir einen kurzen Überblick über die Möglichkeiten zur [Bearbeitung](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Erste_Schritte.md#TalkTree.xlsx) zu verschaffen.
