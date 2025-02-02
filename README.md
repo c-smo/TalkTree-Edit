@@ -24,8 +24,8 @@ Wenn du den Server zur Aktualisierung des Endgeräts aktivierst, werden lediglic
 
 ### [Dateizugriff](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/src-tauri/capabilities/default.json)  
 Das Programm kann ausschließlich auf folgende Verzeichnisse zugreifen: 
-- Deinen Desktop um den **TalkTree** Ordner zu erstellen.
-- Den erstellten Ordner **TalkTree** auf deinem Desktop (inkl. Unterdateien)  
+- Deinen **Desktop** um den **TalkTree-Ordner** zu erstellen.
+- Den erstellten **TalkTree-Ordner** auf deinem **Desktop** (inkl. Unterdateien)  
 - Die vom Betriebssystem vorgegebenen **Applikationsverzeichnisse** (für programminterne Einstellungen und Caches)  
 
 Transparenz ist mir ein Anliegen: Sollten Fragen offen bleiben, meldet euch gern!
