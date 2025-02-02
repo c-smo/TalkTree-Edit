@@ -30,7 +30,7 @@ TalkTree **[App](https://github.com/c-smo/TalkTree-App) für Endgeräte:**
 
 ---
 
-## Installation:
+## Installation
 
 Wähle ein beliebiges Verzeichnis und installiere das Programm.
 
@@ -40,7 +40,9 @@ Beim Start sucht/erstellt das Programm die Projektstruktur auf deinem Desktop in
 
 In diesem Ordner findest du Folgendes:
 
-### Überblick:
+---
+
+## Überblick
 
 - [/Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Audio/Audio.md)
 - [/Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Bilder/Bilder.md)

@@ -30,4 +30,4 @@ Wähle - „Trotzdem ausführen“
 
 ### Los geht's :)
 
-Nach Abschluss der Installation kannst du sofort loslegen. Ich empfehle aber, dir einen kurzen Überblick über die Möglichkeiten zur [Bearbeitung](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Erste_Schritte.md#talktreexlsx) zu verschaffen.
+Nach Abschluss der Installation kannst du sofort loslegen. Ich empfehle aber, dir einen kurzen Überblick über die Möglichkeiten zur [Bearbeitung](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Erste_Schritte.md#installation) zu verschaffen.
