@@ -22,47 +22,39 @@ Ich werde als nächstes mit der iOS-Implementierung starten. Drückt mir die Dau
 ### 31.01 - Neue Kontakt E-Mail
 Ich dachte, die “c-smo@users.noreply.github.com”-Adresse leitet Nachrichten direkt an mich weiter, aber da habe ich mich getäuscht. Tut mir leid, falls jemand vergeblich auf eine Antwort gewartet hat. Ich habe die E-Mail Adresse jetzt ausgetauscht.
 
----
-
-## Download:
+## Download & Installation:
 
 **Wichtig:** Bitte stelle sicher, dass sowohl die [App](https://github.com/c-smo/TalkTree-App) als auch der **Editor** auf einer kompatiblen Version sind. Hier zählt die erste Zahl in der Versions-Nummer, die keine 0 ist.
 
 **Aktuelle Version: v0.3.1 - stable** 
+
 - Editor und App sind jetzt auf dem gleichen Stand. Ein Kompatibilitäts-Update war leider erforderlich. 
 - Ich habe Beispiel Audio-Dateien von Speechgen.io (Stimme: Ryan DE) für die bereits vorhandenen Knöpfe beigefügt, damit man einen Anhaltspunkt hat, was möglich ist.
 
 ---
 
-**Windows:**
+TalkTree | **[Editor](https://github.com/c-smo/TalkTree-Edit)**
 
-- [TalkTree Editor | Windows](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Installation/windows.md)
+- [Windows](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Installation/windows.md)
 
----
-
-**MacOS:**
-
-
-- [TalkTree Editor | MacOS](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Installation/macos.md)
-
+- [MacOS](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Installation/macos.md)
 
 ---
 
-**TalkTree [App](https://github.com/c-smo/TalkTree-App) für Endgeräte:**
+TalkTree | **[App](https://github.com/c-smo/TalkTree-App)**
 
-- [ TalkTree App v0.3.0 | Android](https://github.com/c-smo/TalkTree-App/releases/download/v0.3.0/TalkTree-App_v0.3.0_android.apk)
+- [Android](https://github.com/c-smo/TalkTree-App/releases/download/v0.3.0/TalkTree-App_v0.3.0_android.apk)
 
-- ~~[App | iOS](URL)~~ _to-do_
+- ~~[iOS](URL)~~ _to-do_
 
 ---
 
-## Einleitung:
+### Einleitung:
 
 - [Erste Schritte](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Erste_Schritte.md)
 
----
 
-## Weitere Anleitungen:
+### Weitere Anleitungen:
 
 - [/Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Audio/Audio.md)
 - [/Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Bilder/Bilder.md)
