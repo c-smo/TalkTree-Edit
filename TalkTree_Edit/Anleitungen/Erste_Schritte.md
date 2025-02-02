@@ -30,7 +30,7 @@ TalkTree **[App](https://github.com/c-smo/TalkTree-App) für Endgeräte:**
 
 ---
 
-## Überblick
+## Bearbeitung
 
 Nach der Installation solltest du eine Datei mit dem Namen **"TalkTree Editor"** in deinem gewählten Installationsverzeichnis finden.
 
