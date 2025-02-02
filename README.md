@@ -17,7 +17,7 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 Da sich mehr Leute für das Projekt interessieren als erwartet (vielen herzlichen Dank dafür 🤭) möchte ich kurz auf das Thema Datenschutz eingehen.
 
 ### Externe Kommunikation
-Das Programm kann **kein** personenbezogene Daten erfassen, speichern oder an Dritte übertragen. Die einzige externe Kommunikation außerhalb deines lokalen Netzwerks erfolgt – sofern von dir aktiviert – zur API von **speechgen.io**. Dabei werden ausschließlich die Daten übermittelt, die für die Generierung der Audio-Datei erforderlich sind (z.B. Textinhalt und Sprachmodell-Einstellungen).  
+Das Programm kann **keine** personenbezogene Daten erfassen, speichern oder an Dritte übertragen. Die einzige externe Kommunikation außerhalb deines lokalen Netzwerks erfolgt – sofern von dir aktiviert – zur API von **speechgen.io**. Dabei werden ausschließlich die Daten übermittelt, die für die Generierung der Audio-Datei erforderlich sind (z.B. Textinhalt und Sprachmodell-Einstellungen).  
 
 ### Update-Prozess  
 Wenn du den Server zur Aktualisierung des Endgeräts aktivierst, werden lediglich die dafür notwendigen Daten (alle im TalkTree-Editor sicht- und hörbaren Inhalte) **lokal in deinem Netzwerk** bereitgestellt. Der Server schaltet sich automatisch ab, sobald ein Update erfolgreich abgeschlossen wurde.  
