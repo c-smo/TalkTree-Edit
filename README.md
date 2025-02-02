@@ -22,8 +22,8 @@ Das Programm kann **kein** personenbezogene Daten erfassen, speichern oder an Dr
 ### Update-Prozess  
 Wenn du den Server zur Aktualisierung des Endgeräts aktivierst, werden lediglich die dafür notwendigen Daten (alle im TalkTree-Editor sicht- und hörbaren Inhalte) **lokal in deinem Netzwerk** bereitgestellt. Der Server schaltet sich automatisch ab, sobald ein Update erfolgreich abgeschlossen wurde.  
 
-### [Dateizugriff](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/src-tauri/capabilities/default.json)  
-Das Programm kann ausschließlich auf folgende Verzeichnisse zugreifen: 
+### Dateizugriff
+Das Programm hat nur die [Befugnis](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/src-tauri/capabilities/default.json), auf folgende Verzeichnisse zuzugreifen:
 - Deinen **Desktop** um den **TalkTree-Ordner** zu erstellen.
 - Den erstellten **TalkTree-Ordner** auf deinem **Desktop** (inkl. Unterdateien)  
 - Die vom Betriebssystem vorgegebenen **Applikationsverzeichnisse** (für programminterne Einstellungen und Caches)  
