@@ -14,7 +14,7 @@ Vielen Dank, dass du TalkTree ausprobierst und damit einen wichtigen Teil zur En
 
 **Windows:**
 
-- [TalkTree Editor | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.3.0/TalkTree.Editor_0.3.0_x64-setup.exe)
+- [TalkTree Editor | Windows](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Installation/windows.md)
 
 ---
 
