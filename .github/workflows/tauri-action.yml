@@ -36,9 +36,9 @@ jobs:
       - name: setup node
         uses: actions/setup-node@v4
         with:
-          workspaces: './TalkTree_Edit -> package-lock.json'
-          node-version: lts/*
-          cache: 'npm' # Set this to npm, yarn or pnpm.
+            node-version: lts/*
+            cache: 'npm'
+            cache-dependency-path: 'TalkTree_Edit/package-lock.json'
 
       - name: install Rust stable
         uses: dtolnay/rust-toolchain@stable # Set this to dtolnay/rust-toolchain@nightly
