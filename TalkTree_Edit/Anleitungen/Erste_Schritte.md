@@ -2,7 +2,7 @@
 
 Vielen Dank, dass du TalkTree ausprobierst und damit einen wichtigen Teil zur Entwicklung beiträgst! Das Projekt steckt noch in den Anfängen, deshalb kann es zu Fehlern kommen. Ich wollte aber früh die Möglichkeit bieten, Feedback zu sammeln. Änderungsvorschläge, Wünsche und Fragen sind daher jederzeit herzlich willkommen!
 
-# Erste Schritte
+---
 
 ## Download & Installation:
 
