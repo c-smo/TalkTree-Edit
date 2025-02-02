@@ -1,6 +1,6 @@
 # Installation auf Windows
 
-Obwohl Microsoft ebenfalls Stolpersteine für Open-Source-Software in den Weg legt, finde ich ihre Herangehensweise im Gegensatz zu Apple akzeptabel, da natürlich ein gewisses Risiko besteht, wenn man unbekannte Applikationen aus dem Internet installiert.
+Obwohl Microsoft ebenfalls Stolpersteine für Open-Source-Software in den Weg legt, finde ich ihre Herangehensweise im Gegensatz zu Apple akzeptabel, da natürlich ein gewisses Risiko besteht, wenn man unbekannte Applikationen aus dem Internet installiert. Eine neutralere Formulierung wäre wünschenswert, aber dieser Wunsch ist vermutlich utopisch.
 
 ## Download
 
