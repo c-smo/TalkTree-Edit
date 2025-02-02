@@ -2,7 +2,7 @@
 
 Eine Liste aller Wörter, die noch keine verknüpfte Audio-Datei haben, findest du in der Datei [Neu.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Audio/Neu.md). Sie befindet sich im Audio-Ordner und wird bei jedem Start des Editors neu generiert.
 
-Für alle Knöpfe, die in “TalkTree.xlsx” bereits vorhanden sind, habe ich Beispiel Audio-Dateien von Speechgen.io beigelegt. Als Stimme habe ich "Ryan DE" ausgewählt. Neu hinzugefügte Knöpfe werden die betriebssysteminterne Stimme verwenden, da keine Audio-Datei vorhanden ist.
+Für alle Knöpfe, die in “TalkTree.xlsx” bereits vorhanden sind, habe ich Beispiel Audio-Dateien von Speechgen.io beigelegt. Als Stimme habe ich "Ryan DE" ausgewählt. Für neu hinzugefügte Knöpfe wird die betriebssysteminterne Stimme verwenden, da keine Audio-Datei vorhanden ist.
 
 ## Text-to-Speech
 
