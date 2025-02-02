@@ -8,25 +8,23 @@ Vielen Dank, dass du TalkTree ausprobierst und damit einen wichtigen Teil zur En
 
 **Wichtig:** Bitte stelle sicher, dass sowohl die [App](https://github.com/c-smo/TalkTree-App) als auch der **Editor** auf einer kompatiblen Version sind. Hier zählt die erste Zahl in der Versions-Nummer, die keine 0 ist.
 
----
-
-**Windows:**
-
-- [TalkTree Editor | Windows](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Installation/windows.md)
+Aktuelle Version: **v0.3**
 
 ---
 
-**MacOS:**
+TalkTree | **[Editor](https://github.com/c-smo/TalkTree-Edit)**
 
-- [TalkTree Editor | macOS](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Installation/macos.md)
+- [Windows](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Installation/windows.md)
+
+- [MacOS](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Installation/macos.md)
 
 ---
 
-TalkTree **[App](https://github.com/c-smo/TalkTree-App) für Endgeräte:**
+TalkTree | **[App](https://github.com/c-smo/TalkTree-App)**
 
-- [ TalkTree App | Android](https://github.com/c-smo/TalkTree-App/releases/download/v0.3.0/TalkTree-App_v0.3.0_android.apk)
+- [Android](https://github.com/c-smo/TalkTree-App/releases/download/v0.3.0/TalkTree-App_v0.3.0_android.apk)
 
-- ~~[App | iOS](URL)~~ _to-do_
+- ~~[iOS](URL)~~ _to-do_
 
 ---
 
