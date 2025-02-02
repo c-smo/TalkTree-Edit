@@ -36,7 +36,7 @@ Transparenz ist mir ein Anliegen: Sollten Fragen offen bleiben, meldet euch gern
 
 ### 02.02 - iOS Integration
 
-Ich habe mich über die Möglichkeiten einer iOS-Integration informiert. Obwohl die EU 2024 ein Gesetz beschlossen hat, das Apple dazu motivieren soll, Geräte endlich für Drittanbieter zu öffnen, ist dies bis dato immer noch nur bedingt möglich. Außerhalb der EU ist es schlicht unmöglich. 
+Ich habe mich über die Möglichkeiten einer iOS-Integration informiert. Obwohl die [EU 2024 ein Gesetz beschlossen hat](https://digital-strategy.ec.europa.eu/de/news/commission-sends-preliminary-findings-apple-and-opens-additional-non-compliance-investigation#:~:text=Die%20Europ%C3%A4ische%20Kommission%20hat%20Apple,f%C3%BCr%20Angebote%20und%20Inhalte%20lenken.), das Apple dazu motivieren soll, Geräte endlich für Drittanbieter zu öffnen, ist dies bis dato immer noch nur bedingt möglich. Außerhalb der EU ist es schlicht unmöglich. 
 
 Ich gebe noch nicht auf, aber aktuell sieht es nicht gut aus :(
 
