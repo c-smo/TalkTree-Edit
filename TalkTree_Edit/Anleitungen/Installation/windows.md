@@ -2,9 +2,13 @@
 
 Obwohl Microsoft ebenfalls Stolpersteine für Open-Source-Software in den Weg legt, finde ich ihre Herangehensweise im Gegensatz zu Apple akzeptabel, da natürlich ein gewisses Risiko besteht, wenn man unbekannte Applikationen aus dem Internet installiert. Eine neutralere Formulierung wäre wünschenswert, aber dieser Wunsch ist vermutlich utopisch.
 
-## Download
+---
+
+### Download
 
 - [TalkTree Editor | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.3.1/TalkTree.Editor_0.3.1_x64-setup.exe)
+
+---
 
 ### Anwendung öffnen
 
