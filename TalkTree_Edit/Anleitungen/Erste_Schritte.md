@@ -69,11 +69,11 @@ Auf dieser Seite solltest du ein 3 x 6-Raster sehen mit den folgenden Werten in 
 
 ---
 
-# Bearbeitung
+## Informationen
 
 Du hast die Möglichkeit, **TalkTree.xlsx** folgendermaßen zu bearbeiten:
 
-## Symbol:
+### Symbol:
 
 1. **Einfach leer lassen:**  
    Der Knopf wird nicht erscheinen.
@@ -86,7 +86,7 @@ Du hast die Möglichkeit, **TalkTree.xlsx** folgendermaßen zu bearbeiten:
 
 ---
 
-## Aussprach:
+### Aussprach:
 
 1. **Einfach leer lassen:**  
    Das Programm wird den Text im Symbol mittels [Text-To-Speech](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Audio/Audio.md#Text-to-Speech) vorlesen.
@@ -102,7 +102,7 @@ Du hast die Möglichkeit, **TalkTree.xlsx** folgendermaßen zu bearbeiten:
 
 ---
 
-## Untertitel:
+### Untertitel:
 
 1. **Einfach leer lassen:**  
    Kein Untertitel.
@@ -112,7 +112,7 @@ Du hast die Möglichkeit, **TalkTree.xlsx** folgendermaßen zu bearbeiten:
 
 ---
 
-## Farbe:
+### Farbe:
 
 1. **Einfach leer lassen:**
 
@@ -126,7 +126,7 @@ Du hast die Möglichkeit, **TalkTree.xlsx** folgendermaßen zu bearbeiten:
 
 ---
 
-## Link:
+### Link:
 
 1. **Einfach leer lassen:**  
    Der Knopf verlinkt automatisch auf die "home"-Tabelle.
@@ -153,7 +153,7 @@ Link:          Viel Spaß!  <- und verlinkt auf die Tabelle "Viel Spaß!"
 
 ---
 
-# Schlusswort
+## Schlusswort
 
 Mit diesen einfachen Werkzeugen hast du erstaunlich viele Möglichkeiten. Bei der Entwicklung war ich ziemlich verblüfft, was man damit alles machen kann. Ich habe ein paar Beispiele in der Excel-Datei gelassen, um dich ein bisschen zu inspirieren, aber das Potenzial ist bei weitem nicht erschöpft. Ich bin wirklich gespannt, auf welche Ideen die Community so kommen wird :)
 
