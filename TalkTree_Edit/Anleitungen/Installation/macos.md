@@ -1,4 +1,4 @@
-# Installation auf macOS
+# Installation auf MacOS
 
 **_Hinweis: Bitte bewahren Sie während des Prozesses Ihre Ironie-Reserven. Das wiederholte Klicken durch dystopische Warnhinweise kann in der Open-Source-Community nachweislich zu akuter Sarkasmus-Exazerbation führen._**
 
