@@ -14,29 +14,14 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 
 ## Datenschutz
 
-Da sich mehr Leute für das Projekt interessieren als erwartet (vielen herzlichen Dank dafür 🤭) möchte ich kurz auf das Thema Datenschutz eingehen.
-
-### Externe Kommunikation
-Das Programm kann **keine** personenbezogene Daten erfassen, speichern oder an Dritte übertragen. Die einzige externe Kommunikation außerhalb deines lokalen Netzwerks erfolgt – sofern von dir aktiviert – zur API von **speechgen.io**. Dabei werden ausschließlich die Daten übermittelt, die für die Generierung der Audio-Datei erforderlich sind (z.B. Textinhalt und Sprachmodell-Einstellungen).  
-
-### Update-Prozess  
-Wenn du den Server zur Aktualisierung des Endgeräts aktivierst, werden lediglich die dafür notwendigen Daten (alle im TalkTree-Editor sicht- und hörbaren Inhalte) **lokal in deinem Netzwerk** bereitgestellt. Der Server schaltet sich automatisch ab, sobald ein Update erfolgreich abgeschlossen wurde.  
-
-### Dateizugriff
-Das Programm hat nur die [Befugnis](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/src-tauri/capabilities/default.json), auf folgende Verzeichnisse zuzugreifen:
-- Deinen **Desktop** um den **TalkTree-Ordner** zu erstellen.
-- Den erstellten **TalkTree-Ordner** auf deinem **Desktop** (inkl. Unterdateien)  
-- Die vom Betriebssystem vorgegebenen **Applikationsverzeichnisse** (für programminterne Einstellungen und Caches)  
-
-Transparenz ist mir ein Anliegen: Sollten Fragen offen bleiben, meldet euch gern!
+Da sich mehr Leute für das Projekt interessieren als erwartet (vielen herzlichen Dank dafür! 🤭) möchte ich kurz auf das Thema [Datenschutz](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Dev/Datenschutz.md) eingehen.
 
 ---
-
 ## Neuigkeiten
 
 ### 02.02 - iOS Integration
 
-Ich habe mich über die Möglichkeiten einer iOS-Integration informiert. Obwohl die [EU 2024 ein Gesetz beschlossen hat](https://digital-strategy.ec.europa.eu/de/news/commission-sends-preliminary-findings-apple-and-opens-additional-non-compliance-investigation#:~:text=Die%20Europ%C3%A4ische%20Kommission%20hat%20Apple,f%C3%BCr%20Angebote%20und%20Inhalte%20lenken.), das Apple dazu motivieren soll, Geräte endlich für Drittanbieter zu öffnen, ist dies bis dato immer noch nur bedingt möglich. Außerhalb der EU ist es schlicht unmöglich. 
+Ich habe mich über die Möglichkeiten einer iOS-Integration informiert. Obwohl die [EU 2024 ein Gesetz beschlossen hat](https://digital-strategy.ec.europa.eu/de/news/commission-sends-preliminary-findings-apple-and-opens-additional-non-compliance-investigation#:~:text=Die%20Europ%C3%A4ische%20Kommission%20hat%20Apple,f%C3%BCr%20Angebote%20und%20Inhalte%20lenken.), das Apple dazu motivieren soll, Geräte endlich für Drittanbieter zu öffnen, ist dies bis dato immer noch nur bedingt möglich. Außerhalb der EU ist es schlicht unmöglich.
 
 Ich gebe noch nicht auf, aber aktuell sieht es nicht gut aus :(
 
@@ -44,59 +29,25 @@ P.S.: Um diese Neuigkeit aber auf einer positiven Note abzuschließen: Bevor es 
 
 P.P.S.: Im Worst Case lege ich mir zähneknirschend doch noch einen Developer-Account zu.
 
-### 01.02 – Die nächsten Schritte  
-Die Version v0.3 scheint aktuell stabil zu sein – mir sind keine Fehler bekannt. Falls euch etwas auffällt, gebt mir bitte Bescheid, damit ich es beheben kann.  
-
-Als Nächstes starte ich mit der iOS-Implementierung. Drückt mir die Daumen – Apple und ich sind momentan nicht die besten Freunde.  
-
-### 31.01 - Neue Kontakt E-Mail
-Ich dachte, die “c-smo@users.noreply.github.com”-Adresse leitet Nachrichten direkt an mich weiter, aber da habe ich mich getäuscht. Tut mir leid, falls jemand vergeblich auf eine Antwort gewartet hat. Ich habe die E-Mail Adresse jetzt ausgetauscht.
+[mehr](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Dev/NEWS.md)
 
 ---
-
 ## Download & Installation
 
-**Wichtig:** Bitte stelle sicher, dass sowohl die [App](https://github.com/c-smo/TalkTree-App) als auch der **Editor** auf einer kompatiblen Version sind. Hier zählt die erste Zahl in der Versions-Nummer, die keine 0 ist.
+- Wähle dein [Betriebssystem](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Installation/download.md)
 
-**Aktuelle Version: v0.3.1 - stable** 
-
-- Editor und App sind jetzt auf dem gleichen Stand. Ein Kompatibilitäts-Update war leider erforderlich. 
-- Ich habe Beispiel Audio-Dateien von Speechgen.io (Stimme: Ryan DE) für die bereits vorhandenen Knöpfe beigefügt, damit man einen Anhaltspunkt hat, was möglich ist.
-
-
-#### TalkTree | **[Editor](https://github.com/c-smo/TalkTree-Edit)**
-
-- [Windows](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Installation/windows.md)
-
-- [MacOS](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Installation/macos.md)
-
-
-#### TalkTree | **[App](https://github.com/c-smo/TalkTree-App)**
-
-- [Android](https://github.com/c-smo/TalkTree-App/releases/download/v0.3.0/TalkTree-App_v0.3.0_android.apk)
-
-- ~~[iOS](URL)~~ _to-do_
 
 ---
 
 ## Anleitungen
+- [Erste Schritte](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Erste_Schritte.md) 
 
-- [Erste Schritte](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Erste_Schritte.md)
-
----
-
-- [/Audio](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Audio/Audio.md)
-- [/Bilder](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Bilder/Bilder.md)
-- /Einstellungen
-
-  - [Einstellungen.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Einstellungen/Einstellungen.md)
-  - [Farben.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Einstellungen/Farben.md)
-  - [Server.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Einstellungen/Server.md)
-  - [Speechgen.txt](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Einstellungen/Speechgen.md)
+- [Weitere Informationen](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Inhalt.md)
 
 ---
 
 ## Kontakt
 
-- Christopher Smolic
-- c-smolic@proton.me
+**Christopher Smolic**
+
+c-smolic@proton.me
