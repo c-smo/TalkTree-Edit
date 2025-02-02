@@ -23,3 +23,7 @@ Als Nächstes starte ich mit der iOS-Implementierung. Drückt mir die Daumen –
 ### 31.01 - Neue Kontakt E-Mail
 
 Ich dachte, die “c-smo@users.noreply.github.com”-Adresse leitet Nachrichten direkt an mich weiter, aber da habe ich mich getäuscht. Tut mir leid, falls jemand vergeblich auf eine Antwort gewartet hat. Ich habe die E-Mail Adresse jetzt ausgetauscht.
+
+---
+
+Hier geht es [zurück](https://github.com/c-smo/TalkTree-Edit?tab=readme-ov-file#neuigkeiten) zur Startseite.
