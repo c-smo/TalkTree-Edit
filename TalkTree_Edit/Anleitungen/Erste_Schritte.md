@@ -65,11 +65,7 @@ Die erste Seite, die man beim Start der App sieht, ist die Tabelle mit dem Namen
 
 Auf dieser Seite solltest du ein 3 x 6-Raster sehen mit den folgenden Werten in der ersten Spalte: **Symbol, Aussprache, Untertitel, Farbe, Link.**
 
----
-
-## Informationen
-
-Du hast die Möglichkeit, **TalkTree.xlsx** folgendermaßen zu bearbeiten:
+Du hast die Möglichkeit, diese folgendermaßen zu bearbeiten:
 
 ### Symbol:
 
