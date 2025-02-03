@@ -10,52 +10,49 @@ jobs:
   publish-tauri:
     permissions:
       contents: write
+    environment: tauri  # Reference the environment containing secrets
     strategy:
       fail-fast: false
       matrix:
         include:
           - platform: 'ubuntu-22.04'
             args: ''
+            rust_target: ''
           - platform: 'windows-latest'
             args: ''
+            rust_target: ''
           - platform: 'macos-latest'
             args: '--target aarch64-apple-darwin'
-            arch: 'silicon'
+            rust_target: 'aarch64-apple-darwin'
           - platform: 'macos-latest'
             args: '--target x86_64-apple-darwin'
-            arch: 'intel'
-
+            rust_target: 'x86_64-apple-darwin'
 
     runs-on: ${{ matrix.platform }}
     env:
       APPLE_ID: ${{ secrets.APPLE_ID }}
       APPLE_ID_PASSWORD: ${{ secrets.APPLE_ID_PASSWORD }}
+
     steps:
       - uses: actions/checkout@v4
 
       - name: install dependencies (ubuntu only)
-        if: matrix.platform == 'ubuntu-22.04' # This must match the platform value defined above.
+        if: matrix.platform == 'ubuntu-22.04'
         run: |
           sudo apt-get update
           sudo apt-get install -y libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev patchelf
-      - name: Cleanup Keychain
-        if: matrix.platform == 'macos-latest'
-        run: |
-          if [ -f build.keychain ]; then
-            security delete-keychain build.keychain
-          fi
+
       - name: setup node
         uses: actions/setup-node@v4
         with:
-            node-version: lts/*
-            cache: 'npm'
-            cache-dependency-path: 'TalkTree_Edit/package-lock.json'
+          node-version: lts/*
+          cache: 'npm'
+          cache-dependency-path: 'TalkTree_Edit/package-lock.json'
 
       - name: install Rust stable
-        uses: dtolnay/rust-toolchain@stable # Set this to dtolnay/rust-toolchain@nightly
+        uses: dtolnay/rust-toolchain@nightly
         with:
-          # Those targets are only used on macos runners so it's in an `if` to slightly speed up windows and linux builds.
-          targets: ${{ matrix.platform == 'macos-latest' && 'aarch64-apple-darwin,x86_64-apple-darwin' || '' }}
+          targets: ${{ matrix.rust_target }}
 
       - name: Rust cache
         uses: swatinem/rust-cache@v2
@@ -63,18 +60,16 @@ jobs:
           workspaces: './src-tauri -> target'
 
       - name: install frontend dependencies
-        # If you don't have `beforeBuildCommand` configured you may want to build your frontend here too.
         working-directory: ./TalkTree_Edit
-        run: npm install # change this to npm or pnpm depending on which one you use.
+        run: npm install
 
-      - name: Import Apple Developer Certificate
+      - name: Import Apple Developer Certificate (macOS only)
         if: matrix.platform == 'macos-latest'
         env:
           APPLE_CERTIFICATE: ${{ secrets.APPLE_CERTIFICATE }}
           APPLE_CERTIFICATE_PASSWORD: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
           KEYCHAIN_PASSWORD: ${{ secrets.KEYCHAIN_PASSWORD }}
         run: |
-          set -x  # Enable debugging for the shell
           echo $APPLE_CERTIFICATE | base64 --decode > certificate.p12
           security create-keychain -p "$KEYCHAIN_PASSWORD" build.keychain
           security default-keychain -s build.keychain
@@ -83,24 +78,21 @@ jobs:
           security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k "$KEYCHAIN_PASSWORD" build.keychain
           security find-identity -v -p codesigning build.keychain
 
-      - name: Verify Certificate
+      - name: Verify Certificate (macOS only)
         if: matrix.platform == 'macos-latest'
         run: |
-          CERT_INFO=$(security find-identity -v -p codesigning build.keychain | grep "Developer ID Application")
+          CERT_INFO=$(security find-identity -v -p codesigning build.keychain | grep "Apple Development")
           CERT_ID=$(echo "$CERT_INFO" | awk -F'"' '{print $2}')
           echo "CERT_ID=$CERT_ID" >> $GITHUB_ENV
           echo "Certificate imported."
 
-
       - uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          APPLE_CERTIFICATE: ${{ secrets.APPLE_CERTIFICATE }}
-          APPLE_CERTIFICATE_PASSWORD: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
-          APPLE_SIGNING_IDENTITY: ${{ env.CERT_ID }} #Only needed on macos
+          APPLE_SIGNING_IDENTITY: ${{ env.CERT_ID }}
         with:
-          projectPath: ./TalkTree_Edit 
-          tagName: v__VERSION__ # the action automatically replaces \_\_VERSION\_\_ with the app version.
+          projectPath: ./TalkTree_Edit
+          tagName: v__VERSION__
           releaseName: 'TalkTree-Edit v__VERSION__'
           releaseBody: ' '
           releaseDraft: true
