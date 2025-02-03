@@ -9,7 +9,7 @@ on:
 jobs:
   publish-tauri:
     environment:
-      name: tauri # This is the name of your environment
+      name: tauri
     permissions:
       contents: write
     strategy:
@@ -49,7 +49,7 @@ jobs:
             cache-dependency-path: 'TalkTree_Edit/package-lock.json'
 
       - name: install Rust stable
-        uses: dtolnay/rust-toolchain@stable # Set this to dtolnay/rust-toolchain@nightly
+        uses: dtolnay/rust-toolchain@nightly
         with:
           # Those targets are only used on macos runners so it's in an `if` to slightly speed up windows and linux builds.
           targets: ${{ matrix.platform == 'macos-latest' && 'aarch64-apple-darwin,x86_64-apple-darwin' || '' }}
@@ -60,9 +60,8 @@ jobs:
           workspaces: './src-tauri -> target'
 
       - name: install frontend dependencies
-        # If you don't have `beforeBuildCommand` configured you may want to build your frontend here too.
         working-directory: ./TalkTree_Edit
-        run: npm install # change this to npm or pnpm depending on which one you use.
+        run: npm install
 
       - name: Import Apple Developer Certificate
         if: matrix.platform == 'macos-latest'
