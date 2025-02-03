@@ -14,8 +14,6 @@ Hier geht es [zurück](https://github.com/c-smo/TalkTree-Edit?tab=readme-ov-file
 
 Der Account muss noch bestätigt werden, kann bis zu 2 Tage dauern.
 
-[mehr](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Devlog/NEWS.md)
-
 ---
 
 ### 02.02 - iOS Integration
