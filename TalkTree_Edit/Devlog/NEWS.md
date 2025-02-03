@@ -1,5 +1,23 @@
 ## Neuigkeiten
 
+## Neuigkeiten
+
+---
+
+Hier geht es [zurück](https://github.com/c-smo/TalkTree-Edit?tab=readme-ov-file#neuigkeiten) zur Startseite.
+
+---
+
+### 03.02 - Ohne Worte
+
+   <img src="./TalkTree_Edit/Devlog/preview_fkapple.png" alt="preview_fkapple" width="699" height="314">
+
+Der Account muss noch bestätigt werden, kann bis zu 2 Tage dauern.
+
+[mehr](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Devlog/NEWS.md)
+
+---
+
 ### 02.02 - iOS Integration
 
 Ich habe mich über die Möglichkeiten einer iOS-Integration informiert. Obwohl die [EU 2024 ein Gesetz beschlossen hat](https://digital-strategy.ec.europa.eu/de/news/commission-sends-preliminary-findings-apple-and-opens-additional-non-compliance-investigation#:~:text=Die%20Europ%C3%A4ische%20Kommission%20hat%20Apple,f%C3%BCr%20Angebote%20und%20Inhalte%20lenken.), das Apple dazu motivieren soll, Geräte endlich für Drittanbieter zu öffnen, ist dies bis dato immer noch nur bedingt möglich. Außerhalb der EU ist es schlicht unmöglich.
