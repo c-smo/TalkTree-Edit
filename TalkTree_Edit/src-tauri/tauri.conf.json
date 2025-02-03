@@ -24,7 +24,7 @@
   },
   "bundle": {
     "macOS": {
-      "signingIdentity": "c-smo",
+      "signingIdentity": "APPLE_SIGNING_IDENTITY",
       "dmg": {
         "appPosition": {
           "x": 180,
@@ -43,9 +43,7 @@
       "hardenedRuntime": true,
       "minimumSystemVersion": "10.13"
     },
-    "resources": [
-      "resources/**/*"
-    ],
+    "resources": ["resources/**/*"],
     "active": true,
     "targets": "all",
     "icon": [

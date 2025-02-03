@@ -4,10 +4,10 @@ const MAX_KEY_LENGTH = 8;
 
 const sql_get_key = (string: string): string => {
   if (!string) return "";
-  const lowered_string = String(string).toLowerCase();
+  const normalized_and_lowered = String(string).normalize("NFC").toLowerCase();
   return hash
     .sha1()
-    .update(lowered_string)
+    .update(normalized_and_lowered)
     .digest("hex")
     .substring(0, MAX_KEY_LENGTH);
 };

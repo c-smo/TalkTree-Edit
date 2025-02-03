@@ -16,16 +16,12 @@ import print_colors from "../utils/printer/print_colors";
 import print_server from "../utils/printer/print_server";
 import print_settings from "../utils/printer/print_settings";
 
-let first_run = false;
-
 const validate_all = async (): Promise<void> => {
   try {
     await validate_structure();
     await validate_db_tables();
-    if (first_run) {
-      await validate_samples();
-      await validate_images();
-    }
+    await validate_samples();
+    await validate_images();
   } catch (error) {
     err(error);
   }
@@ -68,7 +64,6 @@ const validate_dir_path = async (dir_path: string) => {
   try {
     if (!(await exists(dir_path))) {
       await mkdir(dir_path);
-      first_run = true;
     }
   } catch (error) {
     err(error);

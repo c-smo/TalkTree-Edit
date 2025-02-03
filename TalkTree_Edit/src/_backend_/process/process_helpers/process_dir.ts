@@ -9,7 +9,6 @@ export const process_dir = async (
 ): Promise<SqlWrapper[]> => {
   const output: SqlWrapper[] = [];
   const allFiles = await fs_read_dir(dir, file_type);
-
   for (let file of allFiles) {
     output.push({
       table_name,

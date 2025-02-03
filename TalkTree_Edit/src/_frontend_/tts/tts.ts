@@ -7,7 +7,6 @@ export const tts_read = async (button: TTSButton): Promise<void> => {
   if (button.tts === "-") return;
   try {
     const key = sql_get_key(button.tts);
-
     const uint8array = (await sql_read_uint8array("audio", key)) as Uint8Array;
     if (uint8array) {
       tts_from_sql(uint8array);
