@@ -1,13 +1,5 @@
 ## Neuigkeiten
 
-## Neuigkeiten
-
----
-
-Hier geht es [zurück](https://github.com/c-smo/TalkTree-Edit?tab=readme-ov-file#neuigkeiten) zur Startseite.
-
----
-
 ### 03.02 - Ohne Worte
 
    <img src="./preview_fkapple.png" alt="preview_fkapple" width="699" height="314">
