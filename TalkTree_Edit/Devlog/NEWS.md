@@ -10,7 +10,7 @@ Hier geht es [zurück](https://github.com/c-smo/TalkTree-Edit?tab=readme-ov-file
 
 ### 03.02 - Ohne Worte
 
-   <img src="./TalkTree_Edit/Devlog/preview_fkapple.png" alt="preview_fkapple" width="699" height="314">
+   <img src="./preview_fkapple.png" alt="preview_fkapple" width="699" height="314">
 
 Der Account muss noch bestätigt werden, kann bis zu 2 Tage dauern.
 
