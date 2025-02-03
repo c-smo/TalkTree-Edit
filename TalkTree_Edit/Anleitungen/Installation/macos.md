@@ -1,5 +1,11 @@
 # Installation auf MacOS
 
+---
+
+**_Update 03.02: Da eine iOS-Implementierung ohne Developer-Account so gut wie unrealisierbar ist, habe ich es getan… Ich will es gar nicht aussprechen… :D Naja, beim nächsten Update werde ich auch die macOS-Version signieren, dann kann man sich diesen furchtbaren Prozess hier hoffentlich ersparen._**
+
+---
+
 **_Hinweis: Bitte bewahren Sie während des Prozesses Ihre Ironie-Reserven. Das wiederholte Klicken durch dystopische Warnhinweise kann in der Open-Source-Community nachweislich zu akuter Sarkasmus-Exazerbation führen._**
 
 Apple verwendet äußerst kreative Methoden, um potenzielle Kunden zu ermutigen, jährlich 99 € in einen Developer-Account zu investieren – für das Privileg, Software für andere Menschen zugänglich zu machen.
