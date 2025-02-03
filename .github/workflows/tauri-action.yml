@@ -5,12 +5,13 @@ on:
   push:
     branches:
       - release
+      - main
 
 jobs:
   publish-tauri:
     permissions:
       contents: write
-    environment: tauri  # Reference the environment containing secrets
+    environment: tauri
     strategy:
       fail-fast: false
       matrix:
@@ -32,6 +33,7 @@ jobs:
     env:
       APPLE_ID: ${{ secrets.APPLE_ID }}
       APPLE_ID_PASSWORD: ${{ secrets.APPLE_ID_PASSWORD }}
+      APPLE_SIGNING_IDENTITY: ${{ secrets.APPLE_SIGNING_IDENTITY }}
 
     steps:
       - uses: actions/checkout@v4
@@ -76,20 +78,10 @@ jobs:
           security unlock-keychain -p "$KEYCHAIN_PASSWORD" build.keychain
           security import certificate.p12 -k build.keychain -P "$APPLE_CERTIFICATE_PASSWORD" -T /usr/bin/codesign
           security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k "$KEYCHAIN_PASSWORD" build.keychain
-          security find-identity -v -p codesigning build.keychain
-
-      - name: Verify Certificate (macOS only)
-        if: matrix.platform == 'macos-latest'
-        run: |
-          CERT_INFO=$(security find-identity -v -p codesigning build.keychain | grep "Apple Development")
-          CERT_ID=$(echo "$CERT_INFO" | awk -F'"' '{print $2}')
-          echo "CERT_ID=$CERT_ID" >> $GITHUB_ENV
-          echo "Certificate imported."
 
       - uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          APPLE_SIGNING_IDENTITY: ${{ env.CERT_ID }}
         with:
           projectPath: ./TalkTree_Edit
           tagName: v__VERSION__
