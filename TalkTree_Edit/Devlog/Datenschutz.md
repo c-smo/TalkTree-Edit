@@ -32,11 +32,11 @@ Der Server schaltet sich automatisch ab, sobald **1 Update** erfolgreich abgesch
 - Den erstellten **"TalkTree"-Ordner** auf deinem **Desktop** und alle darin befindlichen Elemente.
 - Die vom Betriebssystem vorgegebenen **Applikationsverzeichnisse** (für programminterne Einstellungen und Caches).
 
-Transparenz ist mir ein Anliegen: Sollten Fragen offen bleiben, meldet euch gern!
-
 ---
 
 ### Kontakt
+
+Transparenz im Umgang mit persönlichen Daten ist mir wichtig. Sollten Fragen offen bleiben, meldet euch gern!
 
 Christopher Smolic  
 c-smolic@proton.me
