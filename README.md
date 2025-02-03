@@ -14,20 +14,16 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 
 ## Datenschutz
 
-Da sich mehr Leute für das Projekt interessieren als erwartet (vielen herzlichen Dank dafür! 🤭) möchte ich kurz auf das Thema [Datenschutz](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Devlog/Datenschutz.md) eingehen.
+Ein kurzes aber wichtiges Wort zum Thema [Datenschutz](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Devlog/Datenschutz.md).
 
 ---
 ## Neuigkeiten
 
-### 02.02 - iOS Integration
+### 03.02 - Ohne Worte
 
-Ich habe mich über die Möglichkeiten einer iOS-Integration informiert. Obwohl die [EU 2024 ein Gesetz beschlossen hat](https://digital-strategy.ec.europa.eu/de/news/commission-sends-preliminary-findings-apple-and-opens-additional-non-compliance-investigation#:~:text=Die%20Europ%C3%A4ische%20Kommission%20hat%20Apple,f%C3%BCr%20Angebote%20und%20Inhalte%20lenken.), das Apple dazu motivieren soll, Geräte endlich für Drittanbieter zu öffnen, ist dies bis dato immer noch nur bedingt möglich. Außerhalb der EU ist es schlicht unmöglich.
+   <img src="./TalkTree_Edit/Devlog/preview_fkapple.png" alt="preview_fkapple" width="699" height="314">
 
-Ich gebe noch nicht auf, aber aktuell sieht es nicht gut aus :(
-
-P.S.: Um diese Neuigkeit aber auf einer positiven Note abzuschließen: Bevor es gar keine Alternative für iPads gibt (eigentlich ist iOS nur wegen iPads interessant, weil diese bereits in den meisten Einrichtungen verfügbar sind), werde ich das Geld lieber investieren um eine Website zu hosten, auf die man mit dem iPad zugreifen kann, um das Programm von dort zu starten. Ich habe auch noch 1-2 Ideen wie ich Apple vielleicht doch überreden kann. Des wird scho ois! :)
-
-P.P.S.: Im Worst Case lege ich mir zähneknirschend doch noch einen Developer-Account zu.
+Der Account muss noch bestätigt werden, kann bis zu 2 Tage dauern.
 
 [mehr](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Devlog/NEWS.md)
 
