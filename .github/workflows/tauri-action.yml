@@ -8,8 +8,6 @@ on:
 
 jobs:
   publish-tauri:
-    environment:
-      name: tauri
     permissions:
       contents: write
     strategy:
@@ -40,7 +38,10 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev patchelf
-
+      - name: Cleanup Keychain
+        if: matrix.platform == 'macos-latest'
+        run: |
+          security delete-keychain build.keychain
       - name: setup node
         uses: actions/setup-node@v4
         with:
@@ -61,7 +62,7 @@ jobs:
 
       - name: install frontend dependencies
         working-directory: ./TalkTree_Edit
-        run: npm install
+        run: npm install 
 
       - name: Import Apple Developer Certificate
         if: matrix.platform == 'macos-latest'
@@ -70,6 +71,7 @@ jobs:
           APPLE_CERTIFICATE_PASSWORD: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
           KEYCHAIN_PASSWORD: ${{ secrets.KEYCHAIN_PASSWORD }}
         run: |
+          set -x # Enable debugging for the shell
           echo $APPLE_CERTIFICATE | base64 --decode > certificate.p12
           security create-keychain -p "$KEYCHAIN_PASSWORD" build.keychain
           security default-keychain -s build.keychain
@@ -81,7 +83,7 @@ jobs:
       - name: Verify Certificate
         if: matrix.platform == 'macos-latest'
         run: |
-          CERT_INFO=$(security find-identity -v -p codesigning build.keychain | grep "Apple Development")
+          CERT_INFO=$(security find-identity -v -p codesigning build.keychain | grep "Developer ID Application")
           CERT_ID=$(echo "$CERT_INFO" | awk -F'"' '{print $2}')
           echo "CERT_ID=$CERT_ID" >> $GITHUB_ENV
           echo "Certificate imported."
