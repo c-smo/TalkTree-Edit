@@ -12,8 +12,8 @@ Da ich dieses Geschäftsmodell kategorisch ablehne, bleibt nur der Weg über sel
 
 ## Download
 
-- [TalkTree Editor | arm](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.3.1/TalkTree.Edit-v0.3.1-aarch64.zip)
-- [TalkTree Editor | intel](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.3.1/TalkTree.Edit-v0.3.1-x86_64.zip)
+- [TalkTree Editor | arm](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.4.0/TalkTree.Edit-v0.4.0-aarch64.zip)
+- [TalkTree Editor | intel](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.4.0/TalkTree.Edit-v0.4.0-x86_64.zip)
 
 ### Anwendung öffnen
 

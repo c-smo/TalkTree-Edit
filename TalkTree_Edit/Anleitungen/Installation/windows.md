@@ -6,7 +6,7 @@ Obwohl Microsoft ebenfalls Stolpersteine für Open-Source-Software in den Weg le
 
 ### Download
 
-- [TalkTree Editor | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.3.1/TalkTree.Editor_0.3.1_x64-setup.exe)
+- [TalkTree Editor | Windows](https://github.com/c-smo/TalkTree-Edit/releases/download/v0.4.0/TalkTree.Editor_0.4.0_x64-setup.exe)
 
 ---
 
