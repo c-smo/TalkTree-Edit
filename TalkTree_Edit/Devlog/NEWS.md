@@ -2,17 +2,17 @@
 
 ### 04.02 - Weiter gehts!
 
-<img src="./preview_ipad.png" alt="preview_ipad" width="100%">
-
 Kaum zu glauben, Apple stimmt jetzt aus irgendeinem Grund zu, dass die App sicher ist. Merkwürdig. Naja, wie dem auch sei, die iPad-Version erblickt das Licht der Welt! :) Ich muss noch ein paar Bugs beheben, aber viel fehlt nicht mehr. Ich hoffe, bis Ende der Woche stehen alle Versionen für alle erdenklichen Geräte zur Verfügung.
+
+<img src="./preview_ipad.png" alt="preview_ipad" width="100%">
 
 ---
 
 ### 03.02 - Ohne Worte
 
-   <img src="./preview_fkapple.png" alt="preview_fkapple" width="100%">
-
 Der Account muss noch bestätigt werden, kann bis zu 2 Tage dauern.
+
+   <img src="./preview_fkapple.png" alt="preview_fkapple" width="100%">
 
 ---
 
