@@ -29,6 +29,8 @@ Ich bin wirklich kurz davor, eine NGO zu gründen, die Linux-Tablets mit der Tal
 
 Alles in allem bin ich gerade unheimlich frustriert und wütend. Ich habe genug für heute :(
 
+P.S.: Aaaber :D zumindest ist der build für v0.4.0 gleich fertig! Oberflächlich wird man keine großen Unterschiede feststellen, aber hinter den Kulissen hat sich einiges getan.
+
 ### 04.02 - Weiter gehts!
 
    <img src="./TalkTree_Edit/Devlog/preview_ipad.png" alt="preview_ipad" width="100%" height="100%">
