@@ -23,6 +23,6 @@
 
 #### TalkTree | **[App](https://github.com/c-smo/TalkTree-App)**
 
-- [Android](https://github.com/c-smo/TalkTree-App/releases/download/v0.3.0/TalkTree-App_v0.3.0_android.apk)
+- [Android](https://github.com/c-smo/TalkTree-App/releases/download/v0.4.0/TalkTree-App_v0.4.0_android.apk)
 
 - ~~[iOS](URL)~~ _to-do_
