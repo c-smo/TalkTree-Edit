@@ -2,16 +2,16 @@
 
 **Wichtig:** Bitte stelle sicher, dass sowohl die [App](https://github.com/c-smo/TalkTree-App) als auch der **Editor** auf einer kompatiblen Version sind. Hier zählt die erste Zahl in der Versions-Nummer, die keine 0 ist.
 
-**Aktuelle Version: v0.3.1**
+**Aktuelle Version: v0.4.0 - stable**
 
-- Editor und App sind jetzt auf dem gleichen Stand. Ein Kompatibilitäts-Update war leider erforderlich.
-- Ich habe Beispiel Audio-Dateien von Speechgen.io (Stimme: Ryan DE) für die bereits vorhandenen Knöpfe beigefügt, damit man einen Anhaltspunkt hat, was möglich ist.
+- Wörter mit ä, ö, ü finden jetzt die dazugehörige Audiodatei.
+- Wenn man das Seitenverhältnis auf 4:3 stellt, wird der 🌳-Knopf in der Endgeräte-Version nicht mehr riesig.
+- Neuer Update-Prozess
+- Erste iOS test erfolgreich bestanden
 
 **Bekannte Fehler:**
 
-- Wörter mit ä, ö, ü finden die dazugehörige Audiodatei nicht.
-- Wenn man das Seitenverhältnis auf 4:3 stellt, wird der 🌳-Knopf in der Endgeräte-Version riesig.
-- Updates bleiben manchmal einfach hängen, bevor sie überhaupt starten.
+- x
 
 ---
 
