@@ -58,3 +58,7 @@ Weiß #ffffff
 ## Schlussbemerkung
 
 Ich bin noch nicht zufrieden mit dieser Lösung und im laufe der Entwicklung wird sich hier gewiss noch etwas verändern.
+
+---
+
+Hier geht es [zurück](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Erste_Schritte.md#farbe) zu "Erste Schritte".

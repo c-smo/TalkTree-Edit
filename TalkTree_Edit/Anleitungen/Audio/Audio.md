@@ -75,3 +75,7 @@ Link:       Soundboard
 ```
 
 Bei diesem Knopf ist die Audio-Wiedergabe deaktiviert.
+
+---
+
+Hier geht es [zurück](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Erste_Schritte.md#aussprach) zu "Erste Schritte".

@@ -1,10 +1,10 @@
-import server_init from "../plugins/websocket/_server_init_";
+import server_toggle from "../plugins/websocket/server_main";
 
 const keyboard_hooks_init = () => {
   document.body.addEventListener("keydown", async (e) => {
     const map = {
       Enter: async () => {
-        await server_init().catch();
+        await server_toggle().catch();
       },
     };
     const key = e.key as keyof typeof map;

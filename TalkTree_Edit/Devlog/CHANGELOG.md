@@ -1,5 +1,14 @@
 # Changelog
 
+**v0.4.0**
+
+- new way to handle updates
+- fixed button size in 4:3
+- words with ä,ö,ü find their audio now
+- first iOS implementation test
+
+---
+
 **v0.3.1**
 
 - added speechgen.io samples

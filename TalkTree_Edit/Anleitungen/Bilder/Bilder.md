@@ -59,3 +59,7 @@ Link:        Namen Freunde
 ```
 
 Dieser Knopf würde nach einem Bild mit dem Namen **Kino.png** im Unterverzeichnis Bilder/Orte/ suchen.
+
+---
+
+Hier geht es [zurück](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Erste_Schritte.md#symbol) zu "Erste Schritte".

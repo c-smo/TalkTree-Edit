@@ -1,7 +1,5 @@
 # Installation auf MacOS
 
----
-
 **_Update 03.02: Da eine iOS-Implementierung ohne Developer-Account so gut wie unrealisierbar ist, habe ich es getan… Ich will es gar nicht aussprechen… :D Naja, beim nächsten Update werde ich auch die macOS-Version signieren, dann kann man sich diesen furchtbaren Prozess hier hoffentlich ersparen._**
 
 ---
@@ -10,7 +8,7 @@
 
 Apple verwendet äußerst kreative Methoden, um potenzielle Kunden zu ermutigen, jährlich 99 € in einen Developer-Account zu investieren – für das Privileg, Software für andere Menschen zugänglich zu machen.
 
-Da ich dieses Geschäftsmodell kategorisch ablehne, bleibt nur der Weg über selbstsignierte Zertifikate. Diese werden pauschal als Bedrohung klassifiziert. Aber keine Sorge, Apple hat sich besonders viel Mühe gegeben, eine Installation innerhalb des großzügig interpretierten gesetzlichen Spielraums zu ermöglichen und diesen Prozess maximal benutzer*innen*freundlich zu gestalten.
+Da ich dieses Geschäftsmodell kategorisch ablehne, bleibt nur der Weg über selbstsignierte Zertifikate. Diese werden pauschal als Bedrohung klassifiziert. Aber keine Sorge, Apple hat sich besonders viel Mühe gegeben, eine Installation innerhalb des großzügig interpretierten [gesetzlichen Spielraums](https://digital-strategy.ec.europa.eu/de/news/commission-sends-preliminary-findings-apple-and-opens-additional-non-compliance-investigation#:~:text=Die%20Europ%C3%A4ische%20Kommission%20hat%20Apple,f%C3%BCr%20Angebote%20und%20Inhalte%20lenken.) zu ermöglichen und diesen Prozess maximal benutzer*innen*freundlich zu gestalten.
 
 ## Download
 

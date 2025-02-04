@@ -3,7 +3,7 @@ import { ALL_WORDS, DB } from "../../globals";
 import sql_get_key from "../sql/sql_get_key";
 import sql_read_uint8array from "../sql/sql_read_unit8array";
 import { err } from "../terminal/commands/logs";
-import { stop_server } from "./_server_init_";
+import { stop_server } from "./server_main";
 
 const server_handle_request = async (
   message_data: string,
@@ -16,8 +16,8 @@ const server_handle_request = async (
   try {
     switch (head) {
       case "request_info":
-        const response = await handle_total();
-        await socket.send(`sql_total|${response}`);
+        const response = await get_all_updates();
+        await socket.send(`sql_total|${response.join(",")}`);
         return;
       case "request_update":
         await handle_update(body, socket);
@@ -29,6 +29,13 @@ const server_handle_request = async (
   } catch (e) {
     err(e);
   }
+};
+
+export const get_all_updates = async (): Promise<string[]> => {
+  const audio_update = await handle_audio();
+  const buttons_update = await handle_buttons();
+  const all_updates = [...audio_update, ...buttons_update];
+  return all_updates;
 };
 
 const handle_audio = async (): Promise<string[]> => {
@@ -62,13 +69,6 @@ const handle_buttons = async (): Promise<string[]> => {
   }
 };
 
-const handle_total = async (): Promise<string> => {
-  const audio_update = await handle_audio();
-  const buttons_update = await handle_buttons();
-  const all_downloads = [...audio_update, ...buttons_update].join(",");
-  return all_downloads;
-};
-
 const handle_update = async (
   body: string,
   socket: WebSocket,
@@ -78,8 +78,13 @@ const handle_update = async (
     const key = `${request_data.shift()}`;
     const table_name = `${request_data.shift()}`;
     const uint8array = await sql_read_uint8array(table_name, key);
-    if (uint8array === null) return;
-    await socket.send(`sql_update|${table_name},${key},${uint8array}`);
+    if (uint8array !== null) {
+      await socket.send(`sql_update|${table_name},${key},${uint8array}`);
+    } else {
+      const error_msg = `sql_err_no_binary-${key}@${table_name}`;
+      await socket.send(`sql_update|error,${error_msg}}`);
+      err(error_msg);
+    }
   } catch (e) {
     err(e);
   }

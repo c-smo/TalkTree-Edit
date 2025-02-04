@@ -10,35 +10,21 @@ jobs:
   publish-tauri:
     permissions:
       contents: write
-    environment: tauri
     strategy:
       fail-fast: false
       matrix:
         include:
           - platform: 'ubuntu-22.04'
             args: ''
-            rust_target: ''
           - platform: 'windows-latest'
             args: ''
-            rust_target: ''
-          - platform: 'macos-latest'
-            args: '--target aarch64-apple-darwin'
-            rust_target: 'aarch64-apple-darwin'
-          - platform: 'macos-latest'
-            args: '--target x86_64-apple-darwin'
-            rust_target: 'x86_64-apple-darwin'
 
     runs-on: ${{ matrix.platform }}
-    env:
-      APPLE_ID: ${{ secrets.APPLE_ID }}
-      APPLE_ID_PASSWORD: ${{ secrets.APPLE_ID_PASSWORD }}
-      APPLE_SIGNING_IDENTITY: ${{ secrets.APPLE_SIGNING_IDENTITY }}
-
     steps:
       - uses: actions/checkout@v4
 
       - name: install dependencies (ubuntu only)
-        if: matrix.platform == 'ubuntu-22.04'
+        if: matrix.platform == 'ubuntu-22.04' # This must match the platform value defined above.
         run: |
           sudo apt-get update
           sudo apt-get install -y libwebkit2gtk-4.1-dev libappindicator3-dev librsvg2-dev patchelf
@@ -48,60 +34,29 @@ jobs:
         with:
           node-version: lts/*
           cache: 'npm'
-          cache-dependency-path: 'TalkTree_Edit/package-lock.json'
 
       - name: install Rust stable
         uses: dtolnay/rust-toolchain@nightly
         with:
-          targets: ${{ matrix.rust_target }}
+          # Those targets are only used on macos runners so it's in an `if` to slightly speed up windows and linux builds.
+          targets: ${{ matrix.platform == 'macos-latest' && 'aarch64-apple-darwin,x86_64-apple-darwin' || '' }}
 
       - name: Rust cache
         uses: swatinem/rust-cache@v2
         with:
-          workspaces: './src-tauri -> target'
+          workspaces: './TalkTree_Edit/src-tauri -> target'
 
       - name: install frontend dependencies
         working-directory: ./TalkTree_Edit
         run: npm install
 
-      - name: Setup macOS Code Signing
-        if: matrix.platform == 'macos-latest'
-        env:
-          APPLE_CERTIFICATE: ${{ secrets.APPLE_CERTIFICATE }}
-          APPLE_CERTIFICATE_PASSWORD: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
-          KEYCHAIN_PASSWORD: ${{ secrets.KEYCHAIN_PASSWORD }}
-        run: |
-          # Decode certificate
-          echo $APPLE_CERTIFICATE | base64 --decode > certificate.p12
-          
-          # Create temporary keychain
-          security create-keychain -p "$KEYCHAIN_PASSWORD" build.keychain
-          security default-keychain -s build.keychain
-          security unlock-keychain -p "$KEYCHAIN_PASSWORD" build.keychain
-          
-          # Import certificate
-          security import certificate.p12 -k build.keychain \
-            -P "$APPLE_CERTIFICATE_PASSWORD" \
-            -T /usr/bin/codesign \
-            -T /usr/bin/productsign
-          
-          # Configure keychain for Xcode
-          security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k "$KEYCHAIN_PASSWORD" build.keychain
-          
-          # Add keychain to search list
-          security list-keychains -d user -s build.keychain
-
       - uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          APPLE_SIGNING_IDENTITY: ${{ env.APPLE_SIGNING_IDENTITY }}
-          APPLE_ID: ${{ env.APPLE_ID }}
-          APPLE_ID_PASSWORD: ${{ env.APPLE_ID_PASSWORD }}
         with:
-          projectPath: ./TalkTree_Edit
           tagName: v__VERSION__
           releaseName: 'TalkTree-Edit v__VERSION__'
-          releaseBody: ' '
+          releaseBody: ''
           releaseDraft: true
           prerelease: false
           args: ${{ matrix.args }}

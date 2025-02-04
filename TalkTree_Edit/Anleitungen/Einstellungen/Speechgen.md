@@ -49,3 +49,7 @@ Wenn es sich nur um eine einzelne Datei handelt - z. B. weil nur ein Knopf hinzu
 Ab zwei Dateien bittet die App um Erlaubnis, bevor der Download gestartet wird.
 
 Solltest du nicht mehr wollen, dass die Dateien automatisch heruntergeladen werden, kannst du einfach die Datei “Speechgen.txt” löschen.
+
+---
+
+Hier geht es [zurück](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Erste_Schritte.md#bearbeitung) zu "Erste Schritte".

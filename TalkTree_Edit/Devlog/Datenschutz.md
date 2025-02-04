@@ -18,18 +18,18 @@ Die einzige Kommunikation zu externen Quellen erfolgt – sofern von dir aktivie
 
 ### Lokale Kommunikation
 
-Der Server muss von dir aktiviert werden. Eine automatische oder unbemerkte Aktivierung ist nicht möglich.
+Der Server, für die Aktualisierung des Endgerätes, muss von dir aktiviert werden. Eine automatische oder unbemerkte Aktivierung ist nicht möglich.
 
-Wenn der Server von dir zur Aktualisierung des Endgeräts aktiviert wird, stellt dieser lediglich die dafür notwendigen Daten (alle im "TalkTree Editor" sicht- und hörbaren Inhalte) **lokal in deinem Netzwerk** bereit.
+Wenn der Server - von dir - zur Aktualisierung des Endgeräts aktiviert wird, stellt dieser lediglich die dafür notwendigen Daten (alle im "TalkTree Editor" sicht- und hörbaren Inhalte) **lokal in deinem Netzwerk** bereit.
 
-Der Server schaltet sich automatisch ab, sobald **1 Update** erfolgreich abgeschlossen wurde. Ein manuelles Abschalten ist jederzeit möglich.
+Der Server schaltet sich **automatisch** ab, sobald **1 Update** erfolgreich abgeschlossen wurde. Ein manuelles Abschalten ist jederzeit möglich.
 
 ### Dateizugriff
 
 **"TalkTree Editor"** hat ausschließlich die [Befugnis](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/src-tauri/capabilities/default.json), auf folgende Verzeichnisse zuzugreifen:
 
-- Deinen **Desktop**, um den **"TalkTree"-Ordner** zu erstellen.
-- Den erstellten **"TalkTree"-Ordner** auf deinem **Desktop** und alle darin befindlichen Elemente.
+- Deinen **Desktop (Schreibtisch)**, um den **"TalkTree"-Ordner** zu erstellen.
+- Den erstellten **"TalkTree"-Ordner** auf deinem **Desktop (Schreibtisch)** und alle darin befindlichen Elemente.
 - Die vom Betriebssystem vorgegebenen **Applikationsverzeichnisse** (für programminterne Einstellungen und Caches).
 
 ---

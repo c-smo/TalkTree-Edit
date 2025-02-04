@@ -1,7 +1,8 @@
 {
   "name": "talktree_edit",
-  "version": "0.3.2",
-  "description": "",
+  "version": "0.4.0",
+  "license": "MIT",
+  "description": "Open-Source Framework für Applikationen zur unterstützten Kommunikation.",
   "type": "module",
   "scripts": {
     "setversion": "node .dev/version.js",
@@ -13,7 +14,6 @@
     "serve": "vite preview",
     "tauri": "tauri"
   },
-  "license": "MIT",
   "dependencies": {
     "@tauri-apps/api": "^2",
     "@tauri-apps/plugin-dialog": "^2.2.0",

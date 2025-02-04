@@ -69,3 +69,7 @@ Hier kannst du steuern, wie viel Fläche Emojis innerhalb des Knopfes zur Verfü
 
 - 0.0 = keine Fläche
 - 1.0 = die komplette verfügbare Fläche
+
+---
+
+Hier geht es [zurück](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Erste_Schritte.md#bearbeitung) zu "Erste Schritte".

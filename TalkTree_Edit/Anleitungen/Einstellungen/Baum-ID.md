@@ -15,3 +15,7 @@ Um den Server manuell abzuschalten, erneut **_Enter_** drücken.
 Der Server stellt alle Daten, die der Client benötigt, um ein [Update](https://github.com/c-smo/TalkTree-App/blob/main/TalkTree_App/Anleitungen/updates.md) durchzuführen, in deinem **lokalen** Netzwerk zur Verfügung.
 
 Sobald ein [Update](https://github.com/c-smo/TalkTree-App/blob/main/TalkTree_App/Anleitungen/updates.md) erfolgreich durchgeführt wurde, schaltet sich der Server automatisch ab und die weiße Färbung am Bildschirmrand verschwindet.
+
+---
+
+Hier geht es [zurück](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Erste_Schritte.md#bearbeitung) zu "Erste Schritte".
