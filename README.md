@@ -19,11 +19,11 @@ Ein kurzes aber wichtiges Wort zum Thema [Datenschutz](https://github.com/c-smo/
 ---
 ## Neuigkeiten
 
-### 03.02 - Ohne Worte
+### 04.02 - Weiter gehts!
 
-   <img src="./TalkTree_Edit/Devlog/preview_fkapple.png" alt="preview_fkapple" width="699" height="314">
+   <img src="./TalkTree_Edit/Devlog/prevew_ipad.png" alt="preview_ipad" width="50%" height="50%>
 
-Der Account muss noch bestätigt werden, kann bis zu 2 Tage dauern.
+Kaum zu glauben, Apple stimmt jetzt aus irgendeinem Grund zu, dass die App sicher ist. Merkwürdig. Naja, wie dem auch sei, die iPad-Version erblickt das Licht der Welt! :) Ich muss noch ein paar Bugs beheben, aber viel fehlt nicht mehr. Ich hoffe, bis Ende der Woche stehen alle Versionen für alle erdenklichen Geräte zur Verfügung.
 
 [mehr](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Devlog/NEWS.md)
 
