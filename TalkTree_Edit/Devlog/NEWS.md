@@ -2,7 +2,7 @@
 
 ### 04.02 - Weiter gehts!
 
-<img src="./prevew_ipad.png" alt="preview_ipad" width="50%" height="50%>
+<img src="./preview_ipad.png" alt="preview_ipad" width="50%" height="50%">
 
 Kaum zu glauben, Apple stimmt jetzt aus irgendeinem Grund zu, dass die App sicher ist. Merkwürdig. Naja, wie dem auch sei, die iPad-Version erblickt das Licht der Welt! :) Ich muss noch ein paar Bugs beheben, aber viel fehlt nicht mehr. Ich hoffe, bis Ende der Woche stehen alle Versionen für alle erdenklichen Geräte zur Verfügung.
 
