@@ -28,7 +28,7 @@ ich hatte mal wieder eine sehr kurze Nacht – wie schon öfter, seit mich diese
 
 "Was ist denn das?" höre ich euch murmeln (vielleicht ist es auch nur der Schlafentzug, den ich höre, aber ja). Was ihr hier seht, sieht zwar nicht nach viel aus, ist aber ein riesengroßer Schritt.  
 
-Wie sich herausstellt, muss meine Lieblingsfirma (sie haben es versucht zu verweigern, aber diesmal ist es nicht gelungen) ein Feature namens "PWA" erlauben. Für die Nicht-Nerds unter uns: Eine "PWA" ist eine Möglichkeit, Websites in „Programme“ umzuwandeln, die auch offline verfügbar sind. Der 🌳-Knopf spielt die Datei *Hallo.mp3* ab, wenn man ihn drückt.  
+Wie sich herausstellt, muss meine Lieblingsfirma (sie haben es versucht zu verweigern, aber diesmal ist es nicht gelungen) ein Feature namens "PWA" erlauben. Für die Nicht-Nerds unter uns: Eine "PWA" ist eine Möglichkeit, Websites in "Programme" umzuwandeln, die auch offline verfügbar sind. Der 🌳-Knopf spielt die Datei *Hallo.mp3* ab, wenn man ihn drückt.  
 
 **TL;DR:** Alle Features, die benötigt werden, um TalkTree auf iOS laufen zu lassen, sind in diesem Screenshot vorhanden! Der sceenshot stammt von meinem iPad. Es wird vermutlich wieder ziemlich viel Arbeit, aber das hat mich bisher auch nicht abgeschreckt. :D Ich bin wieder hoffnungsvoll optimistisch – aber ich habe während dieses Projekts gelernt, dass man sich bei Apple auf keinen Fall zu früh freuen darf.  
 
