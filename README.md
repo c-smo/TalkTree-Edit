@@ -38,6 +38,8 @@ Wir werden sehen.
 
 P.S.: Es kann gut sein, dass zukünftig gar keine Android-/iOS-Version mehr benötigt wird, da eine PWA theoretisch von Haus aus auf jedem Gerät laufen kann. Vielleicht hat es Apple durch ihre endlose Gier unbeabsichtigt geschafft, mich auf eine viel bessere Alternative aufmerksam zu machen. Des wär witzig :D
 
+P.P.S.: Um mit diesem Feature herum zu experimentieren, werde ich ein neues [Repo](https://github.com/c-smo/TalkTree-PWA) anlegen. "TalkTree Editor" und "TalkTree App" bleiben erstmal unverändert, da es – zumindest auf Android – aktuell funktioniert.
+
 [mehr](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Devlog/NEWS.md)
 
 ---
