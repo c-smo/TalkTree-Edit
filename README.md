@@ -23,7 +23,7 @@ Ein kurzes aber wichtiges Wort zum Thema [Datenschutz](https://github.com/c-smo/
 
 Jap, auf Apple ist Verlass :) Ich habe herausgefunden, welche hinterlistigen Wege sie nutzen, um der Gesetzeslage zu entsprechen – aber es für eine tatsächliche Implementierung quasi unbrauchbar zu machen. Eine PWA auf iOS ist auf ca. 50-100 MB limitiert. Für kleine Bäumchen mag das reichen, aber auf kurz oder lang wird man auf Probleme stoßen. Außerdem habe ich in einem Open-Source-Forum gelesen, dass iOS ca. einmal jährlich den Cache (die gespeicherte Inhalte) spaßeshalber löscht.
 
-Jetzt bleibt nur noch die Möglichkeit, die betriebssysteminterne Stimme von iOS zu nutzen und auf MP3-Dateien zu verzichten. Zum Glück ist die ziemlich gut. Wenn das in PWAs auch nicht geht, habe ich keine Kraft mehr – mein Nervenkostüm ist absolut überstrapaziert, und TalkTree wird iOS vorerst nicht supporten.
+Jetzt bleibt nur noch die Möglichkeit, die betriebssysteminterne Stimme von iOS zu nutzen und auf MP3-Dateien zu verzichten. Zum Glück ist die ziemlich gut. Wenn das in PWAs auch nicht geht, habe ich keine Kraft mehr – mein Nervenkostüm ist absolut überstrapaziert, und TalkTree wird iOS vorerst nicht supporten. Obwohl ich befürchte, dass Apple einfach die Strafe zahlen wird und weiter macht wie bisher, da sie sich natürlich auf diese illegale Art ein goldenes Näschen verdienen und die Strafe dazu sehr wahrscheinlich nicht ansatzweise in Relation steht.
 
 Ich habe noch die Hoffnung, dass die EU endlich ihre vorhandenen Gesetze anwendet und Apple zwingt, sich an die Regeln zu halten. Sobald das dann vielleicht irgendwann mal der Fall ist, wird iOS - zumindest in der EU - unterstützt.
 
