@@ -36,6 +36,8 @@ Das ganze ermöglicht mir dem Programm die Fähigkeit zu geben, den Inhalt von "
 
 Wir werden sehen.  
 
+P.S.: Es kann gut sein, dass zukünftig gar keine Android-/iOS-Version mehr benötigt wird, da eine PWA theoretisch von Haus aus auf jedem Gerät laufen kann. 
+
 [mehr](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Devlog/NEWS.md)
 
 ---
