@@ -27,6 +27,8 @@ Jetzt bleibt nur noch die Möglichkeit, die betriebssysteminterne Stimme von iOS
 
 Ich habe noch die Hoffnung, dass die EU endlich ihre vorhandenen Gesetze anwendet und Apple zwingt, sich an die Regeln zu halten. Sobald das dann vielleicht irgendwann mal der Fall ist, wird iOS - zumindest in der EU - unterstützt.
 
+P.S.: Für diejenigen, die sich vielleicht wundern, was das Problem ist, die App im App Store zu veröffentlichen: Es kostet Geld, und da ich dieses Programm kosten- und werbefrei anbieten möchte, ist das ein ausschlaggebender Punkt. Ganz abgesehen davon, dass ich ganz klar der Überzeugung bin, dass so ein Verhalten von einem Milliardenkonzern intolerierbar ist.
+
 ### 05.02 Ich komme (hoffentlich) mit guten Nachrichten!
 
 Guten Morgen,  
