@@ -1,8 +1,28 @@
-# Installation auf MacOS
+# Installation auf macOS
+
+Leider lassen sich gewisse Warnmeldungen selbst mit Developer-Account nicht vollständig vermeiden, da Apple weiterhin Anreize schaffen möchte, die App über den App Store zu vertreiben... Aber die Installation ist zumindest einfacher als davor:
+
+Ein Doppelklick und eine Bestätigung genügen.
+
+   <img src="./preview_macos_open_4.png" alt="preview_macos_open_4" width="100%">
+
+---
+
+### Los geht's :)
+
+Nach Abschluss der Installation kannst du sofort loslegen. Ich empfehle aber, dir einen kurzen Überblick über die Möglichkeiten zur [Bearbeitung](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Erste_Schritte.md#bearbeitung) zu verschaffen.
+
+---
+
+# Alte Version:
+
+**_Update 05.02: Ich behalte den alten Prozess als Relikt aus vergangenen Tagen in der Dokumentation – vor allem als Mahnung an diejenigen, die mit dem Gedanken spielen, Apps für Apple-Produkte zu entwickeln. Zahlt die Monopolgebühr sofort, oder besser, lasst es bleiben. Eure Nerven werden euch danken._**
 
 **_Update 03.02: Da eine iOS-Implementierung ohne Developer-Account so gut wie unrealisierbar ist, habe ich es getan… Ich will es gar nicht aussprechen… :D Naja, beim nächsten Update werde ich auch die macOS-Version signieren, dann kann man sich diesen furchtbaren Prozess hier hoffentlich ersparen._**
 
 ---
+
+# Installation auf macOS
 
 **_Hinweis: Bitte bewahren Sie während des Prozesses Ihre Ironie-Reserven. Das wiederholte Klicken durch dystopische Warnhinweise kann in der Open-Source-Community nachweislich zu akuter Sarkasmus-Exazerbation führen._**
 
