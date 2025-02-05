@@ -19,23 +19,20 @@ Ein kurzes aber wichtiges Wort zum Thema [Datenschutz](https://github.com/c-smo/
 ---
 ## Neuigkeiten
 
-### 04.02 - Part Two
+### 05.02 Ich komme (hoffentlich) mit guten Nachrichten!
 
-Zu früh gefreut… Das Programm läuft zwar problemlos auf meinem iPad, aber Apple ist immer für eine Überraschung gut und verlangt jetzt, dass ich die App zur """Begutachtung""" einreiche, bevor sie auf anderen Geräten laufen darf. Ich habe mir die Liste der Anforderungen angesehen – da wird einem bissi schlecht. Außerdem müsste ich ihnen meinen GitHub-Repo schicken, davor sollte ich vermutlich erst ein paar meiner Kommentare löschen :D
+Guten Morgen,  
+ich hatte mal wieder eine sehr kurze Nacht – wie schon öfter, seit mich dieses Projekt vereinnahmt hat :D – aber es hat sich gelohnt … hoffe ich. Ich präsentiere:  
 
-Der einzige Grund, warum ich überhaupt noch in Betracht ziehe, mit iOS weiterzumachen, ist, dass iPads nun mal leider der "Standard" sind… Aber will man wirklich ein Unternehmen unterstützen, das so arbeitet? Android-Tablets (oder noch besser Linux) sind nicht nur deutlich günstiger, sondern trauen einem sogar zu, selbst zu entscheiden, welche Programme man nutzen möchte.
+<img src="./TalkTree_Edit/Devlog/preview_pwa.png" alt="preview_pwa" width="100%">  
 
-Ich bin wirklich kurz davor, eine NGO zu gründen, die Linux-Tablets mit der TalkTree-App zu einem Bruchteil der Kosten anbietet, die aktuell für so ein Paket verlangt werden – nur um diesen ganzen gierigen Konzernen eins auszuwischen…
+"Was ist denn das?" höre ich euch murmeln (vielleicht ist es auch nur der Schlafentzug, den ich höre, aber ja). Was ihr hier seht, sieht zwar nicht nach viel aus, ist aber ein riesengroßer Schritt.  
 
-Alles in allem bin ich gerade unheimlich frustriert und wütend. Ich habe genug für heute :(
+Wie sich herausstellt, muss meine Lieblingsfirma (sie haben es versucht zu verweigern, aber diesmal ist es nicht gelungen) ein Feature namens "PWA" erlauben. Für die Nicht-Nerds unter uns: Eine "PWA" ist eine Möglichkeit, Websites in „Programme“ umzuwandeln, die auch offline verfügbar sind. Der 🌳-Knopf spielt die Datei *Hallo.mp3* ab, wenn man ihn drückt.  
 
-P.S.: Aaaber :D zumindest ist der build für v0.4.0 gleich fertig! Oberflächlich wird man keine großen Unterschiede feststellen, aber hinter den Kulissen hat sich einiges getan.
+**TL;DR:** Alle Features, die benötigt werden, um TalkTree auf iOS laufen zu lassen, sind in diesem Screenshot vorhanden! Es wird vermutlich wieder ziemlich viel Arbeit, aber das hat mich bisher auch nicht abgeschreckt. :D Ich bin wieder hoffnungsvoll optimistisch – aber ich habe während dieses Projekts gelernt, dass man sich bei Apple auf keinen Fall zu früh freuen darf.  
 
-### 04.02 - Weiter gehts!
-
-   <img src="./TalkTree_Edit/Devlog/preview_ipad.png" alt="preview_ipad" width="100%" height="100%">
-
-Kaum zu glauben, Apple stimmt jetzt aus irgendeinem Grund zu, dass die App sicher ist. Merkwürdig. Naja, wie dem auch sei, die iPad-Version erblickt das Licht der Welt! :) Ich muss noch ein paar Bugs beheben, aber viel fehlt nicht mehr. Ich hoffe, bis Ende der Woche stehen Versionen für alle erdenklichen Geräte zur Verfügung.
+Wir werden sehen.  
 
 [mehr](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Devlog/NEWS.md)
 
