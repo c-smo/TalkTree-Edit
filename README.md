@@ -32,11 +32,11 @@ Wie sich herausstellt, muss meine Lieblingsfirma (sie haben es versucht zu verwe
 
 Das ganze ermöglicht mir dem Programm die Fähigkeit zu geben, den Inhalt von "TalkTree Editor" lokal im eigenen Netzwerk zu hosten. Man kann dann innerhalb des eigenen Netzwerks auf diese Website zugreifen und sie als "PWA" auf (soweit ich weiß) jedem Gerät speichern.
 
-**TL;DR:** Alle Features, die benötigt werden, um TalkTree auf iOS laufen zu lassen, sind in diesem Screenshot vorhanden! Der sceenshot stammt von meinem iPad. Es wird vermutlich wieder ziemlich viel Arbeit, aber das hat mich bisher auch nicht abgeschreckt. :D Ich bin wieder vorsichtig optimistisch. Wenn ich eins während diesem Projekt gelernt habe, dann ist es: Man darf sich bei Apple nicht zu früh freuen.
+**TL;DR:** Alle Features, die benötigt werden, um TalkTree auf iOS laufen zu lassen, sind in diesem Screenshot vorhanden! Der sceenshot stammt von meinem iPad. Es wird vermutlich wieder ziemlich viel Arbeit, aber das hat mich bisher auch nicht abgeschreckt. Ich bin wieder vorsichtig optimistisch. Wenn ich eins während diesem Projekt gelernt habe, dann ist es: Man darf sich bei Apple nicht zu früh freuen.
 
 Wir werden sehen.  
 
-P.S.: Es kann gut sein, dass zukünftig gar keine Android-/iOS-Version mehr benötigt wird, da eine PWA theoretisch von Haus aus auf jedem Gerät laufen kann. 
+P.S.: Es kann gut sein, dass zukünftig gar keine Android-/iOS-Version mehr benötigt wird, da eine PWA theoretisch von Haus aus auf jedem Gerät laufen kann. Vielleicht hat es Apple durch ihre endlose Gier unbeabsichtigt geschafft, mich auf eine viel benutzerfreundlichere Alternative aufmerksam zu machen. Des wär witzig :D
 
 [mehr](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Devlog/NEWS.md)
 
