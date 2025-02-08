@@ -24,4 +24,4 @@
 
 - [Android](https://github.com/c-smo/TalkTree-App/releases/download/v0.4.0/TalkTree-App_v0.4.0_android.apk)
 
-- ~~[iOS](URL)~~ (_Leider weigert sich Apple, trotz der Gesetzeslage, iOS-Geräte für Open-Source Software zu öffnen._)
+- ~~[iOS](URL)~~ (_Leider weigert sich Apple, trotz der [Gesetzeslage](https://digital-strategy.ec.europa.eu/de/news/commission-sends-preliminary-findings-apple-and-opens-additional-non-compliance-investigation#:~:text=Die%20Europ%C3%A4ische%20Kommission%20hat%20Apple,f%C3%BCr%20Angebote%20und%20Inhalte%20lenken.), iOS-Geräte für Open-Source Software zu öffnen._)
