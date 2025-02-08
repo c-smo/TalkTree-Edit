@@ -17,11 +17,6 @@ Wenn du es kaum erwarten kannst loszulegen, lese am besten direkt [hier](https:/
 Ein kurzes aber wichtiges Wort zum Thema [Datenschutz](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Devlog/Datenschutz.md).
 
 ---
-## Neuigkeiten
-
-[mehr](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Devlog/NEWS.md)
-
----
 ## Download & Installation
 
 - Wähle dein [Betriebssystem](https://github.com/c-smo/TalkTree-Edit/blob/main/TalkTree_Edit/Anleitungen/Installation/download.md)

@@ -7,7 +7,6 @@
 - Wörter mit ä, ö, ü finden jetzt die dazugehörige Audiodatei.
 - Wenn man das Seitenverhältnis auf 4:3 stellt, wird der 🌳-Knopf in der Endgeräte-Version nicht mehr riesig.
 - Neuer Update-Prozess
-- Erste iOS test erfolgreich bestanden
 
 **Bekannte Fehler:**
 
@@ -25,4 +24,4 @@
 
 - [Android](https://github.com/c-smo/TalkTree-App/releases/download/v0.4.0/TalkTree-App_v0.4.0_android.apk)
 
-- ~~[iOS](URL)~~ _to-do_
+- ~~[iOS](URL)~~ (_Leider weigert sich Apple, trotz der Gesetzeslage, iOS-Geräte für Open-Source Software zu öffnen._)
